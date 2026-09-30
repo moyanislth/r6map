@@ -1,0 +1,276 @@
+{
+ "outdoor": [
+  {
+   "en": "Main Gate",
+   "zh": "大门"
+  },
+  {
+   "en": "Junkyard",
+   "zh": "废品场"
+  },
+  {
+   "en": "VIP Parking",
+   "zh": "贵宾停车场"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "Kennels",
+   "zh": "犬舍"
+  },
+  {
+   "en": "Recreation",
+   "zh": "文娱室"
+  },
+  {
+   "en": "Graffiti",
+   "zh": "涂鸦区"
+  },
+  {
+   "en": "Construction Site",
+   "zh": "施工场地"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Trash",
+   "zh": "垃圾房"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Side Entrance",
+   "zh": "侧门"
+  },
+  {
+   "en": "Changing",
+   "zh": "更衣室"
+  },
+  {
+   "en": "Strip Club",
+   "zh": "脱衣舞俱乐部"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Porch",
+   "zh": "门廊"
+  },
+  {
+   "en": "Lounge",
+   "zh": "休息室"
+  },
+  {
+   "en": "Junkyard Entrance",
+   "zh": "废品场入口"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Pool",
+   "zh": "泳池"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Stage",
+   "zh": "舞台"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Stock",
+   "zh": "库房"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Strip Hallway",
+   "zh": "脱衣舞俱乐部走廊"
+  },
+  {
+   "en": "Toilets",
+   "zh": "卫生间"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Kitchen Entrance",
+   "zh": "厨房入口"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Trash",
+   "zh": "垃圾房"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Strip Roof",
+   "zh": "脱衣舞俱乐部屋顶"
+  },
+  {
+   "en": "Porch",
+   "zh": "门廊"
+  },
+  {
+   "en": "CCTV",
+   "zh": "监控室"
+  },
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Gym",
+   "zh": "健身房"
+  },
+  {
+   "en": "Bedroom",
+   "zh": "卧室"
+  },
+  {
+   "en": "Construction",
+   "zh": "施工区"
+  },
+  {
+   "en": "Cash",
+   "zh": "现金房"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Jacuzzi",
+   "zh": "按摩浴池"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Bedroom Hallway",
+   "zh": "卧室走廊"
+  },
+  {
+   "en": "Secret",
+   "zh": "密室"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Catwalk",
+   "zh": "猫道"
+  }
+ ],
+ "R": [
+  {
+   "en": "Trash",
+   "zh": "垃圾房"
+  },
+  {
+   "en": "Eastern Roof",
+   "zh": "东侧屋顶"
+  },
+  {
+   "en": "Strip Roof",
+   "zh": "脱衣舞俱乐部屋顶"
+  },
+  {
+   "en": "Porch",
+   "zh": "门廊"
+  },
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Central Roof",
+   "zh": "中央屋顶"
+  },
+  {
+   "en": "Jacuzzi",
+   "zh": "按摩浴池"
+  }
+ ],
+ "B": [
+  {
+   "en": "Ladder",
+   "zh": "梯子"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Bike",
+   "zh": "自行车"
+  },
+  {
+   "en": "Church",
+   "zh": "教堂"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Church Hallway",
+   "zh": "教堂走廊"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Tunnel",
+   "zh": "隧道"
+  },
+  {
+   "en": "Container",
+   "zh": "集装箱"
+  },
+  {
+   "en": "Bike Hallway",
+   "zh": "自行车走廊"
+  }
+ ]
+}

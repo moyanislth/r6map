@@ -1,0 +1,306 @@
+{
+ "outdoor": [
+  {
+   "en": "Middle",
+   "zh": "中部"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "Lawn",
+   "zh": "草坪"
+  },
+  {
+   "en": "Lock Gate Tunnel",
+   "zh": "闸门隧道"
+  },
+  {
+   "en": "Forklift",
+   "zh": "叉车"
+  },
+  {
+   "en": "Parking Entrance",
+   "zh": "停车场入口"
+  },
+  {
+   "en": "Lock Gate",
+   "zh": "闸门"
+  },
+  {
+   "en": "Construction",
+   "zh": "施工区"
+  },
+  {
+   "en": "Containers",
+   "zh": "集装箱区"
+  },
+  {
+   "en": "Docks Bridge",
+   "zh": "码头栈桥"
+  },
+  {
+   "en": "Lawn Stairs",
+   "zh": "草坪楼梯"
+  }
+ ],
+ "subB": [
+  {
+   "en": "Tunnel",
+   "zh": "隧道"
+  }
+ ],
+ "B": [
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Alcove",
+   "zh": "凹室"
+  },
+  {
+   "en": "Pipes",
+   "zh": "管道区"
+  },
+  {
+   "en": "Basement Corridor",
+   "zh": "地下走廊"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Supply",
+   "zh": "补给室"
+  },
+  {
+   "en": "Shower",
+   "zh": "淋浴间"
+  },
+  {
+   "en": "Kayaks",
+   "zh": "皮划艇"
+  },
+  {
+   "en": "Locker",
+   "zh": "储物柜"
+  },
+  {
+   "en": "Diving",
+   "zh": "潜水区"
+  },
+  {
+   "en": "Lawn Entrance",
+   "zh": "草坪入口"
+  },
+  {
+   "en": "Diving Corridor",
+   "zh": "潜水走廊"
+  }
+ ],
+ "1F": [
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Green Stairs",
+   "zh": "绿楼梯"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Archives",
+   "zh": "档案室"
+  },
+  {
+   "en": "Reception",
+   "zh": "接待处"
+  },
+  {
+   "en": "Model",
+   "zh": "模型区"
+  },
+  {
+   "en": "Museum",
+   "zh": "博物馆"
+  },
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "Radio Hallway",
+   "zh": "无线电室走廊"
+  },
+  {
+   "en": "Bridge",
+   "zh": "桥"
+  },
+  {
+   "en": "Map Corridor",
+   "zh": "地图室走廊"
+  },
+  {
+   "en": "Security",
+   "zh": "安保室"
+  },
+  {
+   "en": "Lounge",
+   "zh": "休息室"
+  },
+  {
+   "en": "Map",
+   "zh": "地图室"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Construction Entrance",
+   "zh": "施工入口"
+  },
+  {
+   "en": "Radio",
+   "zh": "无线电室"
+  },
+  {
+   "en": "Projector",
+   "zh": "放映室"
+  },
+  {
+   "en": "Construction Stairs",
+   "zh": "施工楼梯"
+  },
+  {
+   "en": "Gym",
+   "zh": "健身房"
+  },
+  {
+   "en": "Meeting Hallway",
+   "zh": "会议室走廊"
+  }
+ ],
+ "2F": [
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Green Stairs",
+   "zh": "绿楼梯"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Renovations",
+   "zh": "装修区"
+  },
+  {
+   "en": "Roof Entrance",
+   "zh": "屋顶入口"
+  },
+  {
+   "en": "Radar Corridor",
+   "zh": "雷达站走廊"
+  },
+  {
+   "en": "Radar",
+   "zh": "雷达站"
+  },
+  {
+   "en": "Server",
+   "zh": "服务器室"
+  },
+  {
+   "en": "Server Corridor",
+   "zh": "服务器走廊"
+  },
+  {
+   "en": "Printer",
+   "zh": "打印室"
+  },
+  {
+   "en": "Control",
+   "zh": "控制室"
+  },
+  {
+   "en": "Upper Bridge",
+   "zh": "上层天桥"
+  },
+  {
+   "en": "West Roof",
+   "zh": "西屋顶"
+  },
+  {
+   "en": "Balcony Renovations",
+   "zh": "阳台整修区"
+  },
+  {
+   "en": "Bridge Roof",
+   "zh": "桥顶"
+  },
+  {
+   "en": "L",
+   "zh": "L形区"
+  }
+ ],
+ "R": [
+  {
+   "en": "West Roof",
+   "zh": "西屋顶"
+  },
+  {
+   "en": "Balcony Renovations",
+   "zh": "阳台整修区"
+  },
+  {
+   "en": "Bridge Roof",
+   "zh": "桥顶"
+  },
+  {
+   "en": "East Roof",
+   "zh": "东屋顶"
+  },
+  {
+   "en": "L",
+   "zh": "L形区"
+  },
+  {
+   "en": "Upper Bridge Roof",
+   "zh": "天桥顶"
+  }
+ ]
+}

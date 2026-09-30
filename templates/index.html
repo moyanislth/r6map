@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="intro">
+  <h1><span class="t-zh">选择一张地图</span><span class="t-en">Pick a map</span></h1>
+  <p class="sub"><span class="t-zh">{{ n_callouted }} 张地图有中文报点数据,其余仅官方蓝图。</span><span class="t-en">{{ n_callouted }} maps with callouts, others blueprint-only.</span></p>
+</section>
+<section class="grid">
+  {% for m in maps %}
+  <a class="card{% if not m.has_callouts %} card-blank{% endif %}" href="{{ base }}maps/{{ m.id }}.html">
+    <img src="{{ base }}img/{{ m.id }}/{{ m.thumb_floor }}-t.jpg" alt="{{ m.name_zh }}" loading="lazy">
+    <div class="card-body">
+      <strong class="t-zh">{{ m.name_zh }}</strong>
+      <strong class="t-en">{{ m.name_en }}</strong>
+      {% if m.has_callouts %}<span class="badge badge-ok"><span class="t-zh">{{ m.n_callouts }} 个报点</span><span class="t-en">{{ m.n_callouts }} callouts</span></span>
+      {% else %}<span class="badge"><span class="t-zh">仅蓝图</span><span class="t-en">blueprint only</span></span>{% endif %}
+    </div>
+  </a>
+  {% endfor %}
+</section>
+{% endblock %}

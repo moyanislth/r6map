@@ -1,0 +1,234 @@
+{
+ "outdoor": [
+  {
+   "en": "Palms",
+   "zh": "棕榈树"
+  },
+  {
+   "en": "Robo",
+   "zh": "机器人"
+  },
+  {
+   "en": "Castle",
+   "zh": "城堡"
+  },
+  {
+   "en": "Guest",
+   "zh": "客房"
+  },
+  {
+   "en": "Village",
+   "zh": "村庄"
+  },
+  {
+   "en": "Sweet",
+   "zh": "甜品区"
+  },
+  {
+   "en": "Service",
+   "zh": "服务区"
+  },
+  {
+   "en": "Alley",
+   "zh": "小巷"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Castle",
+   "zh": "城堡"
+  },
+  {
+   "en": "Arcade",
+   "zh": "游戏厅"
+  },
+  {
+   "en": "Barrel",
+   "zh": "木桶"
+  },
+  {
+   "en": "Throne",
+   "zh": "王座"
+  },
+  {
+   "en": "Maintenance",
+   "zh": "维修间"
+  },
+  {
+   "en": "Dragon",
+   "zh": "龙"
+  },
+  {
+   "en": "Dragon Stairs",
+   "zh": "龙楼梯"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Lab Corridor",
+   "zh": "实验室走廊"
+  },
+  {
+   "en": "Toilet Corridor",
+   "zh": "卫生间走廊"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Oven",
+   "zh": "烤炉"
+  },
+  {
+   "en": "Lab",
+   "zh": "实验室"
+  },
+  {
+   "en": "Red Corridor",
+   "zh": "红走廊"
+  },
+  {
+   "en": "Gong",
+   "zh": "锣"
+  },
+  {
+   "en": "Locker Corridor",
+   "zh": "储物柜走廊"
+  },
+  {
+   "en": "Tellers",
+   "zh": "柜台"
+  },
+  {
+   "en": "Drug",
+   "zh": "毒窝"
+  },
+  {
+   "en": "Toilet",
+   "zh": "卫生间"
+  },
+  {
+   "en": "Locker",
+   "zh": "储物柜"
+  },
+  {
+   "en": "Arcade Stairs",
+   "zh": "游戏厅楼梯"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Cash Balcony",
+   "zh": "现金房阳台"
+  },
+  {
+   "en": "Arcade Balcony",
+   "zh": "游戏厅阳台"
+  },
+  {
+   "en": "Top Arcade",
+   "zh": "上层游戏厅"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Initiation",
+   "zh": "入会厅"
+  },
+  {
+   "en": "Control",
+   "zh": "控制室"
+  },
+  {
+   "en": "Bunk",
+   "zh": "床铺"
+  },
+  {
+   "en": "Day Care",
+   "zh": "育婴室"
+  },
+  {
+   "en": "Yellow",
+   "zh": "黄区"
+  },
+  {
+   "en": "Waiting",
+   "zh": "等候区"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  },
+  {
+   "en": "Cash Corridor",
+   "zh": "现金房走廊"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Cash",
+   "zh": "现金房"
+  },
+  {
+   "en": "Cafe Corridor",
+   "zh": "咖啡厅走廊"
+  },
+  {
+   "en": "Cafe",
+   "zh": "咖啡厅"
+  },
+  {
+   "en": "Showers",
+   "zh": "淋浴间"
+  },
+  {
+   "en": "Vault",
+   "zh": "金库"
+  },
+  {
+   "en": "Dragon Top",
+   "zh": "龙顶"
+  },
+  {
+   "en": "Dragon Stairs",
+   "zh": "龙楼梯"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Arcade Stairs",
+   "zh": "游戏厅楼梯"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Control Hatch",
+   "zh": "控制室舱口"
+  },
+  {
+   "en": "Yellow Hatch",
+   "zh": "黄舱口"
+  }
+ ]
+}

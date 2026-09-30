@@ -1,0 +1,284 @@
+{
+ "outdoor": [
+  {
+   "en": "Parking Lot",
+   "zh": "停车场"
+  },
+  {
+   "en": "Boulevard",
+   "zh": "大道"
+  },
+  {
+   "en": "Jewelry",
+   "zh": "珠宝店"
+  },
+  {
+   "en": "Plaza",
+   "zh": "广场"
+  },
+  {
+   "en": "Main Entrance",
+   "zh": "正门"
+  },
+  {
+   "en": "Garage Ramp",
+   "zh": "车库坡道"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "Alley Access",
+   "zh": "巷道入口"
+  },
+  {
+   "en": "Alley Rooftop",
+   "zh": "巷道屋顶"
+  },
+  {
+   "en": "Alley",
+   "zh": "小巷"
+  }
+ ],
+ "B": [
+  {
+   "en": "Vault",
+   "zh": "金库"
+  },
+  {
+   "en": "Cash",
+   "zh": "现金房"
+  },
+  {
+   "en": "Gold",
+   "zh": "黄金库"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Server",
+   "zh": "服务器室"
+  },
+  {
+   "en": "CCTV",
+   "zh": "监控室"
+  },
+  {
+   "en": "Dock",
+   "zh": "码头"
+  },
+  {
+   "en": "Red Hallway",
+   "zh": "红走廊"
+  },
+  {
+   "en": "Lockers Hallway",
+   "zh": "更衣室走廊"
+  },
+  {
+   "en": "Tunnel",
+   "zh": "隧道"
+  },
+  {
+   "en": "Lockers",
+   "zh": "更衣室"
+  },
+  {
+   "en": "Vault Lobby",
+   "zh": "金库前厅"
+  },
+  {
+   "en": "Vault Entrance",
+   "zh": "金库入口"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Elevators",
+   "zh": "电梯"
+  },
+  {
+   "en": "Red Truck",
+   "zh": "红卡车"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Printer",
+   "zh": "打印室"
+  },
+  {
+   "en": "Tellers' Office",
+   "zh": "柜台办公室"
+  },
+  {
+   "en": "Archives",
+   "zh": "档案室"
+  },
+  {
+   "en": "Tellers",
+   "zh": "柜台"
+  },
+  {
+   "en": "Loan",
+   "zh": "贷款办公室"
+  },
+  {
+   "en": "Open Space Hallway",
+   "zh": "开放区走廊"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Square",
+   "zh": "广场"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Open Space",
+   "zh": "开放区"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Electrical",
+   "zh": "电气室"
+  },
+  {
+   "en": "Admin",
+   "zh": "行政室"
+  },
+  {
+   "en": "ATMs",
+   "zh": "ATM机"
+  },
+  {
+   "en": "Elevators",
+   "zh": "电梯"
+  },
+  {
+   "en": "Square Stairs",
+   "zh": "广场楼梯"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Exec Hallway",
+   "zh": "行政走廊"
+  },
+  {
+   "en": "Front Desk",
+   "zh": "前台"
+  },
+  {
+   "en": "Exec",
+   "zh": "行政区"
+  },
+  {
+   "en": "CEO",
+   "zh": "总裁办公室"
+  },
+  {
+   "en": "Top Square",
+   "zh": "上层广场"
+  },
+  {
+   "en": "Janitor",
+   "zh": "保洁间"
+  },
+  {
+   "en": "Meeting Hallway",
+   "zh": "会议室走廊"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  },
+  {
+   "en": "Stock",
+   "zh": "库房"
+  },
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "Elevators",
+   "zh": "电梯"
+  },
+  {
+   "en": "ATMs",
+   "zh": "ATM机"
+  },
+  {
+   "en": "Loan",
+   "zh": "贷款办公室"
+  },
+  {
+   "en": "Banana",
+   "zh": "香蕉区"
+  },
+  {
+   "en": "Square Stairs",
+   "zh": "广场楼梯"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  },
+  {
+   "en": "Stock Hallway",
+   "zh": "库房走廊"
+  }
+ ],
+ "R": [
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "High Roof",
+   "zh": "高屋顶"
+  },
+  {
+   "en": "Low Roof",
+   "zh": "低屋顶"
+  }
+ ]
+}

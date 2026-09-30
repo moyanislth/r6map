@@ -1,0 +1,254 @@
+{
+ "outdoor": [
+  {
+   "en": "Submarine",
+   "zh": "潜艇"
+  },
+  {
+   "en": "West Glacier",
+   "zh": "西冷库"
+  },
+  {
+   "en": "East Breach",
+   "zh": "东突破口"
+  },
+  {
+   "en": "East Glacier",
+   "zh": "东冷库"
+  },
+  {
+   "en": "Frozen River",
+   "zh": "冰封河道"
+  },
+  {
+   "en": "Zodiac",
+   "zh": "橡皮艇"
+  },
+  {
+   "en": "West Breach",
+   "zh": "西突破口"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Engine",
+   "zh": "引擎室"
+  },
+  {
+   "en": "Back Entrance",
+   "zh": "后门"
+  },
+  {
+   "en": "Rear Deck",
+   "zh": "后甲板"
+  },
+  {
+   "en": "Server",
+   "zh": "服务器室"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Ladder",
+   "zh": "梯子"
+  },
+  {
+   "en": "Engine Hallway",
+   "zh": "引擎室走廊"
+  },
+  {
+   "en": "Front Stairs",
+   "zh": "前楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Cafeteria",
+   "zh": "自助餐厅"
+  },
+  {
+   "en": "Control",
+   "zh": "控制室"
+  },
+  {
+   "en": "Rear Deck",
+   "zh": "后甲板"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Dorms",
+   "zh": "宿舍"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Kitchen Stairs",
+   "zh": "厨房楼梯"
+  },
+  {
+   "en": "Pantry",
+   "zh": "食品储藏间"
+  },
+  {
+   "en": "Infirmary",
+   "zh": "医务室"
+  },
+  {
+   "en": "Boreal",
+   "zh": "北区"
+  },
+  {
+   "en": "Cafeteria Hallway",
+   "zh": "自助餐厅走廊"
+  },
+  {
+   "en": "Front Stairs",
+   "zh": "前楼梯"
+  },
+  {
+   "en": "Utility",
+   "zh": "设备间"
+  },
+  {
+   "en": "Anchor",
+   "zh": "锚位"
+  },
+  {
+   "en": "Boreal Entrance",
+   "zh": "北区入口"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Spa Deck",
+   "zh": "水疗甲板"
+  },
+  {
+   "en": "East Deck",
+   "zh": "东甲板"
+  },
+  {
+   "en": "West Deck",
+   "zh": "西甲板"
+  },
+  {
+   "en": "Front Deck",
+   "zh": "前甲板"
+  },
+  {
+   "en": "King",
+   "zh": "王"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Casino",
+   "zh": "赌场"
+  },
+  {
+   "en": "Poker",
+   "zh": "扑克室"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Master Hallway",
+   "zh": "主卧走廊"
+  },
+  {
+   "en": "Casino Hallway",
+   "zh": "赌场走廊"
+  },
+  {
+   "en": "Globe Hallway",
+   "zh": "地球仪走廊"
+  },
+  {
+   "en": "Lounge",
+   "zh": "休息室"
+  },
+  {
+   "en": "Top Stairs",
+   "zh": "上层楼梯"
+  },
+  {
+   "en": "Front Stairs",
+   "zh": "前楼梯"
+  },
+  {
+   "en": "Kitchen Stairs",
+   "zh": "厨房楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  }
+ ],
+ "4F": [
+  {
+   "en": "Maps",
+   "zh": "地图室"
+  },
+  {
+   "en": "Cockpit",
+   "zh": "驾驶舱"
+  },
+  {
+   "en": "Cockpit Hallway",
+   "zh": "驾驶舱走廊"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Cockpit Balcony",
+   "zh": "驾驶舱阳台"
+  },
+  {
+   "en": "Top Stairs",
+   "zh": "上层楼梯"
+  },
+  {
+   "en": "Helipad Entrance",
+   "zh": "直升机坪入口"
+  },
+  {
+   "en": "Helipad",
+   "zh": "直升机坪"
+  },
+  {
+   "en": "West Balcony",
+   "zh": "西阳台"
+  },
+  {
+   "en": "East Balcony",
+   "zh": "东阳台"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  }
+ ]
+}

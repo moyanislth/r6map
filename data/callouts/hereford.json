@@ -1,0 +1,238 @@
+{
+ "outdoor": [
+  {
+   "en": "Street",
+   "zh": "街道"
+  },
+  {
+   "en": "West Courtyard",
+   "zh": "西庭院"
+  },
+  {
+   "en": "East Courtyard",
+   "zh": "东庭院"
+  },
+  {
+   "en": "Barnyard",
+   "zh": "谷仓场院"
+  }
+ ],
+ "B": [
+  {
+   "en": "East Tunnel",
+   "zh": "东隧道"
+  },
+  {
+   "en": "Fermentation",
+   "zh": "发酵室"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Generator",
+   "zh": "发电机房"
+  },
+  {
+   "en": "Workshop",
+   "zh": "工坊"
+  },
+  {
+   "en": "West Tunnel",
+   "zh": "西隧道"
+  },
+  {
+   "en": "Brewery",
+   "zh": "酿酒坊"
+  },
+  {
+   "en": "Barrel",
+   "zh": "木桶"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Barn",
+   "zh": "谷仓"
+  },
+  {
+   "en": "Brewery Hallway",
+   "zh": "酿酒坊走廊"
+  },
+  {
+   "en": "Workshop Hallway",
+   "zh": "工坊走廊"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Prep",
+   "zh": "备餐区"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "Living",
+   "zh": "客厅"
+  },
+  {
+   "en": "Foyer",
+   "zh": "门厅"
+  },
+  {
+   "en": "Barn",
+   "zh": "谷仓"
+  },
+  {
+   "en": "Garage Hallway",
+   "zh": "车库走廊"
+  },
+  {
+   "en": "Living Hallway",
+   "zh": "客厅走廊"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Loom",
+   "zh": "织布机"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Closet",
+   "zh": "储物间"
+  },
+  {
+   "en": "Ninety",
+   "zh": "九十房"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Kids",
+   "zh": "儿童房"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Sewing",
+   "zh": "缝纫间"
+  },
+  {
+   "en": "Master Hallway",
+   "zh": "主卧走廊"
+  },
+  {
+   "en": "Loom Balcony",
+   "zh": "织布机阳台"
+  },
+  {
+   "en": "Outside Stairs",
+   "zh": "室外楼梯"
+  },
+  {
+   "en": "Bathroom Balcony",
+   "zh": "浴室阳台"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Tractor",
+   "zh": "拖拉机"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Attic South",
+   "zh": "阁楼南侧"
+  },
+  {
+   "en": "Attic Middle",
+   "zh": "阁楼中部"
+  },
+  {
+   "en": "Attic North",
+   "zh": "阁楼北侧"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Outside Stairs",
+   "zh": "室外楼梯"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Tractor Balcony",
+   "zh": "拖拉机平台"
+  }
+ ],
+ "R": [
+  {
+   "en": "Rooftop",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  }
+ ]
+}

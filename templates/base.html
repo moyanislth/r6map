@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}R6 地图报点{% endblock %}</title>
+<meta name="description" content="彩虹六号围攻全官方地图中文报点查询">
+<link rel="stylesheet" href="{{ base }}style.css">
+</head>
+<body data-map="{% block bodymap %}{% endblock %}">
+<header class="topbar">
+  {% block topbar %}
+  <a class="brand" href="{{ base }}index.html"><span class="t-zh">R6 地图报点</span><span class="t-en">R6 Map Callouts</span></a>
+  {% endblock %}
+  <button id="langBtn" class="lang-btn" type="button" aria-label="Switch language">EN</button>
+</header>
+<main>{% block main %}{% endblock %}</main>
+<footer>
+  <p><span class="t-zh">地图蓝图图片 © 2015-2026 Ubisoft Entertainment。本站为非商业社区项目,报点数据基于 <a href="https://github.com/DudeKiller82/r6calls" rel="noopener" target="_blank">r6calls</a>(MIT)。</span><span class="t-en">Map blueprint images © 2015-2026 Ubisoft Entertainment. Non-commercial community project; callout data based on <a href="https://github.com/DudeKiller82/r6calls" rel="noopener" target="_blank">r6calls</a> (MIT).</span></p>
+</footer>
+<script src="{{ base }}app.js"></script>
+</body>
+</html>

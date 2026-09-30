@@ -1,0 +1,268 @@
+{
+ "outdoor": [
+  {
+   "en": "North Rappel",
+   "zh": "北侧速降点"
+  },
+  {
+   "en": "South Rappel",
+   "zh": "南侧速降点"
+  }
+ ],
+ "1F": [
+  {
+   "en": "West Atrium",
+   "zh": "西中庭"
+  },
+  {
+   "en": "East Atrium",
+   "zh": "东中庭"
+  },
+  {
+   "en": "Center Atrium",
+   "zh": "中央中庭"
+  },
+  {
+   "en": "Main Reception",
+   "zh": "总接待处"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "West Balcony",
+   "zh": "西阳台"
+  },
+  {
+   "en": "Restaurant",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Bird",
+   "zh": "鸟"
+  },
+  {
+   "en": "Restaurant Reception",
+   "zh": "餐厅接待处"
+  },
+  {
+   "en": "Tea",
+   "zh": "茶室"
+  },
+  {
+   "en": "Lounge",
+   "zh": "休息室"
+  },
+  {
+   "en": "East Balcony",
+   "zh": "东阳台"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Elevator",
+   "zh": "电梯"
+  },
+  {
+   "en": "Bar Hallway",
+   "zh": "酒吧走廊"
+  },
+  {
+   "en": "Restaurant Hallway",
+   "zh": "餐厅走廊"
+  },
+  {
+   "en": "Traditional",
+   "zh": "传统房"
+  },
+  {
+   "en": "Bonsai",
+   "zh": "盆景"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "West Observatory",
+   "zh": "西观景台"
+  },
+  {
+   "en": "East Observatory",
+   "zh": "东观景台"
+  },
+  {
+   "en": "North Stairs",
+   "zh": "北楼梯"
+  },
+  {
+   "en": "West Stairs",
+   "zh": "西楼梯"
+  },
+  {
+   "en": "East Stairs",
+   "zh": "东楼梯"
+  },
+  {
+   "en": "Yellow",
+   "zh": "黄区"
+  }
+ ],
+ "2F": [
+  {
+   "en": "North Stairs",
+   "zh": "北楼梯"
+  },
+  {
+   "en": "West Stairs",
+   "zh": "西楼梯"
+  },
+  {
+   "en": "East Stairs",
+   "zh": "东楼梯"
+  },
+  {
+   "en": "Elevator",
+   "zh": "电梯"
+  },
+  {
+   "en": "West Atrium",
+   "zh": "西中庭"
+  },
+  {
+   "en": "East Atrium",
+   "zh": "东中庭"
+  },
+  {
+   "en": "Center Atrium",
+   "zh": "中央中庭"
+  },
+  {
+   "en": "Info",
+   "zh": "咨询台"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Gallery",
+   "zh": "画廊"
+  },
+  {
+   "en": "Lantern",
+   "zh": "灯笼"
+  },
+  {
+   "en": "Media",
+   "zh": "媒体室"
+  },
+  {
+   "en": "Exhibit Hallway",
+   "zh": "展厅走廊"
+  },
+  {
+   "en": "Exhibit",
+   "zh": "展厅"
+  },
+  {
+   "en": "East Balcony",
+   "zh": "东阳台"
+  },
+  {
+   "en": "Gift Shop",
+   "zh": "礼品店"
+  },
+  {
+   "en": "West Balcony",
+   "zh": "西阳台"
+  },
+  {
+   "en": "Offices Hallway",
+   "zh": "办公区走廊"
+  },
+  {
+   "en": "Offices",
+   "zh": "办公区"
+  },
+  {
+   "en": "Supply",
+   "zh": "补给室"
+  },
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "CEO",
+   "zh": "总裁办公室"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Server",
+   "zh": "服务器室"
+  },
+  {
+   "en": "CEO Reception",
+   "zh": "总裁接待处"
+  }
+ ],
+ "3F": [
+  {
+   "en": "North Vent",
+   "zh": "北通风口"
+  },
+  {
+   "en": "East Vent",
+   "zh": "东通风口"
+  },
+  {
+   "en": "West Vent",
+   "zh": "西通风口"
+  },
+  {
+   "en": "Ventilation",
+   "zh": "通风机房"
+  },
+  {
+   "en": "Catwalk",
+   "zh": "猫道"
+  },
+  {
+   "en": "Elevator",
+   "zh": "电梯"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof Access",
+   "zh": "屋顶入口"
+  },
+  {
+   "en": "Elevator",
+   "zh": "电梯"
+  },
+  {
+   "en": "North Vent",
+   "zh": "北通风口"
+  },
+  {
+   "en": "East Vent",
+   "zh": "东通风口"
+  },
+  {
+   "en": "West Vent",
+   "zh": "西通风口"
+  }
+ ]
+}

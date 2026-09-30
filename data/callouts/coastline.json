@@ -1,0 +1,194 @@
+{
+ "outdoor": [
+  {
+   "en": "Ruins",
+   "zh": "废墟"
+  },
+  {
+   "en": "Pool",
+   "zh": "泳池"
+  },
+  {
+   "en": "Main Entrance",
+   "zh": "正门"
+  },
+  {
+   "en": "Courtyard",
+   "zh": "庭院"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  },
+  {
+   "en": "Back Alley",
+   "zh": "后巷"
+  },
+  {
+   "en": "Pool Side",
+   "zh": "泳池边"
+  },
+  {
+   "en": "Walkway",
+   "zh": "步道"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Promenade",
+   "zh": "散步大道"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Delivery",
+   "zh": "卸货区"
+  },
+  {
+   "en": "Toilets",
+   "zh": "卫生间"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Security",
+   "zh": "安保室"
+  },
+  {
+   "en": "Sun",
+   "zh": "太阳"
+  },
+  {
+   "en": "Library",
+   "zh": "图书馆"
+  },
+  {
+   "en": "Blue Bar",
+   "zh": "蓝酒吧"
+  },
+  {
+   "en": "Sunrise",
+   "zh": "日出厅"
+  },
+  {
+   "en": "Pool Entrance",
+   "zh": "泳池入口"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Cantina",
+   "zh": "酒馆"
+  },
+  {
+   "en": "Reception",
+   "zh": "接待处"
+  },
+  {
+   "en": "Sunrise Hallway",
+   "zh": "日出厅走廊"
+  }
+ ],
+ "2F": [
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "VIP Hallway",
+   "zh": "贵宾走廊"
+  },
+  {
+   "en": "Hookah",
+   "zh": "水烟馆"
+  },
+  {
+   "en": "Pool Table",
+   "zh": "台球桌"
+  },
+  {
+   "en": "TV Hallway",
+   "zh": "电视房走廊"
+  },
+  {
+   "en": "Luggage",
+   "zh": "行李房"
+  },
+  {
+   "en": "Aqua",
+   "zh": "泳池区"
+  },
+  {
+   "en": "Guitars",
+   "zh": "吉他"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Penthouse",
+   "zh": "顶层套房"
+  },
+  {
+   "en": "TV",
+   "zh": "电视房"
+  },
+  {
+   "en": "Hookah Balcony",
+   "zh": "水烟馆阳台"
+  },
+  {
+   "en": "VIP",
+   "zh": "贵宾区"
+  },
+  {
+   "en": "VIP Balcony",
+   "zh": "贵宾阳台"
+  },
+  {
+   "en": "Aqua Balcony",
+   "zh": "泳池阳台"
+  },
+  {
+   "en": "Roof Drop",
+   "zh": "屋顶速降点"
+  },
+  {
+   "en": "Hookah Hallway",
+   "zh": "水烟馆走廊"
+  }
+ ],
+ "R": [
+  {
+   "en": "Rooftop",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Roof Drop",
+   "zh": "屋顶速降点"
+  }
+ ]
+}

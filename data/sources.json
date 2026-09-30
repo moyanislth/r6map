@@ -1,0 +1,669 @@
+{
+  "maps": {
+    "bank": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-bank-blueprints.zip",
+      "zip_sha256": "eb45a052aad23dc29b8db53e8c89461937239789ab9861f1906f03475ad4de69",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "border": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-border-blueprints.zip",
+      "zip_sha256": "482e90837256cb17d386717500fb26348fcf36ebb59f780f371d047dda4b8486",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "calypso-casino": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-calypso-casino-blueprints.zip",
+      "zip_sha256": "c6c4829e2fe2be86e1d33569e509d6215893177aff2f80483002ab7ac10a9f6e",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "chalet": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-chalet-blueprints.zip",
+      "zip_sha256": "29f0af3794cda0f39c6368e921227f3f56a26af747c3fb14914bc814c303e6fc",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "close-quarter": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-closequarter-blueprints_june22.zip",
+      "zip_sha256": "96fa92f2460fa2575c0872a0a439668d439c474062eb424d344587be3f149672",
+      "zip_imgs": 2,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "clubhouse": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-clubhouse-blueprints.zip",
+      "zip_sha256": "fa7355c0cb83c2f3eec32489f33684b45675bff4b6da13b8f776a5a2dc14dc32",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "coastline": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-coastline-blueprints.zip",
+      "zip_sha256": "b074d5be5a3d90d19522adcc5ef911e1671a18b3743bc361a10c552dca571814",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "consulate": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-consulate-blueprints_may23.zip",
+      "zip_sha256": "504e65f4471d443e82227d74eed2e22bbba7a7eccad992fdfd99a9ea9ebb1629",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "emeraldplains": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-emeraldplains-blueprints.zip",
+      "zip_sha256": "18333a8d3bca54ad13c91f5454b91c7c6f355b5833f8d7886a6d86c69410acb4",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "favela": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-favela-blueprints.zip",
+      "zip_sha256": "8ad7f06900b1f603a336821a949700c319dd64c48e9d420a529cf52b396d977b",
+      "zip_imgs": 5,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "fortress": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-fortress-blueprints.zip",
+      "zip_sha256": "abb1519b744911914cfd7581fb940ff225ea6acb7a7dd40736fd650d3f30a982",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "hereford": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-hereford-blueprints.zip",
+      "zip_sha256": "43d9c34243c8d986f7edac4741682eb9b65b018ab0cf0c454cefabecde5848a1",
+      "zip_imgs": 5,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "house": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-house-blueprints.zip",
+      "zip_sha256": "feaaf4fcea6cfe644989dcfd085c8a7aeb8475c462075bc8a89946578ef0e161",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "kafe": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-kafe-blueprints.zip",
+      "zip_sha256": "2e107e1cc517f6223c961568378d7fcf489398db27de882649aed8bd632ce555",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "kanal": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-kanal-blueprints.zip",
+      "zip_sha256": "18433ce490c7654576a19eae8c605f02565f01c40fd7a2482e3dc772af81d56e",
+      "zip_imgs": 5,
+      "floors": {
+        "subB": {
+          "en": "Sub-Basement",
+          "zh": "地下二层"
+        },
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "lair": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-lair-blueprints.zip",
+      "zip_sha256": "c238e064135c439f5f9e96b96182fc19872f733c05a418ddcac7c48d1dc05442",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "nighthavenlabs": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-nighthavenlabs-blueprints.zip",
+      "zip_sha256": "b98ff12dfc976f47ad65f6102d63ee448d2cbfc50109f1c766a813d89f26b96d",
+      "zip_imgs": 4,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "oregon": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-oregon-blueprints.zip",
+      "zip_sha256": "9c000b5157bc29bafb7e395239e2844069f94f7a50f2ac69de919c453c95db15",
+      "zip_imgs": 5,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "outback": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-outback-blueprints.zip",
+      "zip_sha256": "be1cb2fdae1991a0a4f7adec9b0f158285e96dba500af1e4ae080e8a39d42d8e",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "plane": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-plane-blueprints.zip",
+      "zip_sha256": "88b43e972885dd17e95274b7d3a7463e1dd038e88bf6e0bf2ae6bc971e74d2f6",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "skyscraper": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-skyscraper-blueprints.zip",
+      "zip_sha256": "adf798c667503c5c50b32216c3284943e73ee7beb1d6769bd4b07303a8aca7a5",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "stadiumalpha": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-stadiumalpha-blueprints.zip",
+      "zip_sha256": "9de2bcf43e6c0a6d62b77d4df482096341ac50a9082b88e04312ae42b4ba9bde",
+      "zip_imgs": 5,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "stadiumbravo": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-stadiumbravo-blueprints.zip",
+      "zip_sha256": "affc3ebb23edd83e00bb5cb73e27c9338e507382b7f06e56860bde13374cabda",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "themepark": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-themepark-blueprints.zip",
+      "zip_sha256": "e6b07e400807264550126d062de942ed4d4e8bef88e1a72cac7d01b6d7c05a69",
+      "zip_imgs": 3,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "tower": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-tower-blueprints.zip",
+      "zip_sha256": "9f6965e222ae7d8c153584c98b1fef1bb31692db38297bfad91dca01e4924c65",
+      "zip_imgs": 4,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    },
+    "villa": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-villa-blueprints.zip",
+      "zip_sha256": "eb2b13d86d58fd49fb6fd86670a76527499e8ac65d35ab5d29de281348f36559",
+      "zip_imgs": 5,
+      "floors": {
+        "B": {
+          "en": "Basement",
+          "zh": "地下一层"
+        },
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [
+        1
+      ],
+      "fetched_at": "2026-09-27"
+    },
+    "yacht": {
+      "zip_url": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-yacht-blueprints.zip",
+      "zip_sha256": "92fe42373b1beea507a54e2145820fcd29db33506ce5c053ec04d205634998d5",
+      "zip_imgs": 5,
+      "floors": {
+        "1F": {
+          "en": "1st Floor",
+          "zh": "一楼"
+        },
+        "2F": {
+          "en": "2nd Floor",
+          "zh": "二楼"
+        },
+        "3F": {
+          "en": "3rd Floor",
+          "zh": "三楼"
+        },
+        "4F": {
+          "en": "4th Floor",
+          "zh": "四楼"
+        },
+        "R": {
+          "en": "Roof",
+          "zh": "屋顶"
+        }
+      },
+      "excluded_imgs": [],
+      "fetched_at": "2026-09-27"
+    }
+  }
+}

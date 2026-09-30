@@ -1,0 +1,256 @@
+{
+ "outdoor": [
+  {
+   "en": "Garage Way",
+   "zh": "车库通道"
+  },
+  {
+   "en": "Courtyard",
+   "zh": "庭院"
+  },
+  {
+   "en": "Back Courtyard",
+   "zh": "后院"
+  },
+  {
+   "en": "Side Entrance",
+   "zh": "侧门"
+  },
+  {
+   "en": "Dumpster",
+   "zh": "垃圾箱"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "Gardens",
+   "zh": "花园"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "Yellow Entrance",
+   "zh": "黄入口"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Memorial",
+   "zh": "纪念馆"
+  },
+  {
+   "en": "Police",
+   "zh": "警察岗"
+  },
+  {
+   "en": "Barricade",
+   "zh": "路障"
+  },
+  {
+   "en": "West Front Yard",
+   "zh": "西前院"
+  },
+  {
+   "en": "East Front Yard",
+   "zh": "东前院"
+  },
+  {
+   "en": "Front Alley",
+   "zh": "前巷"
+  }
+ ],
+ "B": [
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Garage Corridor",
+   "zh": "车库走廊"
+  },
+  {
+   "en": "Security",
+   "zh": "安保室"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Spiral",
+   "zh": "旋转楼梯"
+  },
+  {
+   "en": "Locker",
+   "zh": "储物柜"
+  },
+  {
+   "en": "Visa Stairs",
+   "zh": "签证处楼梯"
+  },
+  {
+   "en": "Electric",
+   "zh": "电气室"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Archives",
+   "zh": "档案室"
+  },
+  {
+   "en": "Archives Corridor",
+   "zh": "档案室走廊"
+  },
+  {
+   "en": "Pillar",
+   "zh": "柱"
+  },
+  {
+   "en": "White Truck",
+   "zh": "白卡车"
+  },
+  {
+   "en": "Pipes",
+   "zh": "管道区"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "West Corridor",
+   "zh": "西走廊"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Antechamber",
+   "zh": "前厅"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "East Corridor",
+   "zh": "东走廊"
+  },
+  {
+   "en": "Tellers",
+   "zh": "柜台"
+  },
+  {
+   "en": "Visa Stairs",
+   "zh": "签证处楼梯"
+  },
+  {
+   "en": "Visa",
+   "zh": "签证处"
+  },
+  {
+   "en": "Spiral",
+   "zh": "旋转楼梯"
+  },
+  {
+   "en": "Visa Entrance",
+   "zh": "签证处入口"
+  },
+  {
+   "en": "Front Door",
+   "zh": "前门"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Visa Stairs",
+   "zh": "签证处楼梯"
+  },
+  {
+   "en": "Copy",
+   "zh": "复印室"
+  },
+  {
+   "en": "Cabinet",
+   "zh": "橱柜"
+  },
+  {
+   "en": "Admin",
+   "zh": "行政室"
+  },
+  {
+   "en": "Spiral",
+   "zh": "旋转楼梯"
+  },
+  {
+   "en": "Break",
+   "zh": "休息区"
+  },
+  {
+   "en": "Front Office",
+   "zh": "前厅办公室"
+  },
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "Long Desk",
+   "zh": "长桌区"
+  },
+  {
+   "en": "Flag",
+   "zh": "旗帜"
+  },
+  {
+   "en": "Top Bathroom",
+   "zh": "上层浴室"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Connector",
+   "zh": "连接走廊"
+  },
+  {
+   "en": "CEO",
+   "zh": "总裁办公室"
+  }
+ ],
+ "R": [
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  }
+ ]
+}

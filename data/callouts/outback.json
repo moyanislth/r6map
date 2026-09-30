@@ -1,0 +1,242 @@
+{
+ "outdoor": [
+  {
+   "en": "Pumps",
+   "zh": "泵房"
+  },
+  {
+   "en": "Motel Parking",
+   "zh": "汽车旅馆停车场"
+  },
+  {
+   "en": "Restaurant Parking",
+   "zh": "餐厅停车场"
+  },
+  {
+   "en": "Picnic",
+   "zh": "野餐区"
+  },
+  {
+   "en": "Golf",
+   "zh": "高尔夫"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Walkway",
+   "zh": "步道"
+  },
+  {
+   "en": "Restaurant Entrance",
+   "zh": "餐厅入口"
+  },
+  {
+   "en": "Loading",
+   "zh": "装卸区"
+  },
+  {
+   "en": "Garage Stairs",
+   "zh": "车库楼梯"
+  },
+  {
+   "en": "Balcony Stairs",
+   "zh": "阳台楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Piano Stairs",
+   "zh": "钢琴楼梯"
+  },
+  {
+   "en": "Shark Stairs",
+   "zh": "鲨鱼楼梯"
+  },
+  {
+   "en": "Terrace Stairs",
+   "zh": "露台楼梯"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Waiting",
+   "zh": "等候区"
+  },
+  {
+   "en": "Shop",
+   "zh": "商店"
+  },
+  {
+   "en": "Beer",
+   "zh": "啤酒区"
+  },
+  {
+   "en": "Gear",
+   "zh": "装备区"
+  },
+  {
+   "en": "Compressor",
+   "zh": "压缩机房"
+  },
+  {
+   "en": "Reception",
+   "zh": "接待处"
+  },
+  {
+   "en": "Reptile",
+   "zh": "爬虫馆"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Restaurant",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Back Entrance",
+   "zh": "后门"
+  },
+  {
+   "en": "Ranger",
+   "zh": "护林员站"
+  },
+  {
+   "en": "Nature",
+   "zh": "自然区"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Connector",
+   "zh": "连接走廊"
+  },
+  {
+   "en": "Closet",
+   "zh": "储物间"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Garage Stairs",
+   "zh": "车库楼梯"
+  },
+  {
+   "en": "Balcony Stairs",
+   "zh": "阳台楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Piano Stairs",
+   "zh": "钢琴楼梯"
+  },
+  {
+   "en": "Shark Stairs",
+   "zh": "鲨鱼楼梯"
+  },
+  {
+   "en": "Terrace Stairs",
+   "zh": "露台楼梯"
+  },
+  {
+   "en": "Lounge",
+   "zh": "休息室"
+  },
+  {
+   "en": "Shop Roof",
+   "zh": "商店屋顶"
+  },
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Supplies",
+   "zh": "补给品"
+  },
+  {
+   "en": "Bull",
+   "zh": "公牛"
+  },
+  {
+   "en": "Party",
+   "zh": "派对区"
+  },
+  {
+   "en": "Electrical",
+   "zh": "电气室"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Dorms",
+   "zh": "宿舍"
+  },
+  {
+   "en": "Showers",
+   "zh": "淋浴间"
+  },
+  {
+   "en": "Shark",
+   "zh": "鲨鱼"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Showers Hallway",
+   "zh": "淋浴间走廊"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  }
+ ],
+ "R": [
+  {
+   "en": "Shop Roof",
+   "zh": "商店屋顶"
+  },
+  {
+   "en": "Restaurant Roof",
+   "zh": "餐厅屋顶"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Motel Roof",
+   "zh": "汽车旅馆屋顶"
+  }
+ ]
+}

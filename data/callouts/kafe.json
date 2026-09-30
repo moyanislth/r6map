@@ -1,0 +1,248 @@
+{
+ "outdoor": [
+  {
+   "en": "Back Alley",
+   "zh": "后巷"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "West Street",
+   "zh": "西街"
+  },
+  {
+   "en": "Main Street",
+   "zh": "主街"
+  },
+  {
+   "en": "East Street",
+   "zh": "东街"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  }
+ ],
+ "1F": [
+  {
+   "en": "VIP Corridor",
+   "zh": "贵宾走廊"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Bakery",
+   "zh": "面包房"
+  },
+  {
+   "en": "Prep",
+   "zh": "备餐区"
+  },
+  {
+   "en": "Cooking",
+   "zh": "烹饪区"
+  },
+  {
+   "en": "Service",
+   "zh": "服务区"
+  },
+  {
+   "en": "Freezer",
+   "zh": "冷冻库"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "VIP",
+   "zh": "贵宾区"
+  },
+  {
+   "en": "Bottom Bar",
+   "zh": "下层酒吧"
+  },
+  {
+   "en": "Restaurant",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Small Bakery",
+   "zh": "小面包房"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Coat",
+   "zh": "衣帽间"
+  },
+  {
+   "en": "Reception",
+   "zh": "接待处"
+  },
+  {
+   "en": "Wood Stairs",
+   "zh": "木楼梯"
+  },
+  {
+   "en": "Bakery Corridor",
+   "zh": "面包房走廊"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Bakery Roof",
+   "zh": "面包房屋顶"
+  },
+  {
+   "en": "Train",
+   "zh": "火车"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Reading Corridor",
+   "zh": "阅览室走廊"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Reading",
+   "zh": "阅览室"
+  },
+  {
+   "en": "Mining",
+   "zh": "采矿点"
+  },
+  {
+   "en": "Mining Corridor",
+   "zh": "采矿走廊"
+  },
+  {
+   "en": "Pillar",
+   "zh": "柱"
+  },
+  {
+   "en": "Red Corridor",
+   "zh": "红走廊"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Fireplace",
+   "zh": "壁炉"
+  },
+  {
+   "en": "Wood Stairs",
+   "zh": "木楼梯"
+  },
+  {
+   "en": "Main",
+   "zh": "主区"
+  },
+  {
+   "en": "Terrace Entrance",
+   "zh": "露台入口"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Bakery Roof",
+   "zh": "面包房屋顶"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "White Corridor",
+   "zh": "白走廊"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Bar Freezer",
+   "zh": "酒吧冷库"
+  },
+  {
+   "en": "Cocktail Entrance",
+   "zh": "鸡尾酒吧入口"
+  },
+  {
+   "en": "Cocktail",
+   "zh": "鸡尾酒吧"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Cigar",
+   "zh": "雪茄房"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Cigar Balcony",
+   "zh": "雪茄阳台"
+  },
+  {
+   "en": "Cocktail Balcony",
+   "zh": "鸡尾酒阳台"
+  },
+  {
+   "en": "Wood Stairs",
+   "zh": "木楼梯"
+  }
+ ],
+ "R": [
+  {
+   "en": "Bakery Roof",
+   "zh": "面包房屋顶"
+  },
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Red Hatch",
+   "zh": "红舱口"
+  },
+  {
+   "en": "New Hatch",
+   "zh": "新舱口"
+  }
+ ]
+}

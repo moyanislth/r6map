@@ -1,0 +1,170 @@
+{
+  "_comment": "楼层 key → 官方蓝图 zip 内图片序号(0-based)映射。img 省略时按顺序对应。excluded_imgs = zip 内无法确认楼层的多余图片。ui = 站点界面文案(与地图/楼层相关),开发者可在此统一改文案。",
+  "ui": {
+    "outdoor": {"en": "Outdoor", "zh": "室外"},
+    "callouts": {"en": "Callouts", "zh": "报点"},
+    "outdoor_callouts": {"en": "Outdoor callouts", "zh": "室外报点"},
+    "floor_empty": {"en": "No callouts for this floor yet", "zh": "该层暂无报点数据"},
+    "contribute": {"en": "PRs welcome on GitHub", "zh": "欢迎到 GitHub 提交补充"},
+    "click_hint": {"en": "wheel zoom · drag pan · double-click add pin", "zh": "滚轮缩放 · 拖拽平移 · 双击添加标注"},
+    "blank_notice": {"en": "No callouts for this map yet — contribute on GitHub", "zh": "这张图还没有报点数据,欢迎在 GitHub 上补充"},
+    "pin_export": {"en": "Export pins", "zh": "导出标注"},
+    "pin_copy": {"en": "Copy", "zh": "复制"},
+    "pin_close": {"en": "Close", "zh": "关闭"},
+    "pin_done": {"en": "Save", "zh": "保存"},
+    "pin_delete": {"en": "Delete", "zh": "删除"},
+    "pin_name_en": {"en": "Name (EN)", "zh": "名称(英文)"},
+    "pin_name_zh": {"en": "Name (ZH)", "zh": "名称(中文)"},
+    "pin_default": {"en": "Pin", "zh": "点"},
+    "zoom_reset": {"en": "Reset view", "zh": "复位视图"}
+  },
+  "floor_names": {
+    "subB": {"en": "Sub-Basement", "zh": "地下二层"},
+    "B": {"en": "Basement", "zh": "地下一层"},
+    "1F": {"en": "1st Floor", "zh": "一楼"},
+    "2F": {"en": "2nd Floor", "zh": "二楼"},
+    "3F": {"en": "3rd Floor", "zh": "三楼"},
+    "4F": {"en": "4th Floor", "zh": "四楼"},
+    "R": {"en": "Roof", "zh": "屋顶"}
+  },
+  "maps": {
+    "bank": {
+      "name_en": "Bank", "name_zh": "银行",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-bank-blueprints.zip",
+      "floors": ["1F", "2F", "B", "R"]
+    },
+    "border": {
+      "name_en": "Border", "name_zh": "边境",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-border-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "calypso-casino": {
+      "name_en": "Calypso Casino", "name_zh": "卡吕普索赌场",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-calypso-casino-blueprints.zip",
+      "floors": ["1F", "2F", "B", "R"]
+    },
+    "chalet": {
+      "name_en": "Chalet", "name_zh": "木屋",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-chalet-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "close-quarter": {
+      "name_en": "Close Quarter", "name_zh": "近身交锋",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-closequarter-blueprints_june22.zip",
+      "floors": ["1F", "2F"]
+    },
+    "clubhouse": {
+      "name_en": "Clubhouse", "name_zh": "俱乐部",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-clubhouse-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "coastline": {
+      "name_en": "Coastline", "name_zh": "海岸线",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-coastline-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "consulate": {
+      "name_en": "Consulate", "name_zh": "领事馆",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-consulate-blueprints_may23.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "emeraldplains": {
+      "name_en": "Emerald Plains", "name_zh": "翡翠平原",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-emeraldplains-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "favela": {
+      "name_en": "Favela", "name_zh": "贫民窟",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-favela-blueprints.zip",
+      "floors": ["B", "1F", "2F", "3F", "R"]
+    },
+    "fortress": {
+      "name_en": "Fortress", "name_zh": "堡垒",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-fortress-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "hereford": {
+      "name_en": "Hereford Base", "name_zh": "赫里福基地",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-hereford-blueprints.zip",
+      "floors": ["B", "1F", "2F", "3F", "R"]
+    },
+    "house": {
+      "name_en": "House", "name_zh": "房屋",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-house-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "kafe": {
+      "name_en": "Kafe Dostoyevsky", "name_zh": "咖啡馆",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-kafe-blueprints.zip",
+      "floors": ["1F", "2F", "3F", "R"]
+    },
+    "kanal": {
+      "name_en": "Kanal", "name_zh": "运河",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-kanal-blueprints.zip",
+      "floors": ["subB", "B", "1F", "2F", "R"]
+    },
+    "lair": {
+      "name_en": "Lair", "name_zh": "巢穴",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-lair-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "nighthavenlabs": {
+      "name_en": "Nighthaven Labs", "name_zh": "夜鸦实验室",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-nighthavenlabs-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"]
+    },
+    "oregon": {
+      "name_en": "Oregon", "name_zh": "俄勒冈",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-oregon-blueprints.zip",
+      "floors": ["B", "1F", "2F", "3F", "R"]
+    },
+    "outback": {
+      "name_en": "Outback", "name_zh": "内陆",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-outback-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "plane": {
+      "name_en": "Presidential Plane", "name_zh": "总统专机",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-plane-blueprints.zip",
+      "floors": ["1F", "2F", "3F", "R"]
+    },
+    "skyscraper": {
+      "name_en": "Skyscraper", "name_zh": "摩天大楼",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-skyscraper-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "stadiumalpha": {
+      "name_en": "Stadium Alpha", "name_zh": "阿尔法体育场",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-stadiumalpha-blueprints.zip",
+      "floors": ["B", "1F", "2F", "3F", "R"]
+    },
+    "stadiumbravo": {
+      "name_en": "Stadium Bravo", "name_zh": "布拉沃体育场",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-stadiumbravo-blueprints.zip",
+      "floors": ["1F", "2F", "3F", "R"]
+    },
+    "themepark": {
+      "name_en": "Theme Park", "name_zh": "主题乐园",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-themepark-blueprints.zip",
+      "floors": ["1F", "2F", "R"]
+    },
+    "tower": {
+      "name_en": "Tower", "name_zh": "塔楼",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-tower-blueprints.zip",
+      "floors": ["1F", "2F", "3F", "R"]
+    },
+    "villa": {
+      "name_en": "Villa", "name_zh": "别墅",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-villa-blueprints.zip",
+      "floors": ["B", "1F", "2F", "R"],
+      "img_map": {"B": 0, "1F": 2, "2F": 3, "R": 4},
+      "excluded_imgs": [1],
+      "_note": "zip 内共5图,#1(全黑俯视图)楼层无法确认,暂排除;如确认可加入"
+    },
+    "yacht": {
+      "name_en": "Yacht", "name_zh": "游艇",
+      "zip": "https://ubistatic-a.ubisoft.com/0106/gamesites/rainbow6/blueprints/r6-maps-yacht-blueprints.zip",
+      "floors": ["1F", "2F", "3F", "4F", "R"]
+    }
+  }
+}

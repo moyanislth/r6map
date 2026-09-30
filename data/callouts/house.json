@@ -1,0 +1,208 @@
+{
+ "outdoor": [
+  {
+   "en": "APC",
+   "zh": "装甲车"
+  },
+  {
+   "en": "Side Street",
+   "zh": "侧街"
+  },
+  {
+   "en": "Garage Front",
+   "zh": "车库前区"
+  },
+  {
+   "en": "Garage Side",
+   "zh": "车库侧面"
+  },
+  {
+   "en": "Patio",
+   "zh": "露台"
+  },
+  {
+   "en": "Depot Stairs",
+   "zh": "仓库楼梯"
+  },
+  {
+   "en": "Treehouse Alley",
+   "zh": "树屋小巷"
+  },
+  {
+   "en": "Front Yard",
+   "zh": "前院"
+  },
+  {
+   "en": "Treehouse",
+   "zh": "树屋"
+  }
+ ],
+ "B": [
+  {
+   "en": "Kitchen Stairs",
+   "zh": "厨房楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Depot",
+   "zh": "仓库"
+  },
+  {
+   "en": "Gym",
+   "zh": "健身房"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Garage Entrance",
+   "zh": "车库入口"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Kitchen Stairs",
+   "zh": "厨房楼梯"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Front Balcony",
+   "zh": "前阳台"
+  },
+  {
+   "en": "Porch",
+   "zh": "门廊"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "TV Entrance",
+   "zh": "电视房入口"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Connector",
+   "zh": "连接走廊"
+  },
+  {
+   "en": "TV",
+   "zh": "电视房"
+  },
+  {
+   "en": "Music",
+   "zh": "音乐室"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Front Balcony",
+   "zh": "前阳台"
+  },
+  {
+   "en": "Porch",
+   "zh": "门廊"
+  },
+  {
+   "en": "Porch Top",
+   "zh": "门廊顶"
+  },
+  {
+   "en": "Reading Balcony",
+   "zh": "阅览室阳台"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Pink",
+   "zh": "粉区"
+  },
+  {
+   "en": "Pink Dressing",
+   "zh": "粉化妆间"
+  },
+  {
+   "en": "Car",
+   "zh": "汽车"
+  },
+  {
+   "en": "Play",
+   "zh": "游乐区"
+  },
+  {
+   "en": "Top Hallway",
+   "zh": "上层走廊"
+  },
+  {
+   "en": "Master Dressing",
+   "zh": "主卧化妆间"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Reading",
+   "zh": "阅览室"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Bathroom Hallway",
+   "zh": "浴室走廊"
+  }
+ ],
+ "R": [
+  {
+   "en": "Rooftop",
+   "zh": "屋顶"
+  }
+ ]
+}

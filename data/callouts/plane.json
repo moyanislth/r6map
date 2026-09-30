@@ -1,0 +1,182 @@
+{
+ "outdoor": [
+  {
+   "en": "Main Entrance",
+   "zh": "正门"
+  },
+  {
+   "en": "Front Service Entrance",
+   "zh": "前勤入口"
+  },
+  {
+   "en": "Right Wing",
+   "zh": "右翼"
+  },
+  {
+   "en": "Back Service Entrance",
+   "zh": "后勤入口"
+  },
+  {
+   "en": "Reporter Entrance",
+   "zh": "记者入口"
+  },
+  {
+   "en": "Left Wing",
+   "zh": "左翼"
+  },
+  {
+   "en": "Front Stairway",
+   "zh": "前楼梯"
+  },
+  {
+   "en": "Back Stairway",
+   "zh": "后楼梯"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Cargo",
+   "zh": "货物区"
+  },
+  {
+   "en": "Storage Corridor",
+   "zh": "储藏室走廊"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Luggage",
+   "zh": "行李房"
+  },
+  {
+   "en": "Infirmary",
+   "zh": "医务室"
+  },
+  {
+   "en": "Front Stairs",
+   "zh": "前楼梯"
+  },
+  {
+   "en": "Technical",
+   "zh": "技术室"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "Office Hallway",
+   "zh": "办公室走廊"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Meeting Hallway",
+   "zh": "会议室走廊"
+  },
+  {
+   "en": "Front Stairs",
+   "zh": "前楼梯"
+  },
+  {
+   "en": "Pantry",
+   "zh": "食品储藏间"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Bedroom Hallway",
+   "zh": "卧室走廊"
+  },
+  {
+   "en": "Bedroom",
+   "zh": "卧室"
+  },
+  {
+   "en": "Changing",
+   "zh": "更衣室"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Staff",
+   "zh": "员工区"
+  },
+  {
+   "en": "Security",
+   "zh": "安保室"
+  },
+  {
+   "en": "Press A",
+   "zh": "印刷机A"
+  },
+  {
+   "en": "Press B",
+   "zh": "印刷机B"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Cockpit Stairs",
+   "zh": "驾驶舱楼梯"
+  },
+  {
+   "en": "Back Caterer",
+   "zh": "后备餐间"
+  },
+  {
+   "en": "Ladder",
+   "zh": "梯子"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Cockpit Stairs",
+   "zh": "驾驶舱楼梯"
+  },
+  {
+   "en": "Cabin Staff",
+   "zh": "船舱乘务区"
+  },
+  {
+   "en": "Radio",
+   "zh": "无线电室"
+  },
+  {
+   "en": "Cabin",
+   "zh": "船舱"
+  },
+  {
+   "en": "Front Caterer",
+   "zh": "前备餐间"
+  },
+  {
+   "en": "Server A",
+   "zh": "服务器A"
+  },
+  {
+   "en": "Server B",
+   "zh": "服务器B"
+  }
+ ]
+}

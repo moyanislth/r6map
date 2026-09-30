@@ -1,0 +1,304 @@
+{
+ "outdoor": [
+  {
+   "en": "Ruins",
+   "zh": "废墟"
+  },
+  {
+   "en": "Roundabout",
+   "zh": "环岛"
+  },
+  {
+   "en": "Terrace",
+   "zh": "露台"
+  },
+  {
+   "en": "Crypt Entrance",
+   "zh": "地穴入口"
+  },
+  {
+   "en": "Garden",
+   "zh": "花园"
+  },
+  {
+   "en": "Driveway",
+   "zh": "车道"
+  },
+  {
+   "en": "Main Road",
+   "zh": "主路"
+  },
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Pergola",
+   "zh": "藤架"
+  },
+  {
+   "en": "Stable Yard",
+   "zh": "马厩场院"
+  },
+  {
+   "en": "Chapel",
+   "zh": "小教堂"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "Stable",
+   "zh": "马厩"
+  },
+  {
+   "en": "Side Road",
+   "zh": "侧路"
+  }
+ ],
+ "B": [
+  {
+   "en": "Crypt Tunnel",
+   "zh": "地穴隧道"
+  },
+  {
+   "en": "Crypt",
+   "zh": "地穴"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Cellar Tunnel",
+   "zh": "地窖通道"
+  },
+  {
+   "en": "Tasting",
+   "zh": "品酒室"
+  },
+  {
+   "en": "Arch",
+   "zh": "拱门"
+  },
+  {
+   "en": "Art",
+   "zh": "艺术品区"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Wine",
+   "zh": "酒窖"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Pantry Stairs",
+   "zh": "储藏间楼梯"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Astro Stairs",
+   "zh": "太空区楼梯"
+  },
+  {
+   "en": "Back Stairs",
+   "zh": "后楼梯"
+  },
+  {
+   "en": "Pantry Stairs",
+   "zh": "储藏间楼梯"
+  },
+  {
+   "en": "Greenhouse",
+   "zh": "温室"
+  },
+  {
+   "en": "Front Entrance",
+   "zh": "正门"
+  },
+  {
+   "en": "Main",
+   "zh": "主区"
+  },
+  {
+   "en": "Studio",
+   "zh": "工作室"
+  },
+  {
+   "en": "Library",
+   "zh": "图书馆"
+  },
+  {
+   "en": "Piano Hallway",
+   "zh": "钢琴走廊"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "Gallery",
+   "zh": "画廊"
+  },
+  {
+   "en": "Toilet",
+   "zh": "卫生间"
+  },
+  {
+   "en": "Living",
+   "zh": "客厅"
+  },
+  {
+   "en": "Bicycle",
+   "zh": "自行车"
+  },
+  {
+   "en": "Memorial",
+   "zh": "纪念馆"
+  },
+  {
+   "en": "Mudroom",
+   "zh": "泥靴间"
+  },
+  {
+   "en": "Living Hallway",
+   "zh": "客厅走廊"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Back Hallway",
+   "zh": "后走廊"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "China",
+   "zh": "瓷器室"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Pantry",
+   "zh": "食品储藏间"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Bedroom Roof",
+   "zh": "卧室屋顶"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Astro Stairs",
+   "zh": "太空区楼梯"
+  },
+  {
+   "en": "Veranda",
+   "zh": "游廊"
+  },
+  {
+   "en": "Ninety",
+   "zh": "九十房"
+  },
+  {
+   "en": "Ninety Corner",
+   "zh": "九十房角落"
+  },
+  {
+   "en": "Study",
+   "zh": "书房"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Aviator",
+   "zh": "飞行员房"
+  },
+  {
+   "en": "Vault",
+   "zh": "金库"
+  },
+  {
+   "en": "Landing",
+   "zh": "楼梯平台"
+  },
+  {
+   "en": "Trophy Entrance",
+   "zh": "奖杯室入口"
+  },
+  {
+   "en": "Statue",
+   "zh": "雕像"
+  },
+  {
+   "en": "Trophy",
+   "zh": "奖杯室"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Astro",
+   "zh": "太空区"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Closet",
+   "zh": "储物间"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Skylight Roof",
+   "zh": "天窗屋顶"
+  }
+ ]
+}

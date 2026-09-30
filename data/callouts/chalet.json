@@ -1,0 +1,238 @@
+{
+ "outdoor": [
+  {
+   "en": "Wood Trail",
+   "zh": "林间小径"
+  },
+  {
+   "en": "Campfire Wood",
+   "zh": "营火柴堆"
+  },
+  {
+   "en": "Campfire",
+   "zh": "营火"
+  },
+  {
+   "en": "Backyard",
+   "zh": "后院"
+  },
+  {
+   "en": "Gazebo",
+   "zh": "凉亭"
+  },
+  {
+   "en": "Cliffside Stairs",
+   "zh": "悬崖楼梯"
+  },
+  {
+   "en": "Cliffside Woods",
+   "zh": "悬崖树林"
+  },
+  {
+   "en": "Cliffside",
+   "zh": "悬崖边"
+  },
+  {
+   "en": "Back Patio",
+   "zh": "后露台"
+  },
+  {
+   "en": "Helipad Trail",
+   "zh": "直升机坪小道"
+  },
+  {
+   "en": "Helipad",
+   "zh": "直升机坪"
+  },
+  {
+   "en": "Front Patio",
+   "zh": "前露台"
+  },
+  {
+   "en": "Front Yard",
+   "zh": "前院"
+  },
+  {
+   "en": "Snowmobiles",
+   "zh": "雪地摩托"
+  }
+ ],
+ "B": [
+  {
+   "en": "Blue Stairs",
+   "zh": "蓝楼梯"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Garage Stairs",
+   "zh": "车库楼梯"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Wine",
+   "zh": "酒窖"
+  },
+  {
+   "en": "Basement Hallway",
+   "zh": "地下走廊"
+  },
+  {
+   "en": "Backyard Stairs",
+   "zh": "后院楼梯"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Car Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Car Garage Entrance",
+   "zh": "车库入口"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Library Stairs",
+   "zh": "图书馆楼梯"
+  },
+  {
+   "en": "Gaming Hallway",
+   "zh": "游戏区走廊"
+  },
+  {
+   "en": "Bar Hallway",
+   "zh": "酒吧走廊"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Stock",
+   "zh": "库房"
+  },
+  {
+   "en": "Bar",
+   "zh": "酒吧"
+  },
+  {
+   "en": "Fireplace Stairs",
+   "zh": "壁炉楼梯"
+  },
+  {
+   "en": "Fireplace",
+   "zh": "壁炉"
+  },
+  {
+   "en": "Mudroom",
+   "zh": "泥靴间"
+  },
+  {
+   "en": "Dining Hallway",
+   "zh": "餐厅走廊"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Trophy Stairs",
+   "zh": "奖杯室楼梯"
+  },
+  {
+   "en": "Main",
+   "zh": "主区"
+  },
+  {
+   "en": "Trophy",
+   "zh": "奖杯室"
+  },
+  {
+   "en": "Kitchen Hallway",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Backyard Stairs",
+   "zh": "后院楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Fireplace",
+   "zh": "壁炉"
+  },
+  {
+   "en": "Library Stairs",
+   "zh": "图书馆楼梯"
+  },
+  {
+   "en": "Library Hallway",
+   "zh": "图书馆走廊"
+  },
+  {
+   "en": "Library Entrance",
+   "zh": "图书馆入口"
+  },
+  {
+   "en": "Library",
+   "zh": "图书馆"
+  },
+  {
+   "en": "Trophy Stairs",
+   "zh": "奖杯室楼梯"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Solarium",
+   "zh": "日光浴房"
+  },
+  {
+   "en": "Piano",
+   "zh": "钢琴"
+  },
+  {
+   "en": "Mezzanine",
+   "zh": "夹层"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Library Balcony",
+   "zh": "图书馆阳台"
+  },
+  {
+   "en": "Office Balcony",
+   "zh": "办公室阳台"
+  },
+  {
+   "en": "Bathroom Balcony",
+   "zh": "浴室阳台"
+  }
+ ]
+}

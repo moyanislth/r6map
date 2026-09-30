@@ -1,0 +1,202 @@
+{
+ "outdoor": [
+  {
+   "en": "Schoolyard",
+   "zh": "操场"
+  },
+  {
+   "en": "School Roof",
+   "zh": "学校屋顶"
+  },
+  {
+   "en": "Back Alley",
+   "zh": "后巷"
+  },
+  {
+   "en": "Courtyard",
+   "zh": "庭院"
+  },
+  {
+   "en": "Rooftops",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Street",
+   "zh": "街道"
+  },
+  {
+   "en": "Market Alley",
+   "zh": "市场小巷"
+  },
+  {
+   "en": "Football",
+   "zh": "桌上足球"
+  }
+ ],
+ "B": [
+  {
+   "en": "Market",
+   "zh": "集市"
+  },
+  {
+   "en": "Tunnel",
+   "zh": "隧道"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Trash Stairs",
+   "zh": "垃圾房楼梯"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Solarium",
+   "zh": "日光浴房"
+  },
+  {
+   "en": "Pink",
+   "zh": "粉区"
+  },
+  {
+   "en": "Pink Kitchen",
+   "zh": "粉厨房"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Yellow",
+   "zh": "黄区"
+  },
+  {
+   "en": "Green",
+   "zh": "绿区"
+  },
+  {
+   "en": "Green Bathroom",
+   "zh": "绿浴室"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Blue Kitchen",
+   "zh": "蓝厨房"
+  },
+  {
+   "en": "Blue Bedroom",
+   "zh": "蓝卧室"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Mezzanine",
+   "zh": "夹层"
+  },
+  {
+   "en": "Yellow Stairs",
+   "zh": "黄楼梯"
+  },
+  {
+   "en": "Red",
+   "zh": "红区"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Storage Balcony",
+   "zh": "储藏室阳台"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Armory Balcony",
+   "zh": "军械库阳台"
+  },
+  {
+   "en": "Trash Stairs",
+   "zh": "垃圾房楼梯"
+  },
+  {
+   "en": "Servers",
+   "zh": "服务器室"
+  },
+  {
+   "en": "Hacker",
+   "zh": "黑客室"
+  },
+  {
+   "en": "Bunks",
+   "zh": "铺位区"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Roof Stairs",
+   "zh": "屋顶楼梯"
+  },
+  {
+   "en": "Solarium Roof",
+   "zh": "日光房屋顶"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Market Roof",
+   "zh": "市场屋顶"
+  },
+  {
+   "en": "Solarium Roof",
+   "zh": "日光房屋顶"
+  },
+  {
+   "en": "Red Stairs",
+   "zh": "红楼梯"
+  },
+  {
+   "en": "Trash Stairs",
+   "zh": "垃圾房楼梯"
+  },
+  {
+   "en": "Electrical",
+   "zh": "电气室"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  },
+  {
+   "en": "Market Roof",
+   "zh": "市场屋顶"
+  },
+  {
+   "en": "Solarium Roof",
+   "zh": "日光房屋顶"
+  }
+ ]
+}

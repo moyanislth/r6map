@@ -1,0 +1,218 @@
+{
+ "outdoor": [
+  {
+   "en": "West Tower",
+   "zh": "西塔"
+  },
+  {
+   "en": "Pedestrian Exit",
+   "zh": "人行出口"
+  },
+  {
+   "en": "Valley",
+   "zh": "山谷"
+  },
+  {
+   "en": "Parking Entrance",
+   "zh": "停车场入口"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "West Road",
+   "zh": "西路"
+  },
+  {
+   "en": "Vehicle Customs",
+   "zh": "车辆海关"
+  },
+  {
+   "en": "Crash",
+   "zh": "坠机点"
+  },
+  {
+   "en": "East Road",
+   "zh": "东路"
+  },
+  {
+   "en": "Pedestrian Entrance",
+   "zh": "人行入口"
+  },
+  {
+   "en": "Pedestrian Customs",
+   "zh": "人行海关"
+  },
+  {
+   "en": "Watch Tower",
+   "zh": "瞭望塔"
+  },
+  {
+   "en": "East Alley",
+   "zh": "东巷"
+  },
+  {
+   "en": "Parking Alley",
+   "zh": "停车小巷"
+  },
+  {
+   "en": "Archives Balcony",
+   "zh": "档案室阳台"
+  },
+  {
+   "en": "Bus Roof",
+   "zh": "巴士顶"
+  }
+ ],
+ "1F": [
+  {
+   "en": "East Stairs",
+   "zh": "东楼梯"
+  },
+  {
+   "en": "Exit",
+   "zh": "出口"
+  },
+  {
+   "en": "Ventilation",
+   "zh": "通风机房"
+  },
+  {
+   "en": "Supply",
+   "zh": "补给室"
+  },
+  {
+   "en": "Supply Corridor",
+   "zh": "补给走廊"
+  },
+  {
+   "en": "Detention",
+   "zh": "拘留室"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Passport",
+   "zh": "护照检查处"
+  },
+  {
+   "en": "Customs",
+   "zh": "海关"
+  },
+  {
+   "en": "Customs Desk",
+   "zh": "海关柜台"
+  },
+  {
+   "en": "Waiting",
+   "zh": "等候区"
+  },
+  {
+   "en": "Tellers",
+   "zh": "柜台"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Server",
+   "zh": "服务器室"
+  },
+  {
+   "en": "Workshop",
+   "zh": "工坊"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Bathroom Hallway",
+   "zh": "浴室走廊"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Archives",
+   "zh": "档案室"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Armory Desk",
+   "zh": "军械库前台"
+  },
+  {
+   "en": "CCTV",
+   "zh": "监控室"
+  },
+  {
+   "en": "Cafeteria",
+   "zh": "自助餐厅"
+  },
+  {
+   "en": "Red Hallway",
+   "zh": "红走廊"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "Offices Hallway",
+   "zh": "办公区走廊"
+  },
+  {
+   "en": "Offices",
+   "zh": "办公区"
+  },
+  {
+   "en": "East Stairs",
+   "zh": "东楼梯"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "North Balcony",
+   "zh": "北阳台"
+  },
+  {
+   "en": "East Balcony",
+   "zh": "东阳台"
+  },
+  {
+   "en": "West Balcony",
+   "zh": "西阳台"
+  },
+  {
+   "en": "South Balcony",
+   "zh": "南阳台"
+  },
+  {
+   "en": "Generator",
+   "zh": "发电机房"
+  },
+  {
+   "en": "Waiting Balcony",
+   "zh": "等候区阳台"
+  },
+  {
+   "en": "Sandwich",
+   "zh": "三明治区"
+  }
+ ],
+ "R": [
+  {
+   "en": "Roof",
+   "zh": "屋顶"
+  }
+ ]
+}

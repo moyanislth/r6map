@@ -1,0 +1,254 @@
+{
+ "outdoor": [
+  {
+   "en": "Garden Path",
+   "zh": "花园小径"
+  },
+  {
+   "en": "Stable Path",
+   "zh": "马厩小径"
+  },
+  {
+   "en": "Cliffside",
+   "zh": "悬崖边"
+  },
+  {
+   "en": "Courtyard Path",
+   "zh": "庭院小径"
+  },
+  {
+   "en": "Cannon",
+   "zh": "大炮"
+  },
+  {
+   "en": "Unloading",
+   "zh": "卸货区"
+  },
+  {
+   "en": "Front Entrance",
+   "zh": "正门"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Garden Path",
+   "zh": "花园小径"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Hammam",
+   "zh": "土耳其浴房"
+  },
+  {
+   "en": "Showers",
+   "zh": "淋浴间"
+  },
+  {
+   "en": "Cafeteria Hallway",
+   "zh": "自助餐厅走廊"
+  },
+  {
+   "en": "Hammam Hallway",
+   "zh": "浴房走廊"
+  },
+  {
+   "en": "Old Stairs",
+   "zh": "旧楼梯"
+  },
+  {
+   "en": "Cafeteria",
+   "zh": "自助餐厅"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Infirmary",
+   "zh": "医务室"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Changing",
+   "zh": "更衣室"
+  },
+  {
+   "en": "Dining Hallway",
+   "zh": "餐厅走廊"
+  },
+  {
+   "en": "Changing Hallway",
+   "zh": "更衣走廊"
+  },
+  {
+   "en": "Waiting",
+   "zh": "等候区"
+  },
+  {
+   "en": "Sitting",
+   "zh": "起居区"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "Music",
+   "zh": "音乐室"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Ladder",
+   "zh": "梯子"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Office Hallway",
+   "zh": "办公室走廊"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Hammam Roof",
+   "zh": "浴房屋顶"
+  },
+  {
+   "en": "Shisha",
+   "zh": "水烟馆"
+  },
+  {
+   "en": "Gaming Hallway",
+   "zh": "游戏区走廊"
+  },
+  {
+   "en": "Dormitory Hallway",
+   "zh": "宿舍走廊"
+  },
+  {
+   "en": "Bathroom Hallway",
+   "zh": "浴室走廊"
+  },
+  {
+   "en": "Dormitory",
+   "zh": "宿舍"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Briefing",
+   "zh": "简报室"
+  },
+  {
+   "en": "Courtyard Balcony",
+   "zh": "庭院阳台"
+  },
+  {
+   "en": "Portrait",
+   "zh": "肖像画"
+  },
+  {
+   "en": "Horse",
+   "zh": "马"
+  },
+  {
+   "en": "Bathroom",
+   "zh": "浴室"
+  },
+  {
+   "en": "Commander",
+   "zh": "指挥室"
+  },
+  {
+   "en": "Bedroom",
+   "zh": "卧室"
+  },
+  {
+   "en": "Fountain",
+   "zh": "喷泉"
+  },
+  {
+   "en": "Mezzanine",
+   "zh": "夹层"
+  },
+  {
+   "en": "Fountain Tower",
+   "zh": "喷泉塔"
+  },
+  {
+   "en": "Lobby Stairs",
+   "zh": "大堂楼梯"
+  },
+  {
+   "en": "Renovation Hallway",
+   "zh": "装修区走廊"
+  },
+  {
+   "en": "Renovation",
+   "zh": "装修区"
+  },
+  {
+   "en": "Old Stairs",
+   "zh": "旧楼梯"
+  }
+ ],
+ "R": [
+  {
+   "en": "Hammam Roof",
+   "zh": "浴房屋顶"
+  },
+  {
+   "en": "Old Roof",
+   "zh": "旧屋顶"
+  },
+  {
+   "en": "Old",
+   "zh": "旧区"
+  },
+  {
+   "en": "Modern Roof",
+   "zh": "新屋顶"
+  },
+  {
+   "en": "Courtyard Balcony",
+   "zh": "庭院阳台"
+  },
+  {
+   "en": "West Tower",
+   "zh": "西塔"
+  },
+  {
+   "en": "East Tower",
+   "zh": "东塔"
+  },
+  {
+   "en": "Guard Tower",
+   "zh": "岗楼"
+  }
+ ]
+}

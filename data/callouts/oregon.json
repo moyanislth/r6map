@@ -1,0 +1,314 @@
+{
+ "outdoor": [
+  {
+   "en": "Street",
+   "zh": "街道"
+  },
+  {
+   "en": "Junkyard",
+   "zh": "废品场"
+  },
+  {
+   "en": "Bus",
+   "zh": "巴士"
+  },
+  {
+   "en": "Main Entrance",
+   "zh": "正门"
+  },
+  {
+   "en": "Parking",
+   "zh": "停车场"
+  },
+  {
+   "en": "Construction",
+   "zh": "施工区"
+  },
+  {
+   "en": "Garden",
+   "zh": "花园"
+  },
+  {
+   "en": "Shooting Range",
+   "zh": "射击场"
+  }
+ ],
+ "B": [
+  {
+   "en": "Storage",
+   "zh": "储藏室"
+  },
+  {
+   "en": "Laundry Stairs",
+   "zh": "洗衣房楼梯"
+  },
+  {
+   "en": "Freezer Stairs",
+   "zh": "冷冻库楼梯"
+  },
+  {
+   "en": "Freezer",
+   "zh": "冷冻库"
+  },
+  {
+   "en": "Laundry",
+   "zh": "洗衣房"
+  },
+  {
+   "en": "Basement Corridor",
+   "zh": "地下走廊"
+  },
+  {
+   "en": "Closet",
+   "zh": "储物间"
+  },
+  {
+   "en": "Supply",
+   "zh": "补给室"
+  },
+  {
+   "en": "Blue",
+   "zh": "蓝区"
+  },
+  {
+   "en": "Bunker",
+   "zh": "地堡"
+  },
+  {
+   "en": "Pillar",
+   "zh": "柱"
+  },
+  {
+   "en": "Electric",
+   "zh": "电气室"
+  },
+  {
+   "en": "Tower Stairs",
+   "zh": "塔楼楼梯"
+  }
+ ],
+ "1F": [
+  {
+   "en": "Classroom",
+   "zh": "教室"
+  },
+  {
+   "en": "Lobby",
+   "zh": "大堂"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Shower Corridor",
+   "zh": "淋浴间走廊"
+  },
+  {
+   "en": "Security Corridor",
+   "zh": "安保走廊"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Garage",
+   "zh": "车库"
+  },
+  {
+   "en": "Small Tower",
+   "zh": "小塔楼"
+  },
+  {
+   "en": "Showers",
+   "zh": "淋浴间"
+  },
+  {
+   "en": "Security",
+   "zh": "安保室"
+  },
+  {
+   "en": "Dining",
+   "zh": "餐厅"
+  },
+  {
+   "en": "Kitchen",
+   "zh": "厨房"
+  },
+  {
+   "en": "Meeting",
+   "zh": "会议室"
+  },
+  {
+   "en": "Split",
+   "zh": "分叉口"
+  },
+  {
+   "en": "Kitchen Corridor",
+   "zh": "厨房走廊"
+  },
+  {
+   "en": "Tower",
+   "zh": "塔楼"
+  },
+  {
+   "en": "Tower Stairs",
+   "zh": "塔楼楼梯"
+  },
+  {
+   "en": "Stage",
+   "zh": "舞台"
+  },
+  {
+   "en": "Small Stairs",
+   "zh": "小楼梯"
+  }
+ ],
+ "2F": [
+  {
+   "en": "Balcony",
+   "zh": "阳台"
+  },
+  {
+   "en": "Main Stairs",
+   "zh": "主楼梯"
+  },
+  {
+   "en": "Dining Roof",
+   "zh": "餐厅屋顶"
+  },
+  {
+   "en": "White Stairs",
+   "zh": "白楼梯"
+  },
+  {
+   "en": "Walk In",
+   "zh": "步入式冷库"
+  },
+  {
+   "en": "Master",
+   "zh": "主卧"
+  },
+  {
+   "en": "Small Tower Roof",
+   "zh": "小塔屋顶"
+  },
+  {
+   "en": "Dorm",
+   "zh": "宿舍"
+  },
+  {
+   "en": "Gaming",
+   "zh": "游戏区"
+  },
+  {
+   "en": "Armory",
+   "zh": "军械库"
+  },
+  {
+   "en": "Armory Corridor",
+   "zh": "军械库走廊"
+  },
+  {
+   "en": "Small Tower",
+   "zh": "小塔楼"
+  },
+  {
+   "en": "Office",
+   "zh": "办公室"
+  },
+  {
+   "en": "Trophy",
+   "zh": "奖杯室"
+  },
+  {
+   "en": "Kids",
+   "zh": "儿童房"
+  },
+  {
+   "en": "Attic",
+   "zh": "阁楼"
+  },
+  {
+   "en": "Meeting Roof",
+   "zh": "会议室屋顶"
+  },
+  {
+   "en": "Cat Walk",
+   "zh": "猫道"
+  },
+  {
+   "en": "Tower Stairs",
+   "zh": "塔楼楼梯"
+  },
+  {
+   "en": "Middle",
+   "zh": "中部"
+  },
+  {
+   "en": "Small Stairs",
+   "zh": "小楼梯"
+  }
+ ],
+ "3F": [
+  {
+   "en": "Dorms Roof",
+   "zh": "宿舍屋顶"
+  },
+  {
+   "en": "Dining Roof",
+   "zh": "餐厅屋顶"
+  },
+  {
+   "en": "Small Tower Roof",
+   "zh": "小塔屋顶"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Meeting Roof",
+   "zh": "会议室屋顶"
+  },
+  {
+   "en": "Attic Roof",
+   "zh": "阁楼屋顶"
+  },
+  {
+   "en": "Tower Roof",
+   "zh": "塔楼屋顶"
+  },
+  {
+   "en": "Cat Walk",
+   "zh": "猫道"
+  }
+ ],
+ "R": [
+  {
+   "en": "Dorms Roof",
+   "zh": "宿舍屋顶"
+  },
+  {
+   "en": "Dining Roof",
+   "zh": "餐厅屋顶"
+  },
+  {
+   "en": "Small Tower Roof",
+   "zh": "小塔屋顶"
+  },
+  {
+   "en": "Garage Roof",
+   "zh": "车库屋顶"
+  },
+  {
+   "en": "Meeting Roof",
+   "zh": "会议室屋顶"
+  },
+  {
+   "en": "Tower Roof",
+   "zh": "塔楼屋顶"
+  }
+ ]
+}

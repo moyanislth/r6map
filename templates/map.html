@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+{% block bodymap %}{{ m.id }}{% endblock %}
+{% block title %}{{ m.name_zh }} · R6 地图报点{% endblock %}
+{% block topbar %}
+<a class="back" href="{{ base }}index.html">←</a>
+<h1 class="map-title"><span class="t-zh">{{ m.name_zh }}</span><span class="t-en">{{ m.name_en }}</span></h1>
+<button id="exportBtn" class="tool-btn" type="button">
+  <span class="t-zh">{{ ui.pin_export.zh }}</span><span class="t-en">{{ ui.pin_export.en }}</span>
+</button>
+{% endblock %}
+{% block main %}
+<nav class="floortabs" id="floortabs">
+  {% for f in m.floors %}
+  <button type="button" data-floor="{{ f.key }}" {% if loop.first %}class="active"{% endif %}>
+    <span class="t-zh">{{ f.zh }}</span><span class="t-en">{{ f.en }}</span>
+  </button>
+  {% endfor %}
+  {% if m.outdoor %}
+  <button type="button" data-floor="outdoor">
+    <span class="t-zh">{{ ui.outdoor.zh }}</span><span class="t-en">{{ ui.outdoor.en }}</span>
+  </button>
+  {% endif %}
+</nav>
+
+{% macro floorpane(key, imgkey, alt, heading, co, first) %}
+<section class="floorpane {% if first %}active{% endif %}" data-floor="{{ key }}">
+  <div class="imgwrap">
+    <div class="imgframe">
+      <div class="imgstage">
+        <img src="{{ base }}img/{{ m.id }}/{{ imgkey }}.jpg" alt="{{ alt }}" draggable="false">
+        <div class="pinlayer" data-floor="{{ key }}"></div>
+      </div>
+    </div>
+    <button type="button" class="zoom-reset" hidden>⤢</button>
+    <span class="zoomhint"><span class="t-zh">{{ ui.click_hint.zh }}</span><span class="t-en">{{ ui.click_hint.en }}</span></span>
+    <span class="coordreadout" hidden></span>
+  </div>
+  <aside class="callouts">
+    {% if co %}
+    <h2><span class="t-zh">{{ heading.zh }}</span><span class="t-en">{{ heading.en }}</span> <i>{{ co|length }}</i></h2>
+    <ul>
+      {% for c in co %}
+      <li><b class="t-zh">{{ c.zh }}</b><b class="t-en">{{ c.en }}</b><i class="t-en">{{ c.en }}</i></li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <div class="empty">
+      <p><span class="t-zh">{{ ui.floor_empty.zh }}</span><span class="t-en">{{ ui.floor_empty.en }}</span></p>
+      <p class="sub"><span class="t-zh">{{ ui.contribute.zh }}</span><span class="t-en">{{ ui.contribute.en }}</span></p>
+    </div>
+    {% endif %}
+  </aside>
+</section>
+{% endmacro %}
+
+{% for f in m.floors %}
+{{ floorpane(f.key, f.key, m.name_en ~ ' ' ~ f.en, ui.callouts, m.callouts_by_floor[f.key], loop.first) }}
+{% endfor %}
+
+{% if m.outdoor %}
+{{ floorpane('outdoor', m.floors[0].key, m.name_en ~ ' ' ~ ui.outdoor.en, ui.outdoor_callouts, m.callouts_by_floor['outdoor'], false) }}
+{% endif %}
+
+{% if not m.has_callouts %}
+<div class="blank-notice"><p><span class="t-zh">{{ ui.blank_notice.zh }}</span><span class="t-en">{{ ui.blank_notice.en }}</span></p></div>
+{% endif %}
+
+<div id="pinExport" class="pin-export" hidden>
+  <div class="pin-export-head">
+    <strong><span class="t-zh">{{ ui.pin_export.zh }}</span><span class="t-en">{{ ui.pin_export.en }}</span></strong>
+    <span>
+      <button type="button" id="pinCopy"><span class="t-zh">{{ ui.pin_copy.zh }}</span><span class="t-en">{{ ui.pin_copy.en }}</span></button>
+      <button type="button" id="pinClose"><span class="t-zh">{{ ui.pin_close.zh }}</span><span class="t-en">{{ ui.pin_close.en }}</span></button>
+    </span>
+  </div>
+  <textarea id="pinJson" rows="10" spellcheck="false" readonly></textarea>
+</div>
+<script id="uiTerms" type="application/json">{{ ui | tojson }}</script>
+{% endblock %}
