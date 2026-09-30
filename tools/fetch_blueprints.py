@@ -12,6 +12,7 @@
 """
 import hashlib
 import json
+import re
 import shutil
 import sys
 import time
@@ -69,7 +70,6 @@ def extract(zp: Path, mid: str, floors: list[str], img_map: dict | None) -> list
             and Path(n).suffix.lower() in (".jpg", ".jpeg", ".png")
         )
         # zip 内子目录排序可能打乱顺序,按文件名末尾数字稳定排序
-        import re
         def sort_key(n):
             m = re.search(r"(\d+)\.[a-z]+$", n.lower())
             return (int(m.group(1)) if m else 999, n)
@@ -123,7 +123,7 @@ def main():
         print(f"  {len(files)} 张楼层图入库")
     if not check_only:
         SOURCES.write_text(json.dumps(src, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n完成 {ok}/27 张图")
+    print(f"\n完成 {ok}/{len(cfg['maps'])} 张图")
 
 
 if __name__ == "__main__":

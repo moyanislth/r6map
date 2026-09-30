@@ -130,17 +130,12 @@ def main():
 
             score, M, inliers = align(off_g, r6_g)
             fx = fixups.get(mid, {}).get(key)
-            fixed = False
-            if isinstance(fx, dict) and "a" in fx:
-                a, b, tx, ty = fx["a"], fx["b"], fx["tx"], fx["ty"]
-                M = np.float32([[a, -b, tx], [b, a, ty]])
-                score, inliers, fixed = 1.0, 999, True
-            report[tag] = {"score": round(score, 3), "inliers": inliers, "fixed": fixed}
+            report[tag] = {"score": round(score, 3), "inliers": inliers}
             # 高内点数时比例阈值放宽(特征多导致比例被稀释,绝对内点数更可信)
             ok = score >= MIN_SCORE or (inliers >= 50 and score >= 0.30)
             if isinstance(fx, dict) and fx.get("force"):
                 ok = True  # 人工复核用:强制采用本次计算的 M
-            if M is None or (not ok and not fixed):
+            if M is None or not ok:
                 report[tag]["note"] = "LOW CONFIDENCE - 坐标未写入"
                 continue
 

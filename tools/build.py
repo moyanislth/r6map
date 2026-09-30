@@ -16,8 +16,8 @@ from pathlib import Path
 from PIL import Image
 from jinja2 import Environment, FileSystemLoader
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+from _common import DATA, ROOT, pin_id
+
 SITE = ROOT / "site"
 TPL = ROOT / "templates"
 STATIC = ROOT / "static"
@@ -29,11 +29,6 @@ THUMB_W = 560
 def fail(msg: str):
     print(f"!! {msg}")
     sys.exit(1)
-
-
-def pin_id(mid: str, floor: str, en: str) -> str:
-    h = hashlib.sha1(f"{mid}|{floor}|{en}".encode("utf-8")).hexdigest()[:10]
-    return f"{mid}.{floor}.{h}"
 
 
 def fix_ids(cfg: dict, callouts: dict):

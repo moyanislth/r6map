@@ -11,15 +11,15 @@
 - 生成稳定 id;坐标由 tools/align_coords.py 对齐后写入
 用法: python tools/import_r6calls.py [map ...]     # 缺省处理全部地图
 """
-import hashlib
 import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
+from _common import DATA, ROOT, pin_id
+
 SRC = ROOT / ".cache" / "map-data.json"
-OUT = ROOT / "data" / "callouts"
-FLOORS = ROOT / "data" / "floors.json"
+OUT = DATA / "callouts"
+FLOORS = DATA / "floors.json"
 
 ID_MAP = {
     "bank": "bank", "border": "border", "chalet": "chalet", "club": "clubhouse",
@@ -33,11 +33,6 @@ FLOOR_NAME_MAP = {
     "Sub-Basement": "subB", "Basement": "B", "1st Floor": "1F", "2nd Floor": "2F",
     "3rd Floor": "3F", "4th Floor": "4F",
 }
-
-
-def pin_id(mid: str, floor: str, en: str) -> str:
-    h = hashlib.sha1(f"{mid}|{floor}|{en}".encode("utf-8")).hexdigest()[:10]
-    return f"{mid}.{floor}.{h}"
 
 
 def main():

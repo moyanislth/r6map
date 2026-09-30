@@ -19,8 +19,7 @@ import json
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-DATA = ROOT / "data"
+from _common import DATA, ROOT
 
 
 def fail(msg: str):
