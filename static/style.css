@@ -138,7 +138,8 @@ footer a { color: var(--dim); text-decoration: underline; }
 }
 .imgstage {
   transform-origin: 0 0;
-  will-change: transform;
+  /* 不常驻 will-change:永久提升合成层会让放大后的文字/标点停留在低倍率光栅上变糊。
+     由 app.js 在缩放/平移交互期间临时开启,静止后关闭以触发重新光栅化。 */
   position: absolute;
   inset: 0;
 }

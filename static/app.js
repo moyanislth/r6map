@@ -101,6 +101,14 @@
     wrap._stage = wrap.querySelector(".imgstage");
     wrap._s = 1; wrap._tx = 0; wrap._ty = 0;
 
+    // 交互期间提升合成层保证流畅;静止后关闭,促使浏览器按当前倍率重新光栅化(消除放大后的模糊)
+    var settleTimer = null;
+    function interacting() {
+      wrap._stage.style.willChange = "transform";
+      if (settleTimer) clearTimeout(settleTimer);
+      settleTimer = setTimeout(function () { wrap._stage.style.willChange = "auto"; }, 180);
+    }
+
     wrap.addEventListener("wheel", function (e) {
       e.preventDefault();
       var rect = wrap.getBoundingClientRect();
@@ -112,6 +120,7 @@
       wrap._ty = my - (my - wrap._ty) * (ns / wrap._s);
       wrap._s = ns;
       if (wrap._s === 1) { wrap._tx = 0; wrap._ty = 0; }
+      interacting();
       applyStage(wrap);
     }, { passive: false });
 
@@ -125,6 +134,7 @@
       if (wrap._s <= 1.001) return; // 仅放大后拖拽平移
       panning = true; moved = false;
       sx = e.clientX - wrap._tx; sy = e.clientY - wrap._ty;
+      interacting();
       try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
     });
     wrap.addEventListener("pointermove", function (e) {
@@ -132,6 +142,7 @@
       var nx = e.clientX - sx, ny = e.clientY - sy;
       if (Math.abs(nx - wrap._tx) + Math.abs(ny - wrap._ty) > 3) moved = true;
       wrap._tx = nx; wrap._ty = ny;
+      interacting();
       applyStage(wrap);
     });
     wrap.addEventListener("pointerup", function () { panning = false; });
