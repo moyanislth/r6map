@@ -1,248 +1,340 @@
 {
- "outdoor": [
-  {
-   "en": "Back Alley",
-   "zh": "后巷"
-  },
-  {
-   "en": "Garage",
-   "zh": "车库"
-  },
-  {
-   "en": "Parking",
-   "zh": "停车场"
-  },
-  {
-   "en": "West Street",
-   "zh": "西街"
-  },
-  {
-   "en": "Main Street",
-   "zh": "主街"
-  },
-  {
-   "en": "East Street",
-   "zh": "东街"
-  },
-  {
-   "en": "Terrace",
-   "zh": "露台"
-  }
- ],
  "1F": [
   {
    "en": "VIP Corridor",
-   "zh": "贵宾走廊"
+   "zh": "贵宾走廊",
+   "x": 0.6913,
+   "y": 0.5998,
+   "id": "kafe.1F.6c4d1f0b3a"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.6978,
+   "y": 0.6586,
+   "id": "kafe.1F.85bbb53fc9"
   },
   {
    "en": "Bakery",
-   "zh": "面包房"
+   "zh": "面包房",
+   "x": 0.5843,
+   "y": 0.5813,
+   "id": "kafe.1F.605c9918d3"
   },
   {
    "en": "Prep",
-   "zh": "备餐区"
+   "zh": "备餐区",
+   "x": 0.6017,
+   "y": 0.6327,
+   "id": "kafe.1F.ebfbe9095f"
   },
   {
    "en": "Cooking",
-   "zh": "烹饪区"
+   "zh": "烹饪区",
+   "x": 0.6207,
+   "y": 0.5836,
+   "id": "kafe.1F.d35ae5c99a"
   },
   {
    "en": "Service",
-   "zh": "服务区"
+   "zh": "服务区",
+   "x": 0.6595,
+   "y": 0.5804,
+   "id": "kafe.1F.9bb2b6e261"
   },
   {
    "en": "Freezer",
-   "zh": "冷冻库"
+   "zh": "冷冻库",
+   "x": 0.6707,
+   "y": 0.6276,
+   "id": "kafe.1F.f0aa8b60ce"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.7038,
+   "y": 0.6322,
+   "id": "kafe.1F.a5cb6d7116"
   },
   {
    "en": "VIP",
-   "zh": "贵宾区"
+   "zh": "贵宾区",
+   "x": 0.7036,
+   "y": 0.5836,
+   "id": "kafe.1F.cf4ccaa481"
   },
   {
    "en": "Bottom Bar",
-   "zh": "下层酒吧"
+   "zh": "下层酒吧",
+   "x": 0.6713,
+   "y": 0.5336,
+   "id": "kafe.1F.abb12eb9ab"
   },
   {
    "en": "Restaurant",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.7038,
+   "y": 0.5137,
+   "id": "kafe.1F.1340ca5cd1"
   },
   {
    "en": "Small Bakery",
-   "zh": "小面包房"
+   "zh": "小面包房",
+   "x": 0.5858,
+   "y": 0.5239,
+   "id": "kafe.1F.01ccbdeeb2"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6114,
+   "y": 0.4929,
+   "id": "kafe.1F.e1b2653a3e"
   },
   {
    "en": "Coat",
-   "zh": "衣帽间"
+   "zh": "衣帽间",
+   "x": 0.6293,
+   "y": 0.498,
+   "id": "kafe.1F.3a9fe3a1d4"
   },
   {
    "en": "Reception",
-   "zh": "接待处"
+   "zh": "接待处",
+   "x": 0.6549,
+   "y": 0.5026,
+   "id": "kafe.1F.72631f868f"
   },
   {
    "en": "Wood Stairs",
-   "zh": "木楼梯"
+   "zh": "木楼梯",
+   "x": 0.683,
+   "y": 0.4896,
+   "id": "kafe.1F.63c74c17d8"
   },
   {
    "en": "Bakery Corridor",
-   "zh": "面包房走廊"
+   "zh": "面包房走廊",
+   "x": 0.6267,
+   "y": 0.535,
+   "id": "kafe.1F.e6af1137ad"
   }
  ],
  "2F": [
   {
    "en": "Bakery Roof",
-   "zh": "面包房屋顶"
+   "zh": "面包房屋顶",
+   "x": 0.5822,
+   "y": 0.6137,
+   "id": "kafe.2F.c7d71dd972"
   },
   {
    "en": "Train",
-   "zh": "火车"
+   "zh": "火车",
+   "x": 0.6244,
+   "y": 0.6091,
+   "id": "kafe.2F.901e4ff194"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.6603,
+   "y": 0.6234,
+   "id": "kafe.2F.f568e71db5"
   },
   {
    "en": "Reading Corridor",
-   "zh": "阅览室走廊"
+   "zh": "阅览室走廊",
+   "x": 0.671,
+   "y": 0.5975,
+   "id": "kafe.2F.941ec531ad"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.7046,
+   "y": 0.6396,
+   "id": "kafe.2F.4e90c13d90"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.7064,
+   "y": 0.5993,
+   "id": "kafe.2F.6bde79695a"
   },
   {
    "en": "Reading",
-   "zh": "阅览室"
+   "zh": "阅览室",
+   "x": 0.7035,
+   "y": 0.5493,
+   "id": "kafe.2F.d1bb3ceb58"
   },
   {
    "en": "Mining",
-   "zh": "采矿点"
+   "zh": "采矿点",
+   "x": 0.6205,
+   "y": 0.5544,
+   "id": "kafe.2F.5761a033ec"
   },
   {
    "en": "Mining Corridor",
-   "zh": "采矿走廊"
+   "zh": "采矿走廊",
+   "x": 0.652,
+   "y": 0.5577,
+   "id": "kafe.2F.89a40a96a0"
   },
   {
    "en": "Pillar",
-   "zh": "柱"
+   "zh": "柱",
+   "x": 0.6726,
+   "y": 0.5271,
+   "id": "kafe.2F.141baf8013"
   },
   {
    "en": "Red Corridor",
-   "zh": "红走廊"
+   "zh": "红走廊",
+   "x": 0.6236,
+   "y": 0.5243,
+   "id": "kafe.2F.f43d69e38b"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6119,
+   "y": 0.4882,
+   "id": "kafe.2F.4d0e249f10"
   },
   {
    "en": "Fireplace",
-   "zh": "壁炉"
+   "zh": "壁炉",
+   "x": 0.6421,
+   "y": 0.6234,
+   "id": "kafe.2F.f16ad7182c"
   },
   {
    "en": "Wood Stairs",
-   "zh": "木楼梯"
+   "zh": "木楼梯",
+   "x": 0.6788,
+   "y": 0.4831,
+   "id": "kafe.2F.5090b49e6e"
   },
   {
    "en": "Main",
-   "zh": "主区"
+   "zh": "主区",
+   "x": 0.6713,
+   "y": 0.4993,
+   "id": "kafe.2F.1f820f04ed"
   },
   {
    "en": "Terrace Entrance",
-   "zh": "露台入口"
+   "zh": "露台入口",
+   "id": "kafe.2F.ebcb8fd34f"
   }
  ],
  "3F": [
   {
    "en": "Bakery Roof",
-   "zh": "面包房屋顶"
+   "zh": "面包房屋顶",
+   "x": 0.5822,
+   "y": 0.6137,
+   "id": "kafe.3F.e96649b06b"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "x": 0.6257,
+   "y": 0.598,
+   "id": "kafe.3F.69f94281bc"
   },
   {
    "en": "White Corridor",
-   "zh": "白走廊"
+   "zh": "白走廊",
+   "x": 0.6786,
+   "y": 0.642,
+   "id": "kafe.3F.2476327b25"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.7077,
+   "y": 0.6327,
+   "id": "kafe.3F.a3e8ae5952"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.6679,
+   "y": 0.6142,
+   "id": "kafe.3F.45c29c28b4"
   },
   {
    "en": "Bar Freezer",
-   "zh": "酒吧冷库"
+   "zh": "酒吧冷库",
+   "id": "kafe.3F.e5e1a3f214"
   },
   {
    "en": "Cocktail Entrance",
-   "zh": "鸡尾酒吧入口"
+   "zh": "鸡尾酒吧入口",
+   "x": 0.6986,
+   "y": 0.6007,
+   "id": "kafe.3F.3c9334800a"
   },
   {
    "en": "Cocktail",
-   "zh": "鸡尾酒吧"
+   "zh": "鸡尾酒吧",
+   "x": 0.7106,
+   "y": 0.5586,
+   "id": "kafe.3F.33d3068c5d"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.6754,
+   "y": 0.5859,
+   "id": "kafe.3F.4c22357258"
   },
   {
    "en": "Cigar",
-   "zh": "雪茄房"
+   "zh": "雪茄房",
+   "x": 0.6346,
+   "y": 0.5512,
+   "id": "kafe.3F.1c218dbf5f"
   },
   {
    "en": "Bar",
-   "zh": "酒吧"
+   "zh": "酒吧",
+   "x": 0.6747,
+   "y": 0.5563,
+   "id": "kafe.3F.a357ca5180"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6137,
+   "y": 0.4882,
+   "id": "kafe.3F.1c9a6c93d8"
   },
   {
    "en": "Cigar Balcony",
-   "zh": "雪茄阳台"
+   "zh": "雪茄阳台",
+   "x": 0.645,
+   "y": 0.4781,
+   "id": "kafe.3F.f0cf9c886f"
   },
   {
    "en": "Cocktail Balcony",
-   "zh": "鸡尾酒阳台"
+   "zh": "鸡尾酒阳台",
+   "x": 0.7098,
+   "y": 0.491,
+   "id": "kafe.3F.37b04bb5f0"
   },
   {
    "en": "Wood Stairs",
-   "zh": "木楼梯"
-  }
- ],
- "R": [
-  {
-   "en": "Bakery Roof",
-   "zh": "面包房屋顶"
-  },
-  {
-   "en": "Roof",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Red Hatch",
-   "zh": "红舱口"
-  },
-  {
-   "en": "New Hatch",
-   "zh": "新舱口"
+   "zh": "木楼梯",
+   "x": 0.6788,
+   "y": 0.485,
+   "id": "kafe.3F.729942a801"
   }
  ]
 }

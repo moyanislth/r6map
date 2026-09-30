@@ -1,208 +1,273 @@
 {
- "outdoor": [
-  {
-   "en": "APC",
-   "zh": "装甲车"
-  },
-  {
-   "en": "Side Street",
-   "zh": "侧街"
-  },
-  {
-   "en": "Garage Front",
-   "zh": "车库前区"
-  },
-  {
-   "en": "Garage Side",
-   "zh": "车库侧面"
-  },
-  {
-   "en": "Patio",
-   "zh": "露台"
-  },
-  {
-   "en": "Depot Stairs",
-   "zh": "仓库楼梯"
-  },
-  {
-   "en": "Treehouse Alley",
-   "zh": "树屋小巷"
-  },
-  {
-   "en": "Front Yard",
-   "zh": "前院"
-  },
-  {
-   "en": "Treehouse",
-   "zh": "树屋"
-  }
- ],
  "B": [
   {
    "en": "Kitchen Stairs",
-   "zh": "厨房楼梯"
+   "zh": "厨房楼梯",
+   "x": 0.3418,
+   "y": 0.1494,
+   "id": "house.B.159f615cd6"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.3025,
+   "y": 0.1836,
+   "id": "house.B.58d2885f65"
   },
   {
    "en": "Depot",
-   "zh": "仓库"
+   "zh": "仓库",
+   "x": 0.3184,
+   "y": 0.0855,
+   "id": "house.B.2c434fd196"
   },
   {
    "en": "Gym",
-   "zh": "健身房"
+   "zh": "健身房",
+   "x": 0.3249,
+   "y": 0.1114,
+   "id": "house.B.f9466171cb"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.3405,
+   "y": 0.191,
+   "id": "house.B.26246ff509"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.3775,
+   "y": 0.1559,
+   "id": "house.B.0d06ff6b3b"
   },
   {
    "en": "Garage Entrance",
-   "zh": "车库入口"
+   "zh": "车库入口",
+   "id": "house.B.03f014cbef"
   }
  ],
  "1F": [
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.4426,
+   "y": 0.3545,
+   "id": "house.1F.8a9c372635"
   },
   {
    "en": "Kitchen Stairs",
-   "zh": "厨房楼梯"
+   "zh": "厨房楼梯",
+   "x": 0.4114,
+   "y": 0.2364,
+   "id": "house.1F.194b4a6a44"
   },
   {
    "en": "Lobby Stairs",
-   "zh": "大堂楼梯"
+   "zh": "大堂楼梯",
+   "x": 0.4286,
+   "y": 0.1952,
+   "id": "house.1F.7ec36915a9"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.3692,
+   "y": 0.254,
+   "id": "house.1F.2ca2d0e620"
   },
   {
    "en": "Front Balcony",
-   "zh": "前阳台"
+   "zh": "前阳台",
+   "x": 0.4361,
+   "y": 0.1734,
+   "id": "house.1F.da35b0c5b8"
   },
   {
    "en": "Porch",
-   "zh": "门廊"
+   "zh": "门廊",
+   "x": 0.3937,
+   "y": 0.373,
+   "id": "house.1F.892bb7d0d0"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.3843,
+   "y": 0.1934,
+   "id": "house.1F.3793e661e8"
   },
   {
    "en": "TV Entrance",
-   "zh": "电视房入口"
+   "zh": "电视房入口",
+   "x": 0.4325,
+   "y": 0.3725,
+   "id": "house.1F.302db6b50c"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.42,
+   "y": 0.2109,
+   "id": "house.1F.bc74af6ccb"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.4205,
+   "y": 0.2619,
+   "id": "house.1F.98bcfae26b"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.4543,
+   "y": 0.2086,
+   "id": "house.1F.738631e305"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.4543,
+   "y": 0.2591,
+   "id": "house.1F.50e54aa035"
   },
   {
    "en": "Connector",
-   "zh": "连接走廊"
+   "zh": "连接走廊",
+   "x": 0.4507,
+   "y": 0.3133,
+   "id": "house.1F.6ad3ab2c07"
   },
   {
    "en": "TV",
-   "zh": "电视房"
+   "zh": "电视房",
+   "x": 0.4231,
+   "y": 0.3225,
+   "id": "house.1F.f15ef7a51a"
   },
   {
    "en": "Music",
-   "zh": "音乐室"
+   "zh": "音乐室",
+   "x": 0.3845,
+   "y": 0.3119,
+   "id": "house.1F.dbf35575b3"
   }
  ],
  "2F": [
   {
    "en": "Front Balcony",
-   "zh": "前阳台"
+   "zh": "前阳台",
+   "x": 0.4332,
+   "y": 0.1531,
+   "id": "house.2F.161a8fbc2f"
   },
   {
    "en": "Porch",
-   "zh": "门廊"
+   "zh": "门廊",
+   "x": 0.4046,
+   "y": 0.3767,
+   "id": "house.2F.d5114332ab"
   },
   {
    "en": "Porch Top",
-   "zh": "门廊顶"
+   "zh": "门廊顶",
+   "x": 0.4642,
+   "y": 0.1744,
+   "id": "house.2F.f341d6a215"
   },
   {
    "en": "Reading Balcony",
-   "zh": "阅览室阳台"
+   "zh": "阅览室阳台",
+   "id": "house.2F.d15196b5d3"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.4416,
+   "y": 0.3563,
+   "id": "house.2F.838ddc3dc7"
   },
   {
    "en": "Lobby Stairs",
-   "zh": "大堂楼梯"
+   "zh": "大堂楼梯",
+   "x": 0.4286,
+   "y": 0.1943,
+   "id": "house.2F.b4bdaf869f"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.3689,
+   "y": 0.254,
+   "id": "house.2F.0eb52de86f"
   },
   {
    "en": "Pink",
-   "zh": "粉区"
+   "zh": "粉区",
+   "x": 0.39,
+   "y": 0.1841,
+   "id": "house.2F.00b70dff6f"
   },
   {
    "en": "Pink Dressing",
-   "zh": "粉化妆间"
+   "zh": "粉化妆间",
+   "id": "house.2F.72eafc92ee"
   },
   {
    "en": "Car",
-   "zh": "汽车"
+   "zh": "汽车",
+   "x": 0.3898,
+   "y": 0.2859,
+   "id": "house.2F.577a6962a5"
   },
   {
    "en": "Play",
-   "zh": "游乐区"
+   "zh": "游乐区",
+   "x": 0.3879,
+   "y": 0.3382,
+   "id": "house.2F.7c9ebf9902"
   },
   {
    "en": "Top Hallway",
-   "zh": "上层走廊"
+   "zh": "上层走廊",
+   "x": 0.4098,
+   "y": 0.2503,
+   "id": "house.2F.d11ee817e9"
   },
   {
    "en": "Master Dressing",
-   "zh": "主卧化妆间"
+   "zh": "主卧化妆间",
+   "id": "house.2F.0b9fdd1d0f"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.4465,
+   "y": 0.2665,
+   "id": "house.2F.b0f8169a69"
   },
   {
    "en": "Reading",
-   "zh": "阅览室"
+   "zh": "阅览室",
+   "x": 0.4249,
+   "y": 0.3234,
+   "id": "house.2F.aacd311da9"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.4536,
+   "y": 0.2207,
+   "id": "house.2F.acee15624a"
   },
   {
    "en": "Bathroom Hallway",
-   "zh": "浴室走廊"
-  }
- ],
- "R": [
-  {
-   "en": "Rooftop",
-   "zh": "屋顶"
+   "zh": "浴室走廊",
+   "x": 0.4319,
+   "y": 0.1748,
+   "id": "house.2F.5bdb1ace17"
   }
  ]
 }

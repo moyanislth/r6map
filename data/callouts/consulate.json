@@ -1,256 +1,223 @@
 {
- "outdoor": [
-  {
-   "en": "Garage Way",
-   "zh": "车库通道"
-  },
-  {
-   "en": "Courtyard",
-   "zh": "庭院"
-  },
-  {
-   "en": "Back Courtyard",
-   "zh": "后院"
-  },
-  {
-   "en": "Side Entrance",
-   "zh": "侧门"
-  },
-  {
-   "en": "Dumpster",
-   "zh": "垃圾箱"
-  },
-  {
-   "en": "Parking",
-   "zh": "停车场"
-  },
-  {
-   "en": "Gardens",
-   "zh": "花园"
-  },
-  {
-   "en": "Fountain",
-   "zh": "喷泉"
-  },
-  {
-   "en": "Yellow Entrance",
-   "zh": "黄入口"
-  },
-  {
-   "en": "Garage Roof",
-   "zh": "车库屋顶"
-  },
-  {
-   "en": "Memorial",
-   "zh": "纪念馆"
-  },
-  {
-   "en": "Police",
-   "zh": "警察岗"
-  },
-  {
-   "en": "Barricade",
-   "zh": "路障"
-  },
-  {
-   "en": "West Front Yard",
-   "zh": "西前院"
-  },
-  {
-   "en": "East Front Yard",
-   "zh": "东前院"
-  },
-  {
-   "en": "Front Alley",
-   "zh": "前巷"
-  }
- ],
  "B": [
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "id": "consulate.B.04623486f0"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "id": "consulate.B.2c4da77071"
   },
   {
    "en": "Garage Corridor",
-   "zh": "车库走廊"
+   "zh": "车库走廊",
+   "id": "consulate.B.40e0a0b6f0"
   },
   {
    "en": "Security",
-   "zh": "安保室"
+   "zh": "安保室",
+   "id": "consulate.B.55ac10d35d"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "id": "consulate.B.f266162b08"
   },
   {
    "en": "Spiral",
-   "zh": "旋转楼梯"
+   "zh": "旋转楼梯",
+   "id": "consulate.B.80292c1865"
   },
   {
    "en": "Locker",
-   "zh": "储物柜"
+   "zh": "储物柜",
+   "id": "consulate.B.eb7d8277e2"
   },
   {
    "en": "Visa Stairs",
-   "zh": "签证处楼梯"
+   "zh": "签证处楼梯",
+   "id": "consulate.B.b0d05b760b"
   },
   {
    "en": "Electric",
-   "zh": "电气室"
+   "zh": "电气室",
+   "id": "consulate.B.145d76f6ba"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "id": "consulate.B.f9e165e139"
   },
   {
    "en": "Archives",
-   "zh": "档案室"
+   "zh": "档案室",
+   "id": "consulate.B.317314bc5b"
   },
   {
    "en": "Archives Corridor",
-   "zh": "档案室走廊"
+   "zh": "档案室走廊",
+   "id": "consulate.B.1e3814ec72"
   },
   {
    "en": "Pillar",
-   "zh": "柱"
+   "zh": "柱",
+   "id": "consulate.B.35dde36e60"
   },
   {
    "en": "White Truck",
-   "zh": "白卡车"
+   "zh": "白卡车",
+   "id": "consulate.B.a34b57e2ab"
   },
   {
    "en": "Pipes",
-   "zh": "管道区"
+   "zh": "管道区",
+   "id": "consulate.B.680b5662db"
   }
  ],
  "1F": [
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "id": "consulate.1F.20903048a7"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "id": "consulate.1F.76f4c843a5"
   },
   {
    "en": "West Corridor",
-   "zh": "西走廊"
+   "zh": "西走廊",
+   "id": "consulate.1F.00dd5408b3"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "id": "consulate.1F.5a8773becb"
   },
   {
    "en": "Antechamber",
-   "zh": "前厅"
+   "zh": "前厅",
+   "id": "consulate.1F.a0991dd001"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "id": "consulate.1F.2799acbeab"
   },
   {
    "en": "East Corridor",
-   "zh": "东走廊"
+   "zh": "东走廊",
+   "id": "consulate.1F.aa55ec3fd1"
   },
   {
    "en": "Tellers",
-   "zh": "柜台"
+   "zh": "柜台",
+   "id": "consulate.1F.168cdb7ed3"
   },
   {
    "en": "Visa Stairs",
-   "zh": "签证处楼梯"
+   "zh": "签证处楼梯",
+   "id": "consulate.1F.116e30f86b"
   },
   {
    "en": "Visa",
-   "zh": "签证处"
+   "zh": "签证处",
+   "id": "consulate.1F.6106755b7b"
   },
   {
    "en": "Spiral",
-   "zh": "旋转楼梯"
+   "zh": "旋转楼梯",
+   "id": "consulate.1F.7d5104adcd"
   },
   {
    "en": "Visa Entrance",
-   "zh": "签证处入口"
+   "zh": "签证处入口",
+   "id": "consulate.1F.7738b5d49f"
   },
   {
    "en": "Front Door",
-   "zh": "前门"
+   "zh": "前门",
+   "id": "consulate.1F.7dae18d69a"
   }
  ],
  "2F": [
   {
    "en": "Balcony",
-   "zh": "阳台"
+   "zh": "阳台",
+   "id": "consulate.2F.00807b9bdd"
   },
   {
    "en": "Visa Stairs",
-   "zh": "签证处楼梯"
+   "zh": "签证处楼梯",
+   "id": "consulate.2F.c8dc45b90b"
   },
   {
    "en": "Copy",
-   "zh": "复印室"
+   "zh": "复印室",
+   "id": "consulate.2F.4049c84d22"
   },
   {
    "en": "Cabinet",
-   "zh": "橱柜"
+   "zh": "橱柜",
+   "id": "consulate.2F.a09f00d93d"
   },
   {
    "en": "Admin",
-   "zh": "行政室"
+   "zh": "行政室",
+   "id": "consulate.2F.910da1b944"
   },
   {
    "en": "Spiral",
-   "zh": "旋转楼梯"
+   "zh": "旋转楼梯",
+   "id": "consulate.2F.c3325ea148"
   },
   {
    "en": "Break",
-   "zh": "休息区"
+   "zh": "休息区",
+   "id": "consulate.2F.1ffad9a2ac"
   },
   {
    "en": "Front Office",
-   "zh": "前厅办公室"
+   "zh": "前厅办公室",
+   "id": "consulate.2F.cb120790af"
   },
   {
    "en": "Meeting",
-   "zh": "会议室"
+   "zh": "会议室",
+   "id": "consulate.2F.657e3a1941"
   },
   {
    "en": "Long Desk",
-   "zh": "长桌区"
+   "zh": "长桌区",
+   "id": "consulate.2F.a56a18c174"
   },
   {
    "en": "Flag",
-   "zh": "旗帜"
+   "zh": "旗帜",
+   "id": "consulate.2F.b4b182d2f9"
   },
   {
    "en": "Top Bathroom",
-   "zh": "上层浴室"
+   "zh": "上层浴室",
+   "id": "consulate.2F.7ee224bb1d"
   },
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "id": "consulate.2F.60e2cb2cb8"
   },
   {
    "en": "Connector",
-   "zh": "连接走廊"
+   "zh": "连接走廊",
+   "id": "consulate.2F.55b467a308"
   },
   {
    "en": "CEO",
-   "zh": "总裁办公室"
-  }
- ],
- "R": [
-  {
-   "en": "Balcony",
-   "zh": "阳台"
-  },
-  {
-   "en": "Roof",
-   "zh": "屋顶"
+   "zh": "总裁办公室",
+   "id": "consulate.2F.a623b3be13"
   }
  ]
 }

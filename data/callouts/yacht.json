@@ -1,254 +1,372 @@
 {
- "outdoor": [
-  {
-   "en": "Submarine",
-   "zh": "潜艇"
-  },
-  {
-   "en": "West Glacier",
-   "zh": "西冷库"
-  },
-  {
-   "en": "East Breach",
-   "zh": "东突破口"
-  },
-  {
-   "en": "East Glacier",
-   "zh": "东冷库"
-  },
-  {
-   "en": "Frozen River",
-   "zh": "冰封河道"
-  },
-  {
-   "en": "Zodiac",
-   "zh": "橡皮艇"
-  },
-  {
-   "en": "West Breach",
-   "zh": "西突破口"
-  }
- ],
  "1F": [
   {
    "en": "Engine",
-   "zh": "引擎室"
+   "zh": "引擎室",
+   "x": 0.4246,
+   "y": 0.4558,
+   "id": "yacht.1F.4739176075"
   },
   {
    "en": "Back Entrance",
-   "zh": "后门"
+   "zh": "后门",
+   "x": 0.3843,
+   "y": 0.4711,
+   "id": "yacht.1F.3053b533b5"
   },
   {
    "en": "Rear Deck",
-   "zh": "后甲板"
+   "zh": "后甲板",
+   "x": 0.3536,
+   "y": 0.4711,
+   "id": "yacht.1F.bccf7df575"
   },
   {
    "en": "Server",
-   "zh": "服务器室"
+   "zh": "服务器室",
+   "x": 0.447,
+   "y": 0.4475,
+   "id": "yacht.1F.da52053134"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.4473,
+   "y": 0.4971,
+   "id": "yacht.1F.8514620e12"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.4653,
+   "y": 0.498,
+   "id": "yacht.1F.2b03410249"
   },
   {
    "en": "Ladder",
-   "zh": "梯子"
+   "zh": "梯子",
+   "id": "yacht.1F.839d4aee6b"
   },
   {
    "en": "Engine Hallway",
-   "zh": "引擎室走廊"
+   "zh": "引擎室走廊",
+   "x": 0.5168,
+   "y": 0.4508,
+   "id": "yacht.1F.d9088a6cb9"
   },
   {
    "en": "Front Stairs",
-   "zh": "前楼梯"
+   "zh": "前楼梯",
+   "x": 0.5874,
+   "y": 0.4448,
+   "id": "yacht.1F.fd7eaaf1a9"
   }
  ],
  "2F": [
   {
    "en": "Cafeteria",
-   "zh": "自助餐厅"
+   "zh": "自助餐厅",
+   "x": 0.5572,
+   "y": 0.5596,
+   "id": "yacht.2F.1727fa0864"
   },
   {
    "en": "Control",
-   "zh": "控制室"
+   "zh": "控制室",
+   "x": 0.4455,
+   "y": 0.5035,
+   "id": "yacht.2F.a71a841da7"
   },
   {
    "en": "Rear Deck",
-   "zh": "后甲板"
+   "zh": "后甲板",
+   "x": 0.3958,
+   "y": 0.5234,
+   "id": "yacht.2F.565f8336ae"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.4833,
+   "y": 0.5063,
+   "id": "yacht.2F.7649a3eb3c"
   },
   {
    "en": "Dorms",
-   "zh": "宿舍"
+   "zh": "宿舍",
+   "x": 0.5364,
+   "y": 0.4998,
+   "id": "yacht.2F.b94e84afdf"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.4869,
+   "y": 0.5753,
+   "id": "yacht.2F.261e3f9c7f"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.4708,
+   "y": 0.5443,
+   "id": "yacht.2F.b0a22320f5"
   },
   {
    "en": "Kitchen Stairs",
-   "zh": "厨房楼梯"
+   "zh": "厨房楼梯",
+   "x": 0.5004,
+   "y": 0.4873,
+   "id": "yacht.2F.7ea60614ee"
   },
   {
    "en": "Pantry",
-   "zh": "食品储藏间"
+   "zh": "食品储藏间",
+   "x": 0.5127,
+   "y": 0.5031,
+   "id": "yacht.2F.875495e7c9"
   },
   {
    "en": "Infirmary",
-   "zh": "医务室"
+   "zh": "医务室",
+   "x": 0.5609,
+   "y": 0.4762,
+   "id": "yacht.2F.de0cb49d8e"
   },
   {
    "en": "Boreal",
-   "zh": "北区"
+   "zh": "北区",
+   "x": 0.6158,
+   "y": 0.5188,
+   "id": "yacht.2F.20159bf32c"
   },
   {
    "en": "Cafeteria Hallway",
-   "zh": "自助餐厅走廊"
+   "zh": "自助餐厅走廊",
+   "x": 0.5398,
+   "y": 0.523,
+   "id": "yacht.2F.5e0474d286"
   },
   {
    "en": "Front Stairs",
-   "zh": "前楼梯"
+   "zh": "前楼梯",
+   "x": 0.5866,
+   "y": 0.492,
+   "id": "yacht.2F.9ef6e89e13"
   },
   {
    "en": "Utility",
-   "zh": "设备间"
+   "zh": "设备间",
+   "x": 0.4575,
+   "y": 0.4832,
+   "id": "yacht.2F.b93b14e4b8"
   },
   {
    "en": "Anchor",
-   "zh": "锚位"
+   "zh": "锚位",
+   "x": 0.6681,
+   "y": 0.5049,
+   "id": "yacht.2F.986dc5b9d2"
   },
   {
    "en": "Boreal Entrance",
-   "zh": "北区入口"
+   "zh": "北区入口",
+   "x": 0.6447,
+   "y": 0.5512,
+   "id": "yacht.2F.3c8df41a68"
   }
  ],
  "3F": [
   {
    "en": "Spa Deck",
-   "zh": "水疗甲板"
+   "zh": "水疗甲板",
+   "x": 0.4306,
+   "y": 0.5183,
+   "id": "yacht.3F.b425d124b6"
   },
   {
    "en": "East Deck",
-   "zh": "东甲板"
+   "zh": "东甲板",
+   "x": 0.583,
+   "y": 0.5758,
+   "id": "yacht.3F.38dc78e78c"
   },
   {
    "en": "West Deck",
-   "zh": "西甲板"
+   "zh": "西甲板",
+   "x": 0.583,
+   "y": 0.4674,
+   "id": "yacht.3F.32ee3536f8"
   },
   {
    "en": "Front Deck",
-   "zh": "前甲板"
+   "zh": "前甲板",
+   "x": 0.7124,
+   "y": 0.5197,
+   "id": "yacht.3F.93138d164e"
   },
   {
    "en": "King",
-   "zh": "王"
+   "zh": "王",
+   "x": 0.7327,
+   "y": 0.5211,
+   "id": "yacht.3F.698d944de0"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.6106,
+   "y": 0.5197,
+   "id": "yacht.3F.7f1dcc11c5"
   },
   {
    "en": "Casino",
-   "zh": "赌场"
+   "zh": "赌场",
+   "x": 0.5442,
+   "y": 0.5137,
+   "id": "yacht.3F.079ee99418"
   },
   {
    "en": "Poker",
-   "zh": "扑克室"
+   "zh": "扑克室",
+   "x": 0.5684,
+   "y": 0.5077,
+   "id": "yacht.3F.1bae4f23c7"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.5819,
+   "y": 0.5512,
+   "id": "yacht.3F.5df91939a8"
   },
   {
    "en": "Master Hallway",
-   "zh": "主卧走廊"
+   "zh": "主卧走廊",
+   "x": 0.5762,
+   "y": 0.5285,
+   "id": "yacht.3F.6e28ad1f96"
   },
   {
    "en": "Casino Hallway",
-   "zh": "赌场走廊"
+   "zh": "赌场走廊",
+   "x": 0.5411,
+   "y": 0.5586,
+   "id": "yacht.3F.8d279f2e65"
   },
   {
    "en": "Globe Hallway",
-   "zh": "地球仪走廊"
+   "zh": "地球仪走廊",
+   "x": 0.5174,
+   "y": 0.5123,
+   "id": "yacht.3F.84bb602aec"
   },
   {
    "en": "Lounge",
-   "zh": "休息室"
+   "zh": "休息室",
+   "x": 0.4775,
+   "y": 0.5345,
+   "id": "yacht.3F.f12e738d59"
   },
   {
    "en": "Top Stairs",
-   "zh": "上层楼梯"
+   "zh": "上层楼梯",
+   "x": 0.5015,
+   "y": 0.522,
+   "id": "yacht.3F.547f879ed3"
   },
   {
    "en": "Front Stairs",
-   "zh": "前楼梯"
+   "zh": "前楼梯",
+   "x": 0.5955,
+   "y": 0.4933,
+   "id": "yacht.3F.c98f3e674a"
   },
   {
    "en": "Kitchen Stairs",
-   "zh": "厨房楼梯"
+   "zh": "厨房楼梯",
+   "x": 0.5168,
+   "y": 0.4864,
+   "id": "yacht.3F.bad78a2ae9"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.4765,
+   "y": 0.5591,
+   "id": "yacht.3F.e3f73f5e17"
   }
  ],
  "4F": [
   {
    "en": "Maps",
-   "zh": "地图室"
+   "zh": "地图室",
+   "x": 0.5286,
+   "y": 0.5392,
+   "id": "yacht.4F.64705cd396"
   },
   {
    "en": "Cockpit",
-   "zh": "驾驶舱"
+   "zh": "驾驶舱",
+   "x": 0.5726,
+   "y": 0.5406,
+   "id": "yacht.4F.fbf0961fa3"
   },
   {
    "en": "Cockpit Hallway",
-   "zh": "驾驶舱走廊"
+   "zh": "驾驶舱走廊",
+   "x": 0.5296,
+   "y": 0.5582,
+   "id": "yacht.4F.c2923dfc4c"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.5408,
+   "y": 0.4971,
+   "id": "yacht.4F.ca612674ab"
   },
   {
    "en": "Cockpit Balcony",
-   "zh": "驾驶舱阳台"
+   "zh": "驾驶舱阳台",
+   "x": 0.615,
+   "y": 0.5184,
+   "id": "yacht.4F.2a11cfa277"
   },
   {
    "en": "Top Stairs",
-   "zh": "上层楼梯"
+   "zh": "上层楼梯",
+   "x": 0.5051,
+   "y": 0.5244,
+   "id": "yacht.4F.1a64dd3d5f"
   },
   {
    "en": "Helipad Entrance",
-   "zh": "直升机坪入口"
+   "zh": "直升机坪入口",
+   "x": 0.5093,
+   "y": 0.516,
+   "id": "yacht.4F.f63b73fbd7"
   },
   {
    "en": "Helipad",
-   "zh": "直升机坪"
+   "zh": "直升机坪",
+   "x": 0.4499,
+   "y": 0.5197,
+   "id": "yacht.4F.0db25f510d"
   },
   {
    "en": "West Balcony",
-   "zh": "西阳台"
+   "zh": "西阳台",
+   "x": 0.5194,
+   "y": 0.4656,
+   "id": "yacht.4F.1f8e7d91c1"
   },
   {
    "en": "East Balcony",
-   "zh": "东阳台"
-  }
- ],
- "R": [
-  {
-   "en": "Roof",
-   "zh": "屋顶"
+   "zh": "东阳台",
+   "x": 0.5194,
+   "y": 0.5781,
+   "id": "yacht.4F.ddbe4ec067"
   }
  ]
 }

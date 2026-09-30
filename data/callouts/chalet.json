@@ -1,238 +1,307 @@
 {
- "outdoor": [
-  {
-   "en": "Wood Trail",
-   "zh": "林间小径"
-  },
-  {
-   "en": "Campfire Wood",
-   "zh": "营火柴堆"
-  },
-  {
-   "en": "Campfire",
-   "zh": "营火"
-  },
-  {
-   "en": "Backyard",
-   "zh": "后院"
-  },
-  {
-   "en": "Gazebo",
-   "zh": "凉亭"
-  },
-  {
-   "en": "Cliffside Stairs",
-   "zh": "悬崖楼梯"
-  },
-  {
-   "en": "Cliffside Woods",
-   "zh": "悬崖树林"
-  },
-  {
-   "en": "Cliffside",
-   "zh": "悬崖边"
-  },
-  {
-   "en": "Back Patio",
-   "zh": "后露台"
-  },
-  {
-   "en": "Helipad Trail",
-   "zh": "直升机坪小道"
-  },
-  {
-   "en": "Helipad",
-   "zh": "直升机坪"
-  },
-  {
-   "en": "Front Patio",
-   "zh": "前露台"
-  },
-  {
-   "en": "Front Yard",
-   "zh": "前院"
-  },
-  {
-   "en": "Snowmobiles",
-   "zh": "雪地摩托"
-  }
- ],
  "B": [
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.1356,
+   "y": 0.2387,
+   "id": "chalet.B.4c08bd2145"
   },
   {
    "en": "Blue",
-   "zh": "蓝区"
+   "zh": "蓝区",
+   "x": 0.1918,
+   "y": 0.2179,
+   "id": "chalet.B.0a9aac8901"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.184,
+   "y": 0.2762,
+   "id": "chalet.B.ace6a5e2d1"
   },
   {
    "en": "Garage Stairs",
-   "zh": "车库楼梯"
+   "zh": "车库楼梯",
+   "x": 0.1775,
+   "y": 0.3369,
+   "id": "chalet.B.e146c9227b"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.2124,
+   "y": 0.2947,
+   "id": "chalet.B.17e594e83d"
   },
   {
    "en": "Wine",
-   "zh": "酒窖"
+   "zh": "酒窖",
+   "x": 0.2103,
+   "y": 0.2156,
+   "id": "chalet.B.1be1e81e48"
   },
   {
    "en": "Basement Hallway",
-   "zh": "地下走廊"
+   "zh": "地下走廊",
+   "x": 0.2262,
+   "y": 0.179,
+   "id": "chalet.B.a635161f9d"
   },
   {
    "en": "Backyard Stairs",
-   "zh": "后院楼梯"
+   "zh": "后院楼梯",
+   "x": 0.2603,
+   "y": 0.1549,
+   "id": "chalet.B.c0564e5451"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.1978,
+   "y": 0.1554,
+   "id": "chalet.B.80af2a5b63"
   },
   {
    "en": "Car Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.2116,
+   "y": 0.0795,
+   "id": "chalet.B.caf4a09258"
   },
   {
    "en": "Car Garage Entrance",
-   "zh": "车库入口"
+   "zh": "车库入口",
+   "id": "chalet.B.4b528180c6"
   }
  ],
  "1F": [
   {
    "en": "Library Stairs",
-   "zh": "图书馆楼梯"
+   "zh": "图书馆楼梯",
+   "x": 0.32,
+   "y": 0.2276,
+   "id": "chalet.1F.a9e9510b19"
   },
   {
    "en": "Gaming Hallway",
-   "zh": "游戏区走廊"
+   "zh": "游戏区走廊",
+   "x": 0.3356,
+   "y": 0.2484,
+   "id": "chalet.1F.f7bfdd39cd"
   },
   {
    "en": "Bar Hallway",
-   "zh": "酒吧走廊"
+   "zh": "酒吧走廊",
+   "x": 0.358,
+   "y": 0.2299,
+   "id": "chalet.1F.612d566bc6"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.3254,
+   "y": 0.2956,
+   "id": "chalet.1F.4f6a064f3b"
   },
   {
    "en": "Stock",
-   "zh": "库房"
+   "zh": "库房",
+   "x": 0.3275,
+   "y": 0.3392,
+   "id": "chalet.1F.876d89723e"
   },
   {
    "en": "Bar",
-   "zh": "酒吧"
+   "zh": "酒吧",
+   "x": 0.3554,
+   "y": 0.2725,
+   "id": "chalet.1F.c726f18184"
   },
   {
    "en": "Fireplace Stairs",
-   "zh": "壁炉楼梯"
+   "zh": "壁炉楼梯",
+   "x": 0.3929,
+   "y": 0.341,
+   "id": "chalet.1F.9afb17f2f5"
   },
   {
    "en": "Fireplace",
-   "zh": "壁炉"
+   "zh": "壁炉",
+   "x": 0.3905,
+   "y": 0.2609,
+   "id": "chalet.1F.178fa0df48"
   },
   {
    "en": "Mudroom",
-   "zh": "泥靴间"
+   "zh": "泥靴间",
+   "x": 0.3241,
+   "y": 0.2077,
+   "id": "chalet.1F.9e086ebff1"
   },
   {
    "en": "Dining Hallway",
-   "zh": "餐厅走廊"
+   "zh": "餐厅走廊",
+   "x": 0.383,
+   "y": 0.1961,
+   "id": "chalet.1F.698cd249fa"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.4049,
+   "y": 0.173,
+   "id": "chalet.1F.b579b13b58"
   },
   {
    "en": "Trophy Stairs",
-   "zh": "奖杯室楼梯"
+   "zh": "奖杯室楼梯",
+   "x": 0.3853,
+   "y": 0.0317,
+   "id": "chalet.1F.acf3453040"
   },
   {
    "en": "Main",
-   "zh": "主区"
+   "zh": "主区",
+   "x": 0.3762,
+   "y": 0.1174,
+   "id": "chalet.1F.7098e6c4c8"
   },
   {
    "en": "Trophy",
-   "zh": "奖杯室"
+   "zh": "奖杯室",
+   "x": 0.3983,
+   "y": 0.0479,
+   "id": "chalet.1F.535edef3ad"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.4023,
+   "y": 0.0896,
+   "id": "chalet.1F.883d08b1da"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.4205,
+   "y": 0.0942,
+   "id": "chalet.1F.ee0302c47a"
   },
   {
    "en": "Backyard Stairs",
-   "zh": "后院楼梯"
+   "zh": "后院楼梯",
+   "x": 0.4431,
+   "y": 0.1563,
+   "id": "chalet.1F.20037bf8ae"
   }
  ],
  "2F": [
   {
    "en": "Fireplace",
-   "zh": "壁炉"
+   "zh": "壁炉",
+   "x": 0.3905,
+   "y": 0.3211,
+   "id": "chalet.2F.7d3c2c6468"
   },
   {
    "en": "Library Stairs",
-   "zh": "图书馆楼梯"
+   "zh": "图书馆楼梯",
+   "x": 0.32,
+   "y": 0.2276,
+   "id": "chalet.2F.7ac3c3ff34"
   },
   {
    "en": "Library Hallway",
-   "zh": "图书馆走廊"
+   "zh": "图书馆走廊",
+   "x": 0.358,
+   "y": 0.2355,
+   "id": "chalet.2F.cd8f86bef8"
   },
   {
    "en": "Library Entrance",
-   "zh": "图书馆入口"
+   "zh": "图书馆入口",
+   "x": 0.3372,
+   "y": 0.266,
+   "id": "chalet.2F.e4c2f7fa8b"
   },
   {
    "en": "Library",
-   "zh": "图书馆"
+   "zh": "图书馆",
+   "x": 0.332,
+   "y": 0.2897,
+   "id": "chalet.2F.f8e54a36b2"
   },
   {
    "en": "Trophy Stairs",
-   "zh": "奖杯室楼梯"
+   "zh": "奖杯室楼梯",
+   "x": 0.3866,
+   "y": 0.0318,
+   "id": "chalet.2F.a506588b0c"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.3825,
+   "y": 0.1137,
+   "id": "chalet.2F.d7378b1186"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.4192,
+   "y": 0.0966,
+   "id": "chalet.2F.920c78cacc"
   },
   {
    "en": "Solarium",
-   "zh": "日光浴房"
+   "zh": "日光浴房",
+   "x": 0.4036,
+   "y": 0.0526,
+   "id": "chalet.2F.884e6a4373"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "x": 0.3801,
+   "y": 0.1498,
+   "id": "chalet.2F.782be52ca6"
   },
   {
    "en": "Mezzanine",
-   "zh": "夹层"
+   "zh": "夹层",
+   "x": 0.3658,
+   "y": 0.298,
+   "id": "chalet.2F.8a93cdce94"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.4049,
+   "y": 0.2054,
+   "id": "chalet.2F.f7df20a99d"
   },
   {
    "en": "Library Balcony",
-   "zh": "图书馆阳台"
+   "zh": "图书馆阳台",
+   "x": 0.3023,
+   "y": 0.2725,
+   "id": "chalet.2F.0d984f0dac"
   },
   {
    "en": "Office Balcony",
-   "zh": "办公室阳台"
+   "zh": "办公室阳台",
+   "x": 0.4195,
+   "y": 0.2818,
+   "id": "chalet.2F.f16c0397f6"
   },
   {
    "en": "Bathroom Balcony",
-   "zh": "浴室阳台"
+   "zh": "浴室阳台",
+   "x": 0.3588,
+   "y": 0.1383,
+   "id": "chalet.2F.5e49627906"
   }
  ]
 }

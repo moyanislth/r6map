@@ -1,238 +1,358 @@
 {
- "outdoor": [
-  {
-   "en": "Street",
-   "zh": "街道"
-  },
-  {
-   "en": "West Courtyard",
-   "zh": "西庭院"
-  },
-  {
-   "en": "East Courtyard",
-   "zh": "东庭院"
-  },
-  {
-   "en": "Barnyard",
-   "zh": "谷仓场院"
-  }
- ],
  "B": [
   {
    "en": "East Tunnel",
-   "zh": "东隧道"
+   "zh": "东隧道",
+   "x": 0.6645,
+   "y": 0.6924,
+   "id": "hereford.B.dccf1d4092"
   },
   {
    "en": "Fermentation",
-   "zh": "发酵室"
+   "zh": "发酵室",
+   "x": 0.6043,
+   "y": 0.7461,
+   "id": "hereford.B.e511f568a4"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6317,
+   "y": 0.7373,
+   "id": "hereford.B.af5b42a624"
   },
   {
    "en": "Generator",
-   "zh": "发电机房"
+   "zh": "发电机房",
+   "x": 0.5671,
+   "y": 0.7225,
+   "id": "hereford.B.4ae5c0a3e9"
   },
   {
    "en": "Workshop",
-   "zh": "工坊"
+   "zh": "工坊",
+   "x": 0.645,
+   "y": 0.7146,
+   "id": "hereford.B.af7e91063c"
   },
   {
    "en": "West Tunnel",
-   "zh": "西隧道"
+   "zh": "西隧道",
+   "x": 0.5676,
+   "y": 0.6563,
+   "id": "hereford.B.996dab964a"
   },
   {
    "en": "Brewery",
-   "zh": "酿酒坊"
+   "zh": "酿酒坊",
+   "x": 0.6012,
+   "y": 0.6702,
+   "id": "hereford.B.46c10bf549"
   },
   {
    "en": "Barrel",
-   "zh": "木桶"
+   "zh": "木桶",
+   "x": 0.6424,
+   "y": 0.6489,
+   "id": "hereford.B.a7328fb15a"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5772,
+   "y": 0.641,
+   "id": "hereford.B.73541d6470"
   },
   {
    "en": "Barn",
-   "zh": "谷仓"
+   "zh": "谷仓",
+   "x": 0.6437,
+   "y": 0.6128,
+   "id": "hereford.B.f178ce970c"
   },
   {
    "en": "Brewery Hallway",
-   "zh": "酿酒坊走廊"
+   "zh": "酿酒坊走廊",
+   "x": 0.5804,
+   "y": 0.6809,
+   "id": "hereford.B.796c1461be"
   },
   {
    "en": "Workshop Hallway",
-   "zh": "工坊走廊"
+   "zh": "工坊走廊",
+   "x": 0.6254,
+   "y": 0.6906,
+   "id": "hereford.B.e7c718bae8"
   }
  ],
  "1F": [
   {
    "en": "Prep",
-   "zh": "备餐区"
+   "zh": "备餐区",
+   "x": 0.6387,
+   "y": 0.8059,
+   "id": "hereford.1F.2688649ffe"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.6168,
+   "y": 0.7452,
+   "id": "hereford.1F.a3df671e13"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6483,
+   "y": 0.773,
+   "id": "hereford.1F.dcc8185b25"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.6613,
+   "y": 0.7424,
+   "id": "hereford.1F.e6d4ea84a9"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.5858,
+   "y": 0.7466,
+   "id": "hereford.1F.c253657774"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "id": "hereford.1F.f355cf80b7"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5924,
+   "y": 0.6734,
+   "id": "hereford.1F.f639b13f3c"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "x": 0.6634,
+   "y": 0.6915,
+   "id": "hereford.1F.6b3c28cf76"
   },
   {
    "en": "Living",
-   "zh": "客厅"
+   "zh": "客厅",
+   "x": 0.6186,
+   "y": 0.6873,
+   "id": "hereford.1F.ec3669d060"
   },
   {
    "en": "Foyer",
-   "zh": "门厅"
+   "zh": "门厅",
+   "x": 0.6327,
+   "y": 0.6452,
+   "id": "hereford.1F.0efdc22fdb"
   },
   {
    "en": "Barn",
-   "zh": "谷仓"
+   "zh": "谷仓",
+   "x": 0.6598,
+   "y": 0.6425,
+   "id": "hereford.1F.79276005a1"
   },
   {
    "en": "Garage Hallway",
-   "zh": "车库走廊"
+   "zh": "车库走廊",
+   "x": 0.6189,
+   "y": 0.7156,
+   "id": "hereford.1F.15999cf1ed"
   },
   {
    "en": "Living Hallway",
-   "zh": "客厅走廊"
+   "zh": "客厅走廊",
+   "x": 0.6439,
+   "y": 0.6809,
+   "id": "hereford.1F.da2724572a"
   }
  ],
  "2F": [
   {
    "en": "Loom",
-   "zh": "织布机"
+   "zh": "织布机",
+   "x": 0.6189,
+   "y": 0.7633,
+   "id": "hereford.2F.47e1617554"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6507,
+   "y": 0.7781,
+   "id": "hereford.2F.a141fe6b54"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.6668,
+   "y": 0.7725,
+   "id": "hereford.2F.3555bd2c80"
   },
   {
    "en": "Garage Roof",
-   "zh": "车库屋顶"
+   "zh": "车库屋顶",
+   "x": 0.5858,
+   "y": 0.7369,
+   "id": "hereford.2F.8975b7da3b"
   },
   {
    "en": "Closet",
-   "zh": "储物间"
+   "zh": "储物间",
+   "x": 0.6088,
+   "y": 0.7401,
+   "id": "hereford.2F.9535b90aee"
   },
   {
    "en": "Ninety",
-   "zh": "九十房"
+   "zh": "九十房",
+   "x": 0.6371,
+   "y": 0.7151,
+   "id": "hereford.2F.f0f16123d7"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.6642,
+   "y": 0.6841,
+   "id": "hereford.2F.cc14afb3b4"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5952,
+   "y": 0.6762,
+   "id": "hereford.2F.505a7091ac"
   },
   {
    "en": "Kids",
-   "zh": "儿童房"
+   "zh": "儿童房",
+   "x": 0.6416,
+   "y": 0.6711,
+   "id": "hereford.2F.02424e5add"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.6629,
+   "y": 0.6503,
+   "id": "hereford.2F.bdd80eccf6"
   },
   {
    "en": "Sewing",
-   "zh": "缝纫间"
+   "zh": "缝纫间",
+   "x": 0.6043,
+   "y": 0.6424,
+   "id": "hereford.2F.63b6725e1c"
   },
   {
    "en": "Master Hallway",
-   "zh": "主卧走廊"
+   "zh": "主卧走廊",
+   "x": 0.6561,
+   "y": 0.7387,
+   "id": "hereford.2F.c1fe0146ee"
   },
   {
    "en": "Loom Balcony",
-   "zh": "织布机阳台"
+   "zh": "织布机阳台",
+   "x": 0.6395,
+   "y": 0.8096,
+   "id": "hereford.2F.80eb1fdae4"
   },
   {
    "en": "Outside Stairs",
-   "zh": "室外楼梯"
+   "zh": "室外楼梯",
+   "x": 0.6923,
+   "y": 0.6767,
+   "id": "hereford.2F.f7620c8191"
   },
   {
    "en": "Bathroom Balcony",
-   "zh": "浴室阳台"
+   "zh": "浴室阳台",
+   "x": 0.6848,
+   "y": 0.6415,
+   "id": "hereford.2F.025c941b7f"
   }
  ],
  "3F": [
   {
    "en": "Tractor",
-   "zh": "拖拉机"
+   "zh": "拖拉机",
+   "x": 0.6215,
+   "y": 0.7772,
+   "id": "hereford.3F.0af304772d"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6504,
+   "y": 0.7804,
+   "id": "hereford.3F.180254c7ad"
   },
   {
    "en": "Attic South",
-   "zh": "阁楼南侧"
+   "zh": "阁楼南侧",
+   "x": 0.6668,
+   "y": 0.7661,
+   "id": "hereford.3F.3fde69de08"
   },
   {
    "en": "Attic Middle",
-   "zh": "阁楼中部"
+   "zh": "阁楼中部",
+   "x": 0.6517,
+   "y": 0.6902,
+   "id": "hereford.3F.1453bba5a4"
   },
   {
    "en": "Attic North",
-   "zh": "阁楼北侧"
+   "zh": "阁楼北侧",
+   "x": 0.6588,
+   "y": 0.649,
+   "id": "hereford.3F.1d6dd9a9d0"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5965,
+   "y": 0.6786,
+   "id": "hereford.3F.313a621c98"
   },
   {
    "en": "Outside Stairs",
-   "zh": "室外楼梯"
+   "zh": "室外楼梯",
+   "x": 0.6869,
+   "y": 0.7045,
+   "id": "hereford.3F.77d801adbc"
   },
   {
    "en": "Armory",
-   "zh": "军械库"
+   "zh": "军械库",
+   "x": 0.6137,
+   "y": 0.6522,
+   "id": "hereford.3F.94d0e89c64"
   },
   {
    "en": "Garage Roof",
-   "zh": "车库屋顶"
+   "zh": "车库屋顶",
+   "x": 0.5859,
+   "y": 0.7369,
+   "id": "hereford.3F.997e6eb447"
   },
   {
    "en": "Tractor Balcony",
-   "zh": "拖拉机平台"
-  }
- ],
- "R": [
-  {
-   "en": "Rooftop",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Garage Roof",
-   "zh": "车库屋顶"
+   "zh": "拖拉机平台",
+   "x": 0.6416,
+   "y": 0.817,
+   "id": "hereford.3F.2f04cab235"
   }
  ]
 }

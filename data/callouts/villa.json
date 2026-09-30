@@ -1,304 +1,401 @@
 {
- "outdoor": [
-  {
-   "en": "Ruins",
-   "zh": "废墟"
-  },
-  {
-   "en": "Roundabout",
-   "zh": "环岛"
-  },
-  {
-   "en": "Terrace",
-   "zh": "露台"
-  },
-  {
-   "en": "Crypt Entrance",
-   "zh": "地穴入口"
-  },
-  {
-   "en": "Garden",
-   "zh": "花园"
-  },
-  {
-   "en": "Driveway",
-   "zh": "车道"
-  },
-  {
-   "en": "Main Road",
-   "zh": "主路"
-  },
-  {
-   "en": "Balcony",
-   "zh": "阳台"
-  },
-  {
-   "en": "Pergola",
-   "zh": "藤架"
-  },
-  {
-   "en": "Stable Yard",
-   "zh": "马厩场院"
-  },
-  {
-   "en": "Chapel",
-   "zh": "小教堂"
-  },
-  {
-   "en": "Fountain",
-   "zh": "喷泉"
-  },
-  {
-   "en": "Stable",
-   "zh": "马厩"
-  },
-  {
-   "en": "Side Road",
-   "zh": "侧路"
-  }
- ],
  "B": [
   {
    "en": "Crypt Tunnel",
-   "zh": "地穴隧道"
+   "zh": "地穴隧道",
+   "x": 0.6194,
+   "y": 0.3975,
+   "id": "villa.B.68efe86d35"
   },
   {
    "en": "Crypt",
-   "zh": "地穴"
+   "zh": "地穴",
+   "x": 0.6694,
+   "y": 0.4258,
+   "id": "villa.B.beb3dcb454"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.6845,
+   "y": 0.2725,
+   "id": "villa.B.562efb849b"
   },
   {
    "en": "Cellar Tunnel",
-   "zh": "地窖通道"
+   "zh": "地窖通道",
+   "x": 0.6085,
+   "y": 0.1943,
+   "id": "villa.B.fe1d5db5b8"
   },
   {
    "en": "Tasting",
-   "zh": "品酒室"
+   "zh": "品酒室",
+   "x": 0.6111,
+   "y": 0.3517,
+   "id": "villa.B.30c61f31fb"
   },
   {
    "en": "Arch",
-   "zh": "拱门"
+   "zh": "拱门",
+   "x": 0.6059,
+   "y": 0.2795,
+   "id": "villa.B.9a9d732e42"
   },
   {
    "en": "Art",
-   "zh": "艺术品区"
+   "zh": "艺术品区",
+   "x": 0.6327,
+   "y": 0.2823,
+   "id": "villa.B.165db6a18a"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.6574,
+   "y": 0.2688,
+   "id": "villa.B.f898a679f2"
   },
   {
    "en": "Wine",
-   "zh": "酒窖"
+   "zh": "酒窖",
+   "x": 0.629,
+   "y": 0.2355,
+   "id": "villa.B.a9422c9e0d"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6324,
+   "y": 0.3494,
+   "id": "villa.B.16518ef8fa"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.6038,
+   "y": 0.2156,
+   "id": "villa.B.42489c472f"
   },
   {
    "en": "Pantry Stairs",
-   "zh": "储藏间楼梯"
+   "zh": "储藏间楼梯",
+   "x": 0.6642,
+   "y": 0.2142,
+   "id": "villa.B.a917a92b83"
   }
  ],
  "1F": [
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.5986,
+   "y": 0.5012,
+   "id": "villa.1F.ebde4b66f6"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6585,
+   "y": 0.348,
+   "id": "villa.1F.5835d4b669"
   },
   {
    "en": "Astro Stairs",
-   "zh": "太空区楼梯"
+   "zh": "太空区楼梯",
+   "x": 0.6267,
+   "y": 0.2058,
+   "id": "villa.1F.cd3fb127fd"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.633,
+   "y": 0.2244,
+   "id": "villa.1F.54c553ab3d"
   },
   {
    "en": "Pantry Stairs",
-   "zh": "储藏间楼梯"
+   "zh": "储藏间楼梯",
+   "x": 0.6871,
+   "y": 0.2327,
+   "id": "villa.1F.0079261834"
   },
   {
    "en": "Greenhouse",
-   "zh": "温室"
+   "zh": "温室",
+   "x": 0.6298,
+   "y": 0.4947,
+   "id": "villa.1F.95d74643c8"
   },
   {
    "en": "Front Entrance",
-   "zh": "正门"
+   "zh": "正门",
+   "id": "villa.1F.641966d225"
   },
   {
    "en": "Main",
-   "zh": "主区"
+   "zh": "主区",
+   "x": 0.6064,
+   "y": 0.461,
+   "id": "villa.1F.8d37f5f3f5"
   },
   {
    "en": "Studio",
-   "zh": "工作室"
+   "zh": "工作室",
+   "x": 0.6447,
+   "y": 0.4582,
+   "id": "villa.1F.d5f827b03c"
   },
   {
    "en": "Library",
-   "zh": "图书馆"
+   "zh": "图书馆",
+   "x": 0.5895,
+   "y": 0.3901,
+   "id": "villa.1F.2274af6ec5"
   },
   {
    "en": "Piano Hallway",
-   "zh": "钢琴走廊"
+   "zh": "钢琴走廊",
+   "x": 0.6364,
+   "y": 0.3818,
+   "id": "villa.1F.141cce52c5"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "x": 0.6374,
+   "y": 0.4031,
+   "id": "villa.1F.854e1637f2"
   },
   {
    "en": "Gallery",
-   "zh": "画廊"
+   "zh": "画廊",
+   "x": 0.6074,
+   "y": 0.3929,
+   "id": "villa.1F.6da582d864"
   },
   {
    "en": "Toilet",
-   "zh": "卫生间"
+   "zh": "卫生间",
+   "x": 0.5837,
+   "y": 0.3577,
+   "id": "villa.1F.661390af03"
   },
   {
    "en": "Living",
-   "zh": "客厅"
+   "zh": "客厅",
+   "x": 0.627,
+   "y": 0.3054,
+   "id": "villa.1F.27d1e7a884"
   },
   {
    "en": "Bicycle",
-   "zh": "自行车"
+   "zh": "自行车",
+   "x": 0.6749,
+   "y": 0.3554,
+   "id": "villa.1F.75179df63b"
   },
   {
    "en": "Memorial",
-   "zh": "纪念馆"
+   "zh": "纪念馆",
+   "x": 0.6663,
+   "y": 0.3156,
+   "id": "villa.1F.f766b978f7"
   },
   {
    "en": "Mudroom",
-   "zh": "泥靴间"
+   "zh": "泥靴间",
+   "x": 0.6095,
+   "y": 0.2864,
+   "id": "villa.1F.bfaf0d6e5b"
   },
   {
    "en": "Living Hallway",
-   "zh": "客厅走廊"
+   "zh": "客厅走廊",
+   "x": 0.6462,
+   "y": 0.316,
+   "id": "villa.1F.dc1ed7a208"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.6895,
+   "y": 0.2822,
+   "id": "villa.1F.e6c05b8de2"
   },
   {
    "en": "Back Hallway",
-   "zh": "后走廊"
+   "zh": "后走廊",
+   "x": 0.6257,
+   "y": 0.2609,
+   "id": "villa.1F.e7376e6578"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.6793,
+   "y": 0.2554,
+   "id": "villa.1F.b70716eb26"
   },
   {
    "en": "China",
-   "zh": "瓷器室"
+   "zh": "瓷器室",
+   "x": 0.6421,
+   "y": 0.254,
+   "id": "villa.1F.0e7b83636f"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.6509,
+   "y": 0.2253,
+   "id": "villa.1F.13f868d409"
   },
   {
    "en": "Pantry",
-   "zh": "食品储藏间"
+   "zh": "食品储藏间",
+   "x": 0.6853,
+   "y": 0.2133,
+   "id": "villa.1F.1e3f1396d0"
   }
  ],
  "2F": [
   {
    "en": "Bedroom Roof",
-   "zh": "卧室屋顶"
+   "zh": "卧室屋顶",
+   "x": 0.6923,
+   "y": 0.3258,
+   "id": "villa.2F.534b232418"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6002,
+   "y": 0.5022,
+   "id": "villa.2F.2e3d80a26e"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6593,
+   "y": 0.3624,
+   "id": "villa.2F.c2146b8daf"
   },
   {
    "en": "Astro Stairs",
-   "zh": "太空区楼梯"
+   "zh": "太空区楼梯",
+   "x": 0.6332,
+   "y": 0.205,
+   "id": "villa.2F.3a91c5ebad"
   },
   {
    "en": "Veranda",
-   "zh": "游廊"
+   "zh": "游廊",
+   "x": 0.6351,
+   "y": 0.5003,
+   "id": "villa.2F.40695d9916"
   },
   {
    "en": "Ninety",
-   "zh": "九十房"
+   "zh": "九十房",
+   "x": 0.6038,
+   "y": 0.3462,
+   "id": "villa.2F.f541a11c82"
   },
   {
    "en": "Ninety Corner",
-   "zh": "九十房角落"
+   "zh": "九十房角落",
+   "id": "villa.2F.783a2f2bf8"
   },
   {
    "en": "Study",
-   "zh": "书房"
+   "zh": "书房",
+   "x": 0.6455,
+   "y": 0.4549,
+   "id": "villa.2F.ce4a773d59"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.5973,
+   "y": 0.4022,
+   "id": "villa.2F.aa81f92de8"
   },
   {
    "en": "Bar",
-   "zh": "酒吧"
+   "zh": "酒吧",
+   "x": 0.6041,
+   "y": 0.4438,
+   "id": "villa.2F.cf8ffedac9"
   },
   {
    "en": "Aviator",
-   "zh": "飞行员房"
+   "zh": "飞行员房",
+   "x": 0.6377,
+   "y": 0.4198,
+   "id": "villa.2F.8eb5d239c0"
   },
   {
    "en": "Vault",
-   "zh": "金库"
+   "zh": "金库",
+   "x": 0.6207,
+   "y": 0.3725,
+   "id": "villa.2F.2281c370d7"
   },
   {
    "en": "Landing",
-   "zh": "楼梯平台"
+   "zh": "楼梯平台",
+   "x": 0.6444,
+   "y": 0.3522,
+   "id": "villa.2F.406c7cc028"
   },
   {
    "en": "Trophy Entrance",
-   "zh": "奖杯室入口"
+   "zh": "奖杯室入口",
+   "id": "villa.2F.9e0e654f02"
   },
   {
    "en": "Statue",
-   "zh": "雕像"
+   "zh": "雕像",
+   "x": 0.6707,
+   "y": 0.2961,
+   "id": "villa.2F.5a57122ab4"
   },
   {
    "en": "Trophy",
-   "zh": "奖杯室"
+   "zh": "奖杯室",
+   "x": 0.6301,
+   "y": 0.2647,
+   "id": "villa.2F.880d8e2a53"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.6947,
+   "y": 0.2642,
+   "id": "villa.2F.2d334002d8"
   },
   {
    "en": "Astro",
-   "zh": "太空区"
+   "zh": "太空区",
+   "x": 0.6314,
+   "y": 0.223,
+   "id": "villa.2F.839e54335b"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.6689,
+   "y": 0.229,
+   "id": "villa.2F.e2d6f6032a"
   },
   {
    "en": "Closet",
-   "zh": "储物间"
-  }
- ],
- "R": [
-  {
-   "en": "Roof",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Skylight Roof",
-   "zh": "天窗屋顶"
+   "zh": "储物间",
+   "x": 0.6931,
+   "y": 0.2295,
+   "id": "villa.2F.c052d0d245"
   }
  ]
 }

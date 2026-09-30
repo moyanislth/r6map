@@ -1,4 +1,8 @@
-// 语言切换 + 楼层 tab + 行内滚轮缩放 + 标注(纯原生,零依赖)
+// R6 地图报点前端逻辑(纯原生,零依赖)
+// 结构:语言切换 / UI文案 / 楼层tab / 存储(覆盖层) / 缩放平移 / 单击双击标注 / 设置面板
+window.addEventListener("error", function (e) {
+  (window.__r6errs = window.__r6errs || []).push(e.message + " @" + e.lineno);
+});
 (function () {
   "use strict";
 
@@ -9,24 +13,30 @@
     html.lang = lang;
     if (btn) btn.textContent = lang === "zh" ? "EN" : "中";
     if (save) { try { localStorage.setItem("r6lang", lang); } catch (e) {} }
-    renderPins(); // 标签随语言刷新
+    renderPins();
   }
+  var saved = null;
   try {
-    var saved = localStorage.getItem("r6lang");
-    if (saved === "en" || saved === "zh") html.lang = saved;
+    saved = localStorage.getItem("r6lang");
   } catch (e) {}
-  setLang(html.lang, false);
   if (btn) btn.addEventListener("click", function () {
     setLang(html.lang === "zh" ? "en" : "zh", true);
   });
 
-  // ---- UI 文案(来自 floors.json ui 节,经模板注入) ----
+  // ---- UI 文案(floors.json ui 节,经模板注入) ----
   var UI = {};
   try { UI = JSON.parse(document.getElementById("uiTerms").textContent); } catch (e) {}
   function uiText(key) {
     var t = UI[key] || {};
     return html.lang === "en" ? t.en : t.zh;
   }
+  function fmt(key, n) {
+    return (uiText(key) || "").replace("{n}", n);
+  }
+
+  // ---- 基础数据(构建期注入:每层报点 id/x/y/en/zh) ----
+  var BASE = {};
+  try { BASE = JSON.parse(document.getElementById("calloutData").textContent); } catch (e) {}
 
   // ---- 楼层 tab ----
   var tabs = document.getElementById("floortabs");
@@ -40,34 +50,47 @@
       var key = b.dataset.floor;
       panes.forEach(function (p) { p.classList.toggle("active", p.dataset.floor === key); });
       layoutPinLayers();
-      refreshExport();
+      refreshSettings();
     });
   }
 
-  // ---- 存储(localStorage 不可用时降级内存) ----
+  // ---- 存储:文件报点的用户覆盖层 + 自建标注(localStorage 禁用时降级内存) ----
   var MAP_ID = (document.body.dataset.map || (location.pathname.match(/maps\/([a-z0-9-]+)\.html/) || [])[1]) || "unknown";
   var storeKey = "r6pins:" + MAP_ID;
   var memStore = {};
   function storeGet(k) { try { return localStorage.getItem(k); } catch (e) { return memStore[k] || null; } }
   function storeSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { memStore[k] = v; } }
-  var pinsData = null;
-  function loadPins() {
-    if (!pinsData) {
-      try { pinsData = JSON.parse(storeGet(storeKey)) || {}; } catch (e) { pinsData = {}; }
+  var store = null;
+  function loadStore() {
+    if (!store) {
+      try { store = JSON.parse(storeGet(storeKey)) || {}; } catch (e) { store = {}; }
+      if (!store.overrides || typeof store.overrides !== "object") store.overrides = {};
+      if (!Array.isArray(store.custom)) store.custom = [];
     }
-    return pinsData;
+    return store;
   }
-  function savePins() { storeSet(storeKey, JSON.stringify(pinsData)); refreshExport(); }
-  function floorPins(floor) {
-    var d = loadPins();
-    if (!d[floor]) d[floor] = [];
-    return d[floor];
+  function saveStore() { storeSet(storeKey, JSON.stringify(store)); }
+  function emptyStore() { return { overrides: {}, custom: [] }; }
+
+  // 生效标注列表:文件报点应用覆盖层 + 自建
+  function effectivePins(floor) {
+    var s = loadStore();
+    var out = [];
+    (BASE[floor] || []).forEach(function (p) {
+      if (s.overrides[p.id] && s.overrides[p.id].deleted) return;
+      var o = s.overrides[p.id];
+      out.push(o ? Object.assign({}, p, o) : p);
+    });
+    s.custom.forEach(function (p) {
+      if (p.floor === floor) out.push(p);
+    });
+    return out;
   }
   function pinLabel(pin) {
     return html.lang === "en" ? (pin.en || pin.zh || uiText("pin_default")) : (pin.zh || pin.en || uiText("pin_default"));
   }
 
-  // ---- 行内缩放/平移 ----
+  // ---- 行内缩放/平移(仅放大后可拖地图) ----
   var MAX_SCALE = 12;
   function applyStage(wrap) {
     wrap._stage.style.transform = "translate(" + wrap._tx + "px," + wrap._ty + "px) scale(" + wrap._s + ")";
@@ -96,15 +119,13 @@
     }, { passive: false });
 
     wrap.querySelector(".zoom-reset").addEventListener("click", function () { resetStage(wrap); });
-
-    // 拖拽平移(Pointer Events,触屏同样可拖)
-    var panning = false, sx = 0, sy = 0, moved = false;
-    // 阻断浏览器原生拖放/选择:否则原生 dragstart 会触发 pointercancel 抢走指针
     wrap.addEventListener("dragstart", function (e) { e.preventDefault(); });
+
+    var panning = false, sx = 0, sy = 0, moved = false;
     wrap.addEventListener("pointerdown", function (e) {
       if (e.target.closest(".pin") || e.target.closest(".pin-dialog")) return;
-      // 仅鼠标需要阻止原生拖拽/选择;触屏 preventDefault 会抑制 click 合成(破坏单击/双击)
       if (e.pointerType === "mouse") e.preventDefault();
+      if (wrap._s <= 1.001) return; // 仅放大后拖拽平移
       panning = true; moved = false;
       sx = e.clientX - wrap._tx; sy = e.clientY - wrap._ty;
       try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
@@ -121,7 +142,7 @@
     wrap._movedRecently = function () { return moved; };
   });
 
-  // ---- 坐标换算(以 imgframe 内图片实际显示矩形为基准,兼容留边) ----
+  // ---- 坐标换算(图片实际显示矩形,兼容 contain 留边) ----
   function imgRect(wrap) {
     var img = wrap.querySelector("img");
     return { left: img.offsetLeft, top: img.offsetTop, width: img.clientWidth, height: img.clientHeight };
@@ -135,8 +156,6 @@
     };
   }
   function clamp01(v) { return Math.min(1, Math.max(0, +v.toFixed(4))); }
-
-  // 布局 pinlayer:覆盖图片实际显示区域(留边外不接收落点)
   function layoutPinLayers() {
     document.querySelectorAll(".floorpane.active .imgwrap").forEach(function (wrap) {
       var r = imgRect(wrap);
@@ -149,15 +168,14 @@
   }
   window.addEventListener("resize", layoutPinLayers);
 
-  // ---- 单击显坐标 / 双击添加标注 ----
-  // 双击前会先触发 click:260ms 延时器区分,双击时取消
+  // ---- 单击:坐标读数;双击:添加/编辑标注 ----
   var clickTimer = null;
   document.querySelectorAll(".imgwrap").forEach(function (wrap) {
     wrap.addEventListener("click", function (e) {
       if (e.target.closest(".pin") || e.target.closest(".pin-dialog") || e.target.closest("button")) return;
       if (wrap._movedRecently()) return;
       var ev = e;
-      if (clickTimer) { clearTimeout(clickTimer); clickTimer = null; return; } // 双击的第二次 click
+      if (clickTimer) { clearTimeout(clickTimer); clickTimer = null; return; }
       clickTimer = setTimeout(function () {
         clickTimer = null;
         showCoord(ev.clientX, ev.clientY, wrap);
@@ -170,11 +188,10 @@
       var layer = wrap.querySelector(".pinlayer");
       var floor = layer.dataset.floor;
       var pt = stagePoint(wrap, e.clientX, e.clientY);
-      addPin(floor, clamp01(pt.x), clamp01(pt.y), true);
+      addCustomPin(floor, clamp01(pt.x), clamp01(pt.y));
     });
   });
 
-  // 坐标读数(单击展示,1.5s 淡出)
   var readoutTimer = null;
   function showCoord(clientX, clientY, wrap) {
     var ro = wrap.querySelector(".coordreadout");
@@ -190,133 +207,156 @@
     }, 1500);
   }
 
-  // ---- 标注渲染(标签与点位同一节点;缩放反向补偿) ----
-  function makePinEl(pin, floor) {
+  // ---- 标注渲染 ----
+  function makePinEl(pin, floor, kind) {
     var el = document.createElement("div");
     el.className = "pin";
+    el.dataset.kind = kind;
     el._pin = pin;
-    positionPin(el, pin);
+    el.style.left = (pin.x * 100) + "%";
+    el.style.top = (pin.y * 100) + "%";
     var dot = document.createElement("span");
     dot.className = "pin-dot";
     var label = document.createElement("span");
     label.className = "pin-label";
+    label.textContent = pinLabel(pin);
     el.appendChild(dot);
     el.appendChild(label);
-    setPinText(el, pin);
 
-    // 双击标注:改名
-    el.addEventListener("dblclick", function (e) {
-      e.stopPropagation();
-      openPinDialog(el, pin, floor);
-    });
-    // 删除
     var del = document.createElement("button");
     del.type = "button"; del.className = "pin-del"; del.textContent = "×";
     del.title = uiText("pin_delete");
     del.addEventListener("click", function (e) {
       e.stopPropagation();
-      var arr = floorPins(floor);
-      var i = arr.indexOf(pin);
-      if (i > -1) arr.splice(i, 1);
-      savePins();
+      deletePin(floor, pin);
       el.remove();
     });
     el.appendChild(del);
 
-    // 拖拽微调
+    el.addEventListener("dblclick", function (e) {
+      e.stopPropagation();
+      openPinDialog(el, pin, floor, kind);
+    });
     el.addEventListener("pointerdown", function (e) {
       if (e.target === del) return;
-      e.stopPropagation(); e.preventDefault();
+      e.stopPropagation();
+      e.preventDefault();
       var wrap = el.closest(".imgwrap");
       function move(ev) {
         var pt = stagePoint(wrap, ev.clientX, ev.clientY);
         pin.x = clamp01(pt.x);
         pin.y = clamp01(pt.y);
-        positionPin(el, pin);
+        el.style.left = (pin.x * 100) + "%";
+        el.style.top = (pin.y * 100) + "%";
       }
       function up() {
         window.removeEventListener("pointermove", move);
         window.removeEventListener("pointerup", up);
-        savePins();
+        persistPin(floor, pin, kind);
       }
       window.addEventListener("pointermove", move);
       window.addEventListener("pointerup", up);
     });
     return el;
   }
-  function positionPin(el, pin) {
-    el.style.left = (pin.x * 100) + "%";
-    el.style.top = (pin.y * 100) + "%";
+
+  // 持久化:kind=data 写覆盖层(保留未涉及字段),kind=custom 直接改对象
+  function persistPin(floor, pin, kind) {
+    var s = loadStore();
+    if (kind === "data") {
+      var o = s.overrides[pin.id] || {};
+      o.x = pin.x; o.y = pin.y;
+      if (pin.en !== undefined) o.en = pin.en;
+      if (pin.zh !== undefined) o.zh = pin.zh;
+      s.overrides[pin.id] = o;
+    }
+    saveStore();
   }
-  function setPinText(el, pin) {
-    el.querySelector(".pin-label").textContent = pinLabel(pin);
+  function deletePin(floor, pin) {
+    var s = loadStore();
+    if (pin.id && s.overrides[pin.id] !== undefined || BASE[floor] && (BASE[floor] || []).some(function (p) { return p.id === pin.id; })) {
+      s.overrides[pin.id] = Object.assign({}, s.overrides[pin.id], { deleted: true });
+    } else {
+      s.custom = s.custom.filter(function (p) { return p !== pin; });
+    }
+    saveStore();
+    refreshSettings();
+  }
+  function addCustomPin(floor, x, y) {
+    var s = loadStore();
+    var maxN = 0;
+    s.custom.forEach(function (p) {
+      var m2 = (p.en || "").match(/^Pin (\d+)$/);
+      if (m2) maxN = Math.max(maxN, +m2[1]);
+    });
+    Object.keys(s.overrides).forEach(function (id) {
+      var en = s.overrides[id].en || ((BASE[floor] || []).filter(function (p) { return p.id === id; })[0] || {}).en;
+      var m2 = (en || "").match(/^Pin (\d+)$/);
+      if (m2) maxN = Math.max(maxN, +m2[1]);
+    });
+    var pin = { id: "custom." + Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
+                x: x, y: y, en: "Pin " + (maxN + 1), zh: "点 " + (maxN + 1), floor: floor };
+    s.custom.push(pin);
+    saveStore();
+    var layer = document.querySelector('.floorpane.active .pinlayer[data-floor="' + floor + '"]') ||
+                document.querySelector('.pinlayer[data-floor="' + floor + '"]');
+    var el = makePinEl(pin, floor, "custom");
+    layer.appendChild(el);
+    openPinDialog(el, pin, floor, "custom");
   }
 
   function renderPins() {
     document.querySelectorAll(".pinlayer").forEach(function (layer) {
       var floor = layer.dataset.floor;
       layer.innerHTML = "";
-      floorPins(floor).forEach(function (pin) {
-        layer.appendChild(makePinEl(pin, floor));
+      effectivePins(floor).forEach(function (pin) {
+        var kind = (String(pin.id || "").indexOf("custom.") === 0) ? "custom" : "data";
+        layer.appendChild(makePinEl(pin, floor, kind));
       });
     });
+    layoutPinLayers();
   }
 
-  function addPin(floor, x, y, nameNow) {
-    var pins = floorPins(floor);
-    var maxN = 0;
-    pins.forEach(function (p) {
-      var m = (p.en || "").match(/^Pin (\d+)$/) || (p.zh || "").match(/^点 (\d+)$/);
-      if (m) maxN = Math.max(maxN, +m[1]);
-    });
-    var pin = { x: x, y: y, en: "Pin " + (maxN + 1), zh: "点 " + (maxN + 1) };
-    pins.push(pin);
-    savePins();
-    var layer = document.querySelector('.floorpane.active .pinlayer[data-floor="' + floor + '"]') ||
-                document.querySelector('.pinlayer[data-floor="' + floor + '"]');
-    var el = makePinEl(pin, floor);
-    layer.appendChild(el);
-    if (nameNow) openPinDialog(el, pin, floor);
-    return el;
-  }
-
-  // ---- 命名对话框(文案来自 ui;完整转义 <>&") ----
+  // ---- 命名对话框(数据点写覆盖层,自建点直改;完整转义) ----
   var dialog = null;
   function esc(s) { return (s || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;"); }
   function closePinDialog(save) {
     if (!dialog) return;
     if (save) {
-      var pin = dialog._pin;
-      pin.en = dialog.querySelector(".pd-en").value.trim();
-      pin.zh = dialog.querySelector(".pd-zh").value.trim();
-      setPinText(dialog._el, pin);
-      savePins();
-      // 空名则回退默认名
-      if (!pin.en && !pin.zh) setPinText(dialog._el, pin);
+      var pin = dialog._pin, kind = dialog._kind, floor = dialog._floor;
+      var en = dialog.querySelector(".pd-en").value.trim();
+      var zh = dialog.querySelector(".pd-zh").value.trim();
+      pin.en = en; pin.zh = zh;
+      if (kind === "data") {
+        var s = loadStore();
+        var o = s.overrides[pin.id] || {};
+        o.en = en; o.zh = zh;
+        s.overrides[pin.id] = o;
+        saveStore();
+      }
+      dialog._el.querySelector(".pin-label").textContent = pinLabel(pin);
+      refreshSettings();
     }
     dialog.remove(); dialog = null;
   }
-  function openPinDialog(el, pin, floor) {
+  function openPinDialog(el, pin, floor, kind) {
     closePinDialog(false);
     dialog = document.createElement("div");
     dialog.className = "pin-dialog";
-    dialog._pin = pin; dialog._el = el; dialog._floor = floor;
+    dialog._pin = pin; dialog._el = el; dialog._floor = floor; dialog._kind = kind;
     dialog.innerHTML =
       '<label>' + uiText("pin_name_en") + '<input class="pd-en" value="' + esc(pin.en) + '"></label>' +
       '<label>' + uiText("pin_name_zh") + '<input class="pd-zh" value="' + esc(pin.zh) + '"></label>' +
       '<div class="pd-row"><button type="button" class="pd-save">' + uiText("pin_done") + '</button>' +
       '<button type="button" class="pd-del">' + uiText("pin_delete") + '</button></div>';
     var rect = el.getBoundingClientRect();
-    dialog.style.left = Math.min(window.innerWidth - 240, Math.max(8, rect.left)) + "px";
+    dialog.style.left = Math.min(window.innerWidth - 246, Math.max(8, rect.left)) + "px";
     dialog.style.top = Math.min(window.innerHeight - 170, rect.bottom + 8) + "px";
     document.body.appendChild(dialog);
     dialog.querySelector(".pd-en").focus();
     dialog.querySelector(".pd-save").addEventListener("click", function () { closePinDialog(true); });
     dialog.querySelector(".pd-del").addEventListener("click", function () {
-      var arr = floorPins(floor);
-      var i = arr.indexOf(pin);
-      if (i > -1) arr.splice(i, 1);
-      savePins();
+      deletePin(floor, pin);
       el.remove();
       closePinDialog(false);
     });
@@ -328,44 +368,71 @@
     if (dialog && !e.target.closest(".pin-dialog") && !e.target.closest(".pin")) closePinDialog(true);
   });
 
-  // ---- 导出面板 ----
-  var exportBox = document.getElementById("pinExport");
-  var exportBtn = document.getElementById("exportBtn");
-  var exportTa = document.getElementById("pinJson");
-  function refreshExport() {
-    if (!exportBox || exportBox.hidden) return;
-    var p = document.querySelector(".floorpane.active");
-    var floor = p ? p.dataset.floor : null;
-    exportTa.value = JSON.stringify(floor ? floorPins(floor) : [], null, 1);
+  // ---- 齿轮设置面板:导出 / 导入 / 清空 ----
+  var gearBtn = document.getElementById("gearBtn");
+  var panel = document.getElementById("settingsPanel");
+  var jsonTa = document.getElementById("settingsJson");
+  var msg = document.getElementById("settingsMsg");
+  function showMsg(text, cls) {
+    msg.textContent = text;
+    msg.className = "settings-msg" + (cls ? " " + cls : "");
+    setTimeout(function () { msg.textContent = ""; }, 2500);
   }
-  if (exportBox) {
-    exportBtn.addEventListener("click", function () {
-      exportBox.hidden = !exportBox.hidden;
-      refreshExport();
+  function refreshSettings() {
+    if (!panel || panel.hidden) return;
+    jsonTa.value = JSON.stringify(loadStore(), null, 1);
+  }
+  if (gearBtn) {
+    gearBtn.addEventListener("click", function () {
+      panel.hidden = !panel.hidden;
+      refreshSettings();
     });
-    document.getElementById("pinClose").addEventListener("click", function () { exportBox.hidden = true; });
-    var copyBtn = document.getElementById("pinCopy");
-    var copyHtml = copyBtn.innerHTML;
-    copyBtn.addEventListener("click", function () {
-      exportTa.removeAttribute("readonly");
-      exportTa.select();
-      try { navigator.clipboard.writeText(exportTa.value); } catch (e) { document.execCommand("copy"); }
-      exportTa.setAttribute("readonly", "");
-      copyBtn.textContent = "✓";
-      setTimeout(function () { copyBtn.innerHTML = copyHtml; }, 1200);
+    document.getElementById("settingsClose").addEventListener("click", function () { panel.hidden = true; });
+    document.getElementById("settingsExport").addEventListener("click", function () {
+      refreshSettings();
+      jsonTa.removeAttribute("readonly");
+      jsonTa.select();
+      var ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) {}
+      try { navigator.clipboard.writeText(jsonTa.value); ok = true; } catch (e) {}
+      jsonTa.setAttribute("readonly", "");
+      showMsg(ok ? fmt("settings_copied") : "", ok ? "ok" : "");
+    });
+    document.getElementById("settingsApply").addEventListener("click", function () {
+      try {
+        var data = JSON.parse(jsonTa.value);
+        if (Array.isArray(data)) data = { overrides: {}, custom: data };
+        if (!data || typeof data !== "object" || typeof data.overrides !== "object" || !Array.isArray(data.custom)) {
+          throw new Error("shape");
+        }
+        store = { overrides: data.overrides || {}, custom: data.custom || [] };
+        saveStore();
+        renderPins();
+        showMsg(fmt("settings_import_ok").replace("{n}",
+          Object.keys(store.overrides).length + store.custom.length), "ok");
+      } catch (e) {
+        showMsg(uiText("settings_import_bad"), "err");
+      }
+    });
+    document.getElementById("settingsClear").addEventListener("click", function () {
+      store = emptyStore();
+      saveStore();
+      renderPins();
+      refreshSettings();
+      showMsg("✓", "ok");
     });
   }
 
-  // ---- Esc 分层关闭:对话框 → 导出面板 ----
+  // ---- Esc 分层:对话框 → 设置面板 ----
   document.addEventListener("keydown", function (e) {
     if (e.key !== "Escape") return;
     if (dialog) { closePinDialog(true); return; }
-    if (exportBox && !exportBox.hidden) exportBox.hidden = true;
+    if (panel && !panel.hidden) panel.hidden = true;
   });
 
   // ---- 初始化 ----
-  renderPins();
+  if (saved === "en" || saved === "zh") html.lang = saved; // 应用存储语言
+  setLang(html.lang, false);
   layoutPinLayers();
-  if (document.readyState === "complete") layoutPinLayers();
-  else window.addEventListener("load", layoutPinLayers); // 图片加载后才知道精确显示矩形
+  window.addEventListener("load", layoutPinLayers);
 })();

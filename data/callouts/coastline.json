@@ -1,194 +1,244 @@
 {
- "outdoor": [
-  {
-   "en": "Ruins",
-   "zh": "废墟"
-  },
-  {
-   "en": "Pool",
-   "zh": "泳池"
-  },
-  {
-   "en": "Main Entrance",
-   "zh": "正门"
-  },
-  {
-   "en": "Courtyard",
-   "zh": "庭院"
-  },
-  {
-   "en": "Terrace",
-   "zh": "露台"
-  },
-  {
-   "en": "Back Alley",
-   "zh": "后巷"
-  },
-  {
-   "en": "Pool Side",
-   "zh": "泳池边"
-  },
-  {
-   "en": "Walkway",
-   "zh": "步道"
-  },
-  {
-   "en": "Garage Roof",
-   "zh": "车库屋顶"
-  },
-  {
-   "en": "Promenade",
-   "zh": "散步大道"
-  }
- ],
  "1F": [
   {
    "en": "Delivery",
-   "zh": "卸货区"
+   "zh": "卸货区",
+   "x": 0.4941,
+   "y": 0.2661,
+   "id": "coastline.1F.36abc646a9"
   },
   {
    "en": "Toilets",
-   "zh": "卫生间"
+   "zh": "卫生间",
+   "x": 0.5451,
+   "y": 0.3037,
+   "id": "coastline.1F.c0d12a160b"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.523,
+   "y": 0.4174,
+   "id": "coastline.1F.1f0b42f535"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.5266,
+   "y": 0.5879,
+   "id": "coastline.1F.8696e7be18"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.4147,
+   "y": 0.2322,
+   "id": "coastline.1F.2a621bcf27"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.4363,
+   "y": 0.3651,
+   "id": "coastline.1F.a0b18b0e35"
   },
   {
    "en": "Security",
-   "zh": "安保室"
+   "zh": "安保室",
+   "x": 0.4662,
+   "y": 0.5806,
+   "id": "coastline.1F.26d003c57c"
   },
   {
    "en": "Sun",
-   "zh": "太阳"
+   "zh": "太阳",
+   "x": 0.4105,
+   "y": 0.5494,
+   "id": "coastline.1F.3f4c022fc8"
   },
   {
    "en": "Library",
-   "zh": "图书馆"
+   "zh": "图书馆",
+   "x": 0.3455,
+   "y": 0.5412,
+   "id": "coastline.1F.a9d98f65d0"
   },
   {
    "en": "Blue Bar",
-   "zh": "蓝酒吧"
+   "zh": "蓝酒吧",
+   "x": 0.3306,
+   "y": 0.4137,
+   "id": "coastline.1F.2aef19519b"
   },
   {
    "en": "Sunrise",
-   "zh": "日出厅"
+   "zh": "日出厅",
+   "x": 0.2976,
+   "y": 0.3083,
+   "id": "coastline.1F.204da5effb"
   },
   {
    "en": "Pool Entrance",
-   "zh": "泳池入口"
+   "zh": "泳池入口",
+   "x": 0.2801,
+   "y": 0.2093,
+   "id": "coastline.1F.377beac3ce"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.3863,
+   "y": 0.2478,
+   "id": "coastline.1F.47148a44ce"
   },
   {
    "en": "Cantina",
-   "zh": "酒馆"
+   "zh": "酒馆",
+   "x": 0.3997,
+   "y": 0.1671,
+   "id": "coastline.1F.2b35748de3"
   },
   {
    "en": "Reception",
-   "zh": "接待处"
+   "zh": "接待处",
+   "x": 0.5168,
+   "y": 0.4688,
+   "id": "coastline.1F.3b845d3fbf"
   },
   {
    "en": "Sunrise Hallway",
-   "zh": "日出厅走廊"
+   "zh": "日出厅走廊",
+   "x": 0.3739,
+   "y": 0.3037,
+   "id": "coastline.1F.ff44c93f81"
   }
  ],
  "2F": [
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.5524,
+   "y": 0.6585,
+   "id": "coastline.2F.70e876d2e3"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.3935,
+   "y": 0.3019,
+   "id": "coastline.2F.09e184af2a"
   },
   {
    "en": "VIP Hallway",
-   "zh": "贵宾走廊"
+   "zh": "贵宾走廊",
+   "x": 0.4544,
+   "y": 0.4256,
+   "id": "coastline.2F.09fd737e0a"
   },
   {
    "en": "Hookah",
-   "zh": "水烟馆"
+   "zh": "水烟馆",
+   "x": 0.3512,
+   "y": 0.3395,
+   "id": "coastline.2F.bfc759efde"
   },
   {
    "en": "Pool Table",
-   "zh": "台球桌"
+   "zh": "台球桌",
+   "x": 0.3497,
+   "y": 0.4834,
+   "id": "coastline.2F.cd1df30f44"
   },
   {
    "en": "TV Hallway",
-   "zh": "电视房走廊"
+   "zh": "电视房走廊",
+   "x": 0.522,
+   "y": 0.51,
+   "id": "coastline.2F.4ce07d85f6"
   },
   {
    "en": "Luggage",
-   "zh": "行李房"
+   "zh": "行李房",
+   "x": 0.457,
+   "y": 0.6109,
+   "id": "coastline.2F.d56762cdef"
   },
   {
    "en": "Aqua",
-   "zh": "泳池区"
+   "zh": "泳池区",
+   "x": 0.3719,
+   "y": 0.6127,
+   "id": "coastline.2F.b2226b1481"
   },
   {
    "en": "Guitars",
-   "zh": "吉他"
+   "zh": "吉他",
+   "x": 0.5219,
+   "y": 0.2844,
+   "id": "coastline.2F.3c5750aba5"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.5812,
+   "y": 0.3037,
+   "id": "coastline.2F.bd7c621635"
   },
   {
    "en": "Penthouse",
-   "zh": "顶层套房"
+   "zh": "顶层套房",
+   "x": 0.5436,
+   "y": 0.3614,
+   "id": "coastline.2F.db9c6055f8"
   },
   {
    "en": "TV",
-   "zh": "电视房"
+   "zh": "电视房",
+   "x": 0.5565,
+   "y": 0.5311,
+   "id": "coastline.2F.1f93241997"
   },
   {
    "en": "Hookah Balcony",
-   "zh": "水烟馆阳台"
+   "zh": "水烟馆阳台",
+   "x": 0.31,
+   "y": 0.3184,
+   "id": "coastline.2F.66792ed701"
   },
   {
    "en": "VIP",
-   "zh": "贵宾区"
+   "zh": "贵宾区",
+   "x": 0.457,
+   "y": 0.3697,
+   "id": "coastline.2F.f1b8af537d"
   },
   {
    "en": "VIP Balcony",
-   "zh": "贵宾阳台"
+   "zh": "贵宾阳台",
+   "x": 0.4977,
+   "y": 0.223,
+   "id": "coastline.2F.3b628377b0"
   },
   {
    "en": "Aqua Balcony",
-   "zh": "泳池阳台"
+   "zh": "泳池阳台",
+   "x": 0.3719,
+   "y": 0.6888,
+   "id": "coastline.2F.a3d0c233e5"
   },
   {
    "en": "Roof Drop",
-   "zh": "屋顶速降点"
+   "zh": "屋顶速降点",
+   "x": 0.4477,
+   "y": 0.5815,
+   "id": "coastline.2F.eeb970d541"
   },
   {
    "en": "Hookah Hallway",
-   "zh": "水烟馆走廊"
-  }
- ],
- "R": [
-  {
-   "en": "Rooftop",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Roof Drop",
-   "zh": "屋顶速降点"
+   "zh": "水烟馆走廊",
+   "x": 0.4033,
+   "y": 0.3661,
+   "id": "coastline.2F.457a79e7c9"
   }
  ]
 }

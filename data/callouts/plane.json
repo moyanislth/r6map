@@ -1,182 +1,251 @@
 {
- "outdoor": [
-  {
-   "en": "Main Entrance",
-   "zh": "正门"
-  },
-  {
-   "en": "Front Service Entrance",
-   "zh": "前勤入口"
-  },
-  {
-   "en": "Right Wing",
-   "zh": "右翼"
-  },
-  {
-   "en": "Back Service Entrance",
-   "zh": "后勤入口"
-  },
-  {
-   "en": "Reporter Entrance",
-   "zh": "记者入口"
-  },
-  {
-   "en": "Left Wing",
-   "zh": "左翼"
-  },
-  {
-   "en": "Front Stairway",
-   "zh": "前楼梯"
-  },
-  {
-   "en": "Back Stairway",
-   "zh": "后楼梯"
-  }
- ],
  "1F": [
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.4957,
+   "y": 0.5674,
+   "id": "plane.1F.11b4e31dde"
   },
   {
    "en": "Cargo",
-   "zh": "货物区"
+   "zh": "货物区",
+   "x": 0.546,
+   "y": 0.5827,
+   "id": "plane.1F.7cd9337d92"
   },
   {
    "en": "Storage Corridor",
-   "zh": "储藏室走廊"
+   "zh": "储藏室走廊",
+   "x": 0.5861,
+   "y": 0.5595,
+   "id": "plane.1F.f456234159"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.589,
+   "y": 0.5804,
+   "id": "plane.1F.267165c33b"
   },
   {
    "en": "Luggage",
-   "zh": "行李房"
+   "zh": "行李房",
+   "x": 0.6069,
+   "y": 0.5656,
+   "id": "plane.1F.9d02cea450"
   },
   {
    "en": "Infirmary",
-   "zh": "医务室"
+   "zh": "医务室",
+   "x": 0.6439,
+   "y": 0.5785,
+   "id": "plane.1F.27e947cb34"
   },
   {
    "en": "Front Stairs",
-   "zh": "前楼梯"
+   "zh": "前楼梯",
+   "x": 0.6645,
+   "y": 0.5642,
+   "id": "plane.1F.1e00afc75d"
   },
   {
    "en": "Technical",
-   "zh": "技术室"
+   "zh": "技术室",
+   "x": 0.6564,
+   "y": 0.5531,
+   "id": "plane.1F.07345b81c8"
   }
  ],
  "2F": [
   {
    "en": "Meeting",
-   "zh": "会议室"
+   "zh": "会议室",
+   "x": 0.6911,
+   "y": 0.5933,
+   "id": "plane.2F.0bcd186a86"
   },
   {
    "en": "Office Hallway",
-   "zh": "办公室走廊"
+   "zh": "办公室走廊",
+   "x": 0.7106,
+   "y": 0.5896,
+   "id": "plane.2F.b2041edc74"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.72,
+   "y": 0.5961,
+   "id": "plane.2F.9d33d6886e"
   },
   {
    "en": "Meeting Hallway",
-   "zh": "会议室走廊"
+   "zh": "会议室走廊",
+   "x": 0.6851,
+   "y": 0.5748,
+   "id": "plane.2F.2c906ea4c3"
   },
   {
    "en": "Front Stairs",
-   "zh": "前楼梯"
+   "zh": "前楼梯",
+   "x": 0.6668,
+   "y": 0.5896,
+   "id": "plane.2F.b17d8d7b42"
   },
   {
    "en": "Pantry",
-   "zh": "食品储藏间"
+   "zh": "食品储藏间",
+   "x": 0.6679,
+   "y": 0.6073,
+   "id": "plane.2F.309635ea73"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.6455,
+   "y": 0.6073,
+   "id": "plane.2F.67f55dbfa3"
   },
   {
    "en": "Bedroom Hallway",
-   "zh": "卧室走廊"
+   "zh": "卧室走廊",
+   "x": 0.634,
+   "y": 0.5771,
+   "id": "plane.2F.9a5f80af6a"
   },
   {
    "en": "Bedroom",
-   "zh": "卧室"
+   "zh": "卧室",
+   "x": 0.6004,
+   "y": 0.5869,
+   "id": "plane.2F.3624557d89"
   },
   {
    "en": "Changing",
-   "zh": "更衣室"
+   "zh": "更衣室",
+   "x": 0.6236,
+   "y": 0.6142,
+   "id": "plane.2F.27a1370975"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.6262,
+   "y": 0.5901,
+   "id": "plane.2F.aeb52fe454"
   },
   {
    "en": "Staff",
-   "zh": "员工区"
+   "zh": "员工区",
+   "x": 0.5746,
+   "y": 0.5924,
+   "id": "plane.2F.22c9b94e4f"
   },
   {
    "en": "Security",
-   "zh": "安保室"
+   "zh": "安保室",
+   "x": 0.5574,
+   "y": 0.5948,
+   "id": "plane.2F.070abf4ef2"
   },
   {
    "en": "Press A",
-   "zh": "印刷机A"
+   "zh": "印刷机A",
+   "x": 0.5339,
+   "y": 0.5739,
+   "id": "plane.2F.07096513d8"
   },
   {
    "en": "Press B",
-   "zh": "印刷机B"
+   "zh": "印刷机B",
+   "x": 0.5066,
+   "y": 0.5739,
+   "id": "plane.2F.c6136549a7"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.498,
+   "y": 0.5929,
+   "id": "plane.2F.2edde8f6f8"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "id": "plane.2F.94a7f1a57e"
   },
   {
    "en": "Cockpit Stairs",
-   "zh": "驾驶舱楼梯"
+   "zh": "驾驶舱楼梯",
+   "x": 0.646,
+   "y": 0.5896,
+   "id": "plane.2F.0230fec497"
   },
   {
    "en": "Back Caterer",
-   "zh": "后备餐间"
+   "zh": "后备餐间",
+   "x": 0.4907,
+   "y": 0.6439,
+   "id": "plane.2F.fbe6a9eb05"
   },
   {
    "en": "Ladder",
-   "zh": "梯子"
+   "zh": "梯子",
+   "x": 0.5642,
+   "y": 0.5679,
+   "id": "plane.2F.faf3bfcc55"
   }
  ],
  "3F": [
   {
    "en": "Cockpit Stairs",
-   "zh": "驾驶舱楼梯"
+   "zh": "驾驶舱楼梯",
+   "x": 0.6556,
+   "y": 0.5882,
+   "id": "plane.3F.e77ed6418e"
   },
   {
    "en": "Cabin Staff",
-   "zh": "船舱乘务区"
+   "zh": "船舱乘务区",
+   "x": 0.6783,
+   "y": 0.591,
+   "id": "plane.3F.efd18b9d6f"
   },
   {
    "en": "Radio",
-   "zh": "无线电室"
+   "zh": "无线电室",
+   "x": 0.6929,
+   "y": 0.591,
+   "id": "plane.3F.882909e24a"
   },
   {
    "en": "Cabin",
-   "zh": "船舱"
+   "zh": "船舱",
+   "x": 0.7134,
+   "y": 0.591,
+   "id": "plane.3F.f91d2b22ac"
   },
   {
    "en": "Front Caterer",
-   "zh": "前备餐间"
+   "zh": "前备餐间",
+   "x": 0.7106,
+   "y": 0.6378,
+   "id": "plane.3F.56a06b6090"
   },
   {
    "en": "Server A",
-   "zh": "服务器A"
+   "zh": "服务器A",
+   "x": 0.6064,
+   "y": 0.5919,
+   "id": "plane.3F.09f7bcd440"
   },
   {
    "en": "Server B",
-   "zh": "服务器B"
+   "zh": "服务器B",
+   "x": 0.4928,
+   "y": 0.5919,
+   "id": "plane.3F.71070a07c3"
   }
  ]
 }

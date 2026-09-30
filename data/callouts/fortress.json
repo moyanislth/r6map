@@ -1,254 +1,324 @@
 {
- "outdoor": [
-  {
-   "en": "Garden Path",
-   "zh": "花园小径"
-  },
-  {
-   "en": "Stable Path",
-   "zh": "马厩小径"
-  },
-  {
-   "en": "Cliffside",
-   "zh": "悬崖边"
-  },
-  {
-   "en": "Courtyard Path",
-   "zh": "庭院小径"
-  },
-  {
-   "en": "Cannon",
-   "zh": "大炮"
-  },
-  {
-   "en": "Unloading",
-   "zh": "卸货区"
-  },
-  {
-   "en": "Front Entrance",
-   "zh": "正门"
-  }
- ],
  "1F": [
   {
    "en": "Garden Path",
-   "zh": "花园小径"
+   "zh": "花园小径",
+   "x": 0.6317,
+   "y": 0.8137,
+   "id": "fortress.1F.934b87bb52"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.7174,
+   "y": 0.7822,
+   "id": "fortress.1F.344ec6ba57"
   },
   {
    "en": "Hammam",
-   "zh": "土耳其浴房"
+   "zh": "土耳其浴房",
+   "x": 0.5687,
+   "y": 0.772,
+   "id": "fortress.1F.c5d66b17a0"
   },
   {
    "en": "Showers",
-   "zh": "淋浴间"
+   "zh": "淋浴间",
+   "x": 0.6038,
+   "y": 0.7836,
+   "id": "fortress.1F.9ce6c1bb3a"
   },
   {
    "en": "Cafeteria Hallway",
-   "zh": "自助餐厅走廊"
+   "zh": "自助餐厅走廊",
+   "x": 0.6814,
+   "y": 0.7697,
+   "id": "fortress.1F.eb1affc9ab"
   },
   {
    "en": "Hammam Hallway",
-   "zh": "浴房走廊"
+   "zh": "浴房走廊",
+   "x": 0.6239,
+   "y": 0.7521,
+   "id": "fortress.1F.9bf59ad56e"
   },
   {
    "en": "Old Stairs",
-   "zh": "旧楼梯"
+   "zh": "旧楼梯",
+   "x": 0.7082,
+   "y": 0.7392,
+   "id": "fortress.1F.cfcda33862"
   },
   {
    "en": "Cafeteria",
-   "zh": "自助餐厅"
+   "zh": "自助餐厅",
+   "x": 0.6689,
+   "y": 0.7262,
+   "id": "fortress.1F.915b78e10a"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6278,
+   "y": 0.6989,
+   "id": "fortress.1F.de043d2f76"
   },
   {
    "en": "Infirmary",
-   "zh": "医务室"
+   "zh": "医务室",
+   "x": 0.7033,
+   "y": 0.6864,
+   "id": "fortress.1F.e48dd241dd"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.6358,
+   "y": 0.6688,
+   "id": "fortress.1F.4f983ed622"
   },
   {
    "en": "Changing",
-   "zh": "更衣室"
+   "zh": "更衣室",
+   "x": 0.5804,
+   "y": 0.6744,
+   "id": "fortress.1F.08c4187767"
   },
   {
    "en": "Dining Hallway",
-   "zh": "餐厅走廊"
+   "zh": "餐厅走廊",
+   "x": 0.6017,
+   "y": 0.6156,
+   "id": "fortress.1F.141ee995e0"
   },
   {
    "en": "Changing Hallway",
-   "zh": "更衣走廊"
+   "zh": "更衣走廊",
+   "x": 0.6189,
+   "y": 0.6859,
+   "id": "fortress.1F.e6b856174c"
   },
   {
    "en": "Waiting",
-   "zh": "等候区"
+   "zh": "等候区",
+   "x": 0.6754,
+   "y": 0.6595,
+   "id": "fortress.1F.8ebb2729df"
   },
   {
    "en": "Sitting",
-   "zh": "起居区"
+   "zh": "起居区",
+   "x": 0.5778,
+   "y": 0.6396,
+   "id": "fortress.1F.381c95567e"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.6306,
+   "y": 0.6095,
+   "id": "fortress.1F.88d2532c4a"
   },
   {
    "en": "Fountain",
-   "zh": "喷泉"
+   "zh": "喷泉",
+   "x": 0.6676,
+   "y": 0.6063,
+   "id": "fortress.1F.cd7a4137bf"
   },
   {
    "en": "Music",
-   "zh": "音乐室"
+   "zh": "音乐室",
+   "x": 0.5694,
+   "y": 0.5808,
+   "id": "fortress.1F.dac4b4ae65"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.5983,
+   "y": 0.5508,
+   "id": "fortress.1F.0845a6a046"
   },
   {
    "en": "Ladder",
-   "zh": "梯子"
+   "zh": "梯子",
+   "x": 0.6957,
+   "y": 0.5521,
+   "id": "fortress.1F.a7cd847028"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.6283,
+   "y": 0.5378,
+   "id": "fortress.1F.9121f7af82"
   },
   {
    "en": "Office Hallway",
-   "zh": "办公室走廊"
+   "zh": "办公室走廊",
+   "x": 0.6332,
+   "y": 0.5614,
+   "id": "fortress.1F.fec56eabde"
   },
   {
    "en": "Lobby Stairs",
-   "zh": "大堂楼梯"
+   "zh": "大堂楼梯",
+   "x": 0.57,
+   "y": 0.5156,
+   "id": "fortress.1F.1131da6b77"
   }
  ],
  "2F": [
   {
    "en": "Hammam Roof",
-   "zh": "浴房屋顶"
+   "zh": "浴房屋顶",
+   "x": 0.5603,
+   "y": 0.6771,
+   "id": "fortress.2F.a0bdbfba40"
   },
   {
    "en": "Shisha",
-   "zh": "水烟馆"
+   "zh": "水烟馆",
+   "x": 0.621,
+   "y": 0.7586,
+   "id": "fortress.2F.0781c532b8"
   },
   {
    "en": "Gaming Hallway",
-   "zh": "游戏区走廊"
+   "zh": "游戏区走廊",
+   "x": 0.6619,
+   "y": 0.7341,
+   "id": "fortress.2F.486ad0e34a"
   },
   {
    "en": "Dormitory Hallway",
-   "zh": "宿舍走廊"
+   "zh": "宿舍走廊",
+   "x": 0.6022,
+   "y": 0.691,
+   "id": "fortress.2F.e63b3edf78"
   },
   {
    "en": "Bathroom Hallway",
-   "zh": "浴室走廊"
+   "zh": "浴室走廊",
+   "id": "fortress.2F.40e2c6d318"
   },
   {
    "en": "Dormitory",
-   "zh": "宿舍"
+   "zh": "宿舍",
+   "x": 0.6395,
+   "y": 0.6503,
+   "id": "fortress.2F.ca3bf7fbe0"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.6621,
+   "y": 0.7044,
+   "id": "fortress.2F.6e920d34cc"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.6106,
+   "y": 0.6646,
+   "id": "fortress.2F.687e92001a"
   },
   {
    "en": "Briefing",
-   "zh": "简报室"
+   "zh": "简报室",
+   "x": 0.6645,
+   "y": 0.616,
+   "id": "fortress.2F.a28f421b20"
   },
   {
    "en": "Courtyard Balcony",
-   "zh": "庭院阳台"
+   "zh": "庭院阳台",
+   "x": 0.6976,
+   "y": 0.6151,
+   "id": "fortress.2F.df10e4a0f2"
   },
   {
    "en": "Portrait",
-   "zh": "肖像画"
+   "zh": "肖像画",
+   "x": 0.5499,
+   "y": 0.522,
+   "id": "fortress.2F.9d597bc44d"
   },
   {
    "en": "Horse",
-   "zh": "马"
+   "zh": "马",
+   "x": 0.5757,
+   "y": 0.592,
+   "id": "fortress.2F.58a873f16b"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.6088,
+   "y": 0.592,
+   "id": "fortress.2F.ba49406090"
   },
   {
    "en": "Commander",
-   "zh": "指挥室"
+   "zh": "指挥室",
+   "x": 0.5812,
+   "y": 0.5415,
+   "id": "fortress.2F.753a2aaba7"
   },
   {
    "en": "Bedroom",
-   "zh": "卧室"
+   "zh": "卧室",
+   "x": 0.6142,
+   "y": 0.5285,
+   "id": "fortress.2F.76260b7666"
   },
   {
    "en": "Fountain",
-   "zh": "喷泉"
+   "zh": "喷泉",
+   "x": 0.6496,
+   "y": 0.5424,
+   "id": "fortress.2F.0c820f1e07"
   },
   {
    "en": "Mezzanine",
-   "zh": "夹层"
+   "zh": "夹层",
+   "id": "fortress.2F.46c15477e3"
   },
   {
    "en": "Fountain Tower",
-   "zh": "喷泉塔"
+   "zh": "喷泉塔",
+   "x": 0.6853,
+   "y": 0.4966,
+   "id": "fortress.2F.2a07484e48"
   },
   {
    "en": "Lobby Stairs",
-   "zh": "大堂楼梯"
+   "zh": "大堂楼梯",
+   "x": 0.5509,
+   "y": 0.4517,
+   "id": "fortress.2F.d88a0cb7a6"
   },
   {
    "en": "Renovation Hallway",
-   "zh": "装修区走廊"
+   "zh": "装修区走廊",
+   "x": 0.5707,
+   "y": 0.4753,
+   "id": "fortress.2F.8a930853bd"
   },
   {
    "en": "Renovation",
-   "zh": "装修区"
+   "zh": "装修区",
+   "x": 0.6124,
+   "y": 0.46,
+   "id": "fortress.2F.267469688c"
   },
   {
    "en": "Old Stairs",
-   "zh": "旧楼梯"
-  }
- ],
- "R": [
-  {
-   "en": "Hammam Roof",
-   "zh": "浴房屋顶"
-  },
-  {
-   "en": "Old Roof",
-   "zh": "旧屋顶"
-  },
-  {
-   "en": "Old",
-   "zh": "旧区"
-  },
-  {
-   "en": "Modern Roof",
-   "zh": "新屋顶"
-  },
-  {
-   "en": "Courtyard Balcony",
-   "zh": "庭院阳台"
-  },
-  {
-   "en": "West Tower",
-   "zh": "西塔"
-  },
-  {
-   "en": "East Tower",
-   "zh": "东塔"
-  },
-  {
-   "en": "Guard Tower",
-   "zh": "岗楼"
+   "zh": "旧楼梯",
+   "x": 0.6929,
+   "y": 0.6771,
+   "id": "fortress.2F.e5aa2925ff"
   }
  ]
 }

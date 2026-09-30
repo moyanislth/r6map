@@ -1,306 +1,398 @@
 {
- "outdoor": [
-  {
-   "en": "Middle",
-   "zh": "中部"
-  },
-  {
-   "en": "Parking",
-   "zh": "停车场"
-  },
-  {
-   "en": "Lawn",
-   "zh": "草坪"
-  },
-  {
-   "en": "Lock Gate Tunnel",
-   "zh": "闸门隧道"
-  },
-  {
-   "en": "Forklift",
-   "zh": "叉车"
-  },
-  {
-   "en": "Parking Entrance",
-   "zh": "停车场入口"
-  },
-  {
-   "en": "Lock Gate",
-   "zh": "闸门"
-  },
-  {
-   "en": "Construction",
-   "zh": "施工区"
-  },
-  {
-   "en": "Containers",
-   "zh": "集装箱区"
-  },
-  {
-   "en": "Docks Bridge",
-   "zh": "码头栈桥"
-  },
-  {
-   "en": "Lawn Stairs",
-   "zh": "草坪楼梯"
-  }
- ],
  "subB": [
   {
    "en": "Tunnel",
-   "zh": "隧道"
+   "zh": "隧道",
+   "x": 0.5504,
+   "y": 0.56,
+   "id": "kanal.subB.28aa311cb9"
   }
  ],
  "B": [
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6715,
+   "y": 0.5887,
+   "id": "kanal.B.55b1869843"
   },
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "x": 0.5332,
+   "y": 0.4466,
+   "id": "kanal.B.fd78b24735"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.579,
+   "y": 0.5711,
+   "id": "kanal.B.282dac458b"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.6686,
+   "y": 0.5086,
+   "id": "kanal.B.b1e18b863a"
   },
   {
    "en": "Alcove",
-   "zh": "凹室"
+   "zh": "凹室",
+   "x": 0.5803,
+   "y": 0.4577,
+   "id": "kanal.B.786147df7e"
   },
   {
    "en": "Pipes",
-   "zh": "管道区"
+   "zh": "管道区",
+   "x": 0.5366,
+   "y": 0.6198,
+   "id": "kanal.B.e762ddcf48"
   },
   {
    "en": "Basement Corridor",
-   "zh": "地下走廊"
+   "zh": "地下走廊",
+   "x": 0.5723,
+   "y": 0.5253,
+   "id": "kanal.B.2c78333213"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.585,
+   "y": 0.6165,
+   "id": "kanal.B.b49736510d"
   },
   {
    "en": "Supply",
-   "zh": "补给室"
+   "zh": "补给室",
+   "x": 0.5478,
+   "y": 0.5934,
+   "id": "kanal.B.3d162c453f"
   },
   {
    "en": "Shower",
-   "zh": "淋浴间"
+   "zh": "淋浴间",
+   "x": 0.5947,
+   "y": 0.5855,
+   "id": "kanal.B.121cf0e319"
   },
   {
    "en": "Kayaks",
-   "zh": "皮划艇"
+   "zh": "皮划艇",
+   "x": 0.546,
+   "y": 0.5346,
+   "id": "kanal.B.eb60b5ffcc"
   },
   {
    "en": "Locker",
-   "zh": "储物柜"
+   "zh": "储物柜",
+   "x": 0.5853,
+   "y": 0.5262,
+   "id": "kanal.B.8552ea2816"
   },
   {
    "en": "Diving",
-   "zh": "潜水区"
+   "zh": "潜水区",
+   "x": 0.5493,
+   "y": 0.4646,
+   "id": "kanal.B.7af7ad6149"
   },
   {
    "en": "Lawn Entrance",
-   "zh": "草坪入口"
+   "zh": "草坪入口",
+   "x": 0.5592,
+   "y": 0.6198,
+   "id": "kanal.B.5451d6d29b"
   },
   {
    "en": "Diving Corridor",
-   "zh": "潜水走廊"
+   "zh": "潜水走廊",
+   "x": 0.5493,
+   "y": 0.498,
+   "id": "kanal.B.ad6e20cfc2"
   }
  ],
  "1F": [
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.5866,
+   "y": 0.5591,
+   "id": "kanal.1F.28eb14af13"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6752,
+   "y": 0.5883,
+   "id": "kanal.1F.9a8d3e9cbf"
   },
   {
    "en": "Green Stairs",
-   "zh": "绿楼梯"
+   "zh": "绿楼梯",
+   "x": 0.7244,
+   "y": 0.498,
+   "id": "kanal.1F.534973466a"
   },
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "x": 0.5358,
+   "y": 0.4397,
+   "id": "kanal.1F.1eeb2923f3"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5892,
+   "y": 0.4397,
+   "id": "kanal.1F.fdf235023f"
   },
   {
    "en": "Archives",
-   "zh": "档案室"
+   "zh": "档案室",
+   "x": 0.5458,
+   "y": 0.6193,
+   "id": "kanal.1F.075f8052e5"
   },
   {
    "en": "Reception",
-   "zh": "接待处"
+   "zh": "接待处",
+   "x": 0.5825,
+   "y": 0.6193,
+   "id": "kanal.1F.a1802b7011"
   },
   {
    "en": "Model",
-   "zh": "模型区"
+   "zh": "模型区",
+   "x": 0.6517,
+   "y": 0.6003,
+   "id": "kanal.1F.bb2ea0a8b9"
   },
   {
    "en": "Museum",
-   "zh": "博物馆"
+   "zh": "博物馆",
+   "x": 0.7046,
+   "y": 0.5818,
+   "id": "kanal.1F.21136116f4"
   },
   {
    "en": "Meeting",
-   "zh": "会议室"
+   "zh": "会议室",
+   "x": 0.5463,
+   "y": 0.5856,
+   "id": "kanal.1F.bb03204d02"
   },
   {
    "en": "Radio Hallway",
-   "zh": "无线电室走廊"
+   "zh": "无线电室走廊",
+   "x": 0.5632,
+   "y": 0.48,
+   "id": "kanal.1F.2dda8abff8"
   },
   {
    "en": "Bridge",
-   "zh": "桥"
+   "zh": "桥",
+   "x": 0.6182,
+   "y": 0.5934,
+   "id": "kanal.1F.1613176acf"
   },
   {
    "en": "Map Corridor",
-   "zh": "地图室走廊"
+   "zh": "地图室走廊",
+   "x": 0.6916,
+   "y": 0.5572,
+   "id": "kanal.1F.5434eb814a"
   },
   {
    "en": "Security",
-   "zh": "安保室"
+   "zh": "安保室",
+   "x": 0.6476,
+   "y": 0.5508,
+   "id": "kanal.1F.2353d829bc"
   },
   {
    "en": "Lounge",
-   "zh": "休息室"
+   "zh": "休息室",
+   "x": 0.5832,
+   "y": 0.4846,
+   "id": "kanal.1F.2adb6db6f6"
   },
   {
    "en": "Map",
-   "zh": "地图室"
+   "zh": "地图室",
+   "x": 0.6762,
+   "y": 0.4924,
+   "id": "kanal.1F.dfff1d4169"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.7025,
+   "y": 0.5045,
+   "id": "kanal.1F.5f053cee36"
   },
   {
    "en": "Construction Entrance",
-   "zh": "施工入口"
+   "zh": "施工入口",
+   "id": "kanal.1F.55e2a55b81"
   },
   {
    "en": "Radio",
-   "zh": "无线电室"
+   "zh": "无线电室",
+   "x": 0.5408,
+   "y": 0.4939,
+   "id": "kanal.1F.c06065b36e"
   },
   {
    "en": "Projector",
-   "zh": "放映室"
+   "zh": "放映室",
+   "x": 0.6463,
+   "y": 0.4925,
+   "id": "kanal.1F.8dfbfc2108"
   },
   {
    "en": "Construction Stairs",
-   "zh": "施工楼梯"
+   "zh": "施工楼梯",
+   "x": 0.7335,
+   "y": 0.4952,
+   "id": "kanal.1F.020d7e3fba"
   },
   {
    "en": "Gym",
-   "zh": "健身房"
+   "zh": "健身房",
+   "x": 0.584,
+   "y": 0.5281,
+   "id": "kanal.1F.b9f4b88617"
   },
   {
    "en": "Meeting Hallway",
-   "zh": "会议室走廊"
+   "zh": "会议室走廊",
+   "x": 0.5731,
+   "y": 0.5429,
+   "id": "kanal.1F.80408e4019"
   }
  ],
  "2F": [
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.5892,
+   "y": 0.5619,
+   "id": "kanal.2F.592acbafbe"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.6799,
+   "y": 0.5929,
+   "id": "kanal.2F.28e683abf0"
   },
   {
    "en": "Green Stairs",
-   "zh": "绿楼梯"
+   "zh": "绿楼梯",
+   "x": 0.7286,
+   "y": 0.4998,
+   "id": "kanal.2F.32866e6349"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.5892,
+   "y": 0.4396,
+   "id": "kanal.2F.8fe3681d5e"
   },
   {
    "en": "Renovations",
-   "zh": "装修区"
+   "zh": "装修区",
+   "x": 0.6499,
+   "y": 0.5674,
+   "id": "kanal.2F.ebc5316b84"
   },
   {
    "en": "Roof Entrance",
-   "zh": "屋顶入口"
+   "zh": "屋顶入口",
+   "x": 0.6648,
+   "y": 0.5628,
+   "id": "kanal.2F.46cb2909d3"
   },
   {
    "en": "Radar Corridor",
-   "zh": "雷达站走廊"
+   "zh": "雷达站走廊",
+   "x": 0.6973,
+   "y": 0.5596,
+   "id": "kanal.2F.7bc5002a56"
   },
   {
    "en": "Radar",
-   "zh": "雷达站"
+   "zh": "雷达站",
+   "x": 0.6556,
+   "y": 0.5239,
+   "id": "kanal.2F.446a78db72"
   },
   {
    "en": "Server",
-   "zh": "服务器室"
+   "zh": "服务器室",
+   "x": 0.6921,
+   "y": 0.4859,
+   "id": "kanal.2F.2e5d4bfd08"
   },
   {
    "en": "Server Corridor",
-   "zh": "服务器走廊"
+   "zh": "服务器走廊",
+   "x": 0.7189,
+   "y": 0.5054,
+   "id": "kanal.2F.81f5b7e840"
   },
   {
    "en": "Printer",
-   "zh": "打印室"
+   "zh": "打印室",
+   "x": 0.5869,
+   "y": 0.4813,
+   "id": "kanal.2F.8513023874"
   },
   {
    "en": "Control",
-   "zh": "控制室"
+   "zh": "控制室",
+   "x": 0.6577,
+   "y": 0.4859,
+   "id": "kanal.2F.84ce00003a"
   },
   {
    "en": "Upper Bridge",
-   "zh": "上层天桥"
+   "zh": "上层天桥",
+   "x": 0.6171,
+   "y": 0.467,
+   "id": "kanal.2F.bf4f19caa2"
   },
   {
    "en": "West Roof",
-   "zh": "西屋顶"
+   "zh": "西屋顶",
+   "x": 0.5528,
+   "y": 0.5795,
+   "id": "kanal.2F.5020e8e5db"
   },
   {
    "en": "Balcony Renovations",
-   "zh": "阳台整修区"
+   "zh": "阳台整修区",
+   "x": 0.6536,
+   "y": 0.604,
+   "id": "kanal.2F.8bb55e7a5f"
   },
   {
    "en": "Bridge Roof",
-   "zh": "桥顶"
+   "zh": "桥顶",
+   "x": 0.6194,
+   "y": 0.5938,
+   "id": "kanal.2F.3fb75a2b88"
   },
   {
    "en": "L",
-   "zh": "L形区"
-  }
- ],
- "R": [
-  {
-   "en": "West Roof",
-   "zh": "西屋顶"
-  },
-  {
-   "en": "Balcony Renovations",
-   "zh": "阳台整修区"
-  },
-  {
-   "en": "Bridge Roof",
-   "zh": "桥顶"
-  },
-  {
-   "en": "East Roof",
-   "zh": "东屋顶"
-  },
-  {
-   "en": "L",
-   "zh": "L形区"
-  },
-  {
-   "en": "Upper Bridge Roof",
-   "zh": "天桥顶"
+   "zh": "L形区",
+   "id": "kanal.2F.ec15a345ae"
   }
  ]
 }

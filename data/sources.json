@@ -16,10 +16,6 @@
         "B": {
           "en": "Basement",
           "zh": "地下一层"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -37,10 +33,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -62,10 +54,6 @@
         "B": {
           "en": "Basement",
           "zh": "地下一层"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -87,10 +75,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -129,10 +113,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -150,10 +130,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -175,10 +151,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -196,10 +168,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -225,10 +193,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -246,10 +210,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -275,10 +235,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -300,10 +256,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -325,10 +277,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -354,10 +302,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -379,10 +323,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -404,10 +344,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -433,10 +369,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -454,10 +386,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -479,10 +407,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -500,10 +424,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -529,10 +449,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -554,10 +470,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -575,10 +487,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -600,10 +508,6 @@
         "3F": {
           "en": "3rd Floor",
           "zh": "三楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],
@@ -625,10 +529,6 @@
         "2F": {
           "en": "2nd Floor",
           "zh": "二楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [
@@ -656,10 +556,6 @@
         "4F": {
           "en": "4th Floor",
           "zh": "四楼"
-        },
-        "R": {
-          "en": "Roof",
-          "zh": "屋顶"
         }
       },
       "excluded_imgs": [],

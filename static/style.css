@@ -7,6 +7,7 @@
   --dim: #8a90a0;
   --accent: #f0a63a;
   --accent-dim: #b07c2a;
+  --data: #6aa5e8;
 }
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
@@ -21,17 +22,9 @@ body {
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
 
-/* 语言切换:html[lang] 控制互斥;报点列表项例外见下 */
+/* 语言切换:html[lang] 控制互斥 */
 html[lang="zh"] .t-en { display: none; }
 html[lang="en"] .t-zh { display: none; }
-/* 报点列表项:中文模式主显中文、小字副显英文;英文模式只显英文 */
-html[lang="zh"] .callouts li .t-en {
-  display: block;
-  font-size: 11px;
-  color: var(--dim);
-}
-html[lang="en"] .callouts li .t-zh { display: none; }
-html[lang="en"] .callouts li i.t-en { display: none; }
 
 .topbar {
   display: flex;
@@ -121,13 +114,9 @@ footer a { color: var(--dim); text-decoration: underline; }
   font-weight: 600;
 }
 .floorpane { display: none; }
-.floorpane.active {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: 16px;
-  align-items: start;
-}
-/* 行内画框:16:9 统一尺寸,object-fit: contain 居中,所有地图/楼层高度一致零跳动 */
+.floorpane.active { display: block; }
+
+/* 行内画框:16:9 统一尺寸,object-fit: contain 居中 */
 .imgwrap {
   position: relative;
   border: 1px solid var(--line);
@@ -203,7 +192,7 @@ footer a { color: var(--dim); text-decoration: underline; }
   transition: opacity .4s ease;
 }
 
-/* 标注:点位与标签一体;--inv = 1/缩放,保证任意放大倍率下尺寸恒定 */
+/* 标注:点位与标签一体;--inv = 1/缩放,任意放大倍率下尺寸恒定 */
 .pinlayer { position: absolute; z-index: 2; }
 .pin {
   position: absolute;
@@ -219,16 +208,17 @@ footer a { color: var(--dim); text-decoration: underline; }
   width: 14px;
   height: 14px;
   border-radius: 50%;
-  background: var(--accent);
   border: 2px solid #171207;
-  box-shadow: 0 0 0 2px rgba(240, 166, 58, .35), 0 2px 6px rgba(0, 0, 0, .5);
   flex: none;
   clip-path: polygon(0 0, 100% 0, 100% 62%, 50% 100%, 0 62%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .5);
 }
+.pin[data-kind="data"] .pin-dot { background: var(--data); box-shadow: 0 0 0 2px rgba(106, 165, 232, .3), 0 2px 6px rgba(0, 0, 0, .5); }
+.pin[data-kind="custom"] .pin-dot { background: var(--accent); box-shadow: 0 0 0 2px rgba(240, 166, 58, .35), 0 2px 6px rgba(0, 0, 0, .5); }
 .pin-label {
   font-size: 11px;
-  color: #171207;
-  background: var(--accent);
+  color: #10131a;
+  background: var(--data);
   border-radius: 4px;
   padding: 1px 6px;
   white-space: nowrap;
@@ -237,7 +227,8 @@ footer a { color: var(--dim); text-decoration: underline; }
   text-overflow: ellipsis;
   margin-bottom: 3px;
 }
-.pin:hover .pin-label { background: #ffc35c; }
+.pin[data-kind="custom"] .pin-label { background: var(--accent); }
+.pin:hover .pin-label { filter: brightness(1.15); }
 .pin-del {
   display: none;
   position: absolute;
@@ -294,131 +285,67 @@ footer a { color: var(--dim); text-decoration: underline; }
 .pin-dialog .pd-save { background: var(--accent); border-color: var(--accent); color: #171207; font-weight: 600; }
 .pin-dialog .pd-del:hover { border-color: #d64545; color: #d64545; }
 
-.pin {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  cursor: pointer;
-}
-.pin-dot {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: var(--accent);
-  border: 2px solid #171207;
-  box-shadow: 0 0 0 2px rgba(240, 166, 58, .35);
-  flex: none;
-}
-.pin-label {
-  font-size: 11px;
-  color: #171207;
-  background: var(--accent);
-  border-radius: 4px;
-  padding: 1px 6px;
-  white-space: nowrap;
-  max-width: 160px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.pin.editable { cursor: move; }
-.pin-del {
-  display: none;
-  border: none;
-  background: #d64545;
-  color: #fff;
-  border-radius: 50%;
-  width: 16px;
-  height: 16px;
-  font-size: 11px;
-  line-height: 1;
-  cursor: pointer;
-}
-.pin.editable:hover .pin-del { display: block; }
-.pin-dialog {
-  position: fixed;
-  z-index: 60;
-  background: var(--panel-2);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 220px;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, .5);
-}
-.pin-dialog label { font-size: 11px; color: var(--dim); display: flex; flex-direction: column; gap: 3px; }
-.pin-dialog input {
-  background: var(--bg);
-  border: 1px solid var(--line);
-  border-radius: 5px;
-  color: var(--text);
-  padding: 5px 8px;
-  font-size: 13px;
-  font-family: inherit;
-}
-.pin-dialog input:focus { outline: none; border-color: var(--accent-dim); }
-.pin-dialog .pd-row { display: flex; gap: 8px; }
-.pin-dialog button {
-  flex: 1;
-  border: 1px solid var(--line);
-  background: var(--panel);
-  color: var(--text);
-  border-radius: 5px;
-  padding: 5px 0;
-  font-size: 12px;
-  cursor: pointer;
-  font-family: inherit;
-}
-.pin-dialog .pd-save { background: var(--accent); border-color: var(--accent); color: #171207; font-weight: 600; }
-.pin-dialog .pd-del:hover { border-color: #d64545; color: #d64545; }
-
-.tool-btn {
-  background: var(--panel-2);
-  color: var(--text);
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 5px 12px;
-  font-size: 13px;
-  cursor: pointer;
-  font-family: inherit;
-}
-.tool-btn:hover { border-color: var(--accent-dim); }
-.tool-btn.on { background: var(--accent); border-color: var(--accent); color: #171207; font-weight: 600; }
-
-.pin-export {
+/* 齿轮 + 设置面板(右下角,低调) */
+.gear-btn {
   position: fixed;
   right: 16px;
   bottom: 16px;
-  z-index: 55;
+  z-index: 40;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line);
+  background: rgba(23, 26, 33, .88);
+  color: var(--dim);
+  font-size: 17px;
+  cursor: pointer;
+}
+.gear-btn:hover { color: var(--accent); border-color: var(--accent-dim); }
+.settings-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 62px;
+  z-index: 45;
   width: 360px;
+  max-width: calc(100vw - 32px);
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 10px;
   padding: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, .5);
 }
-.pin-export-head {
+.settings-head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   font-size: 13px;
 }
-.pin-export-head button {
+.settings-x {
+  border: none;
+  background: none;
+  color: var(--dim);
+  font-size: 18px;
+  cursor: pointer;
+  padding: 0 4px;
+}
+.settings-x:hover { color: var(--text); }
+.settings-hint { color: var(--dim); font-size: 11px; margin: 0 0 8px; }
+.settings-row { display: flex; gap: 8px; margin: 8px 0; align-items: center; }
+.settings-row button {
   border: 1px solid var(--line);
   background: var(--panel-2);
   color: var(--text);
   border-radius: 5px;
-  padding: 3px 10px;
+  padding: 5px 12px;
   font-size: 12px;
   cursor: pointer;
-  margin-left: 6px;
   font-family: inherit;
 }
-.pin-export textarea {
+.settings-row button:hover { border-color: var(--accent-dim); }
+.settings-row button.primary { background: var(--accent); border-color: var(--accent); color: #171207; font-weight: 600; }
+.settings-row button.danger:hover { border-color: #d64545; color: #d64545; }
+.settings-panel textarea {
   width: 100%;
   background: var(--bg);
   color: var(--text);
@@ -429,53 +356,10 @@ footer a { color: var(--dim); text-decoration: underline; }
   padding: 8px;
   resize: vertical;
 }
-
-/* 报点列表 */
-.callouts h2 {
-  font-size: 14px;
-  color: var(--dim);
-  font-weight: 600;
-  margin: 2px 0 10px;
-}
-.callouts h2 i { font-style: normal; color: var(--accent); }
-.callouts ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2px;
-  max-height: calc(100vh - 220px);
-  overflow-y: auto;
-}
-.callouts li {
-  background: var(--panel);
-  border: 1px solid transparent;
-  border-radius: 6px;
-  padding: 6px 10px;
-  font-size: 14px;
-  line-height: 1.35;
-}
-.callouts li:hover { border-color: var(--line); }
-.callouts li i {
-  display: block;
-  font-style: normal;
-  font-size: 11px;
-  color: var(--dim);
-}
-.empty { color: var(--dim); font-size: 14px; padding: 8px 2px; }
-.empty .sub { font-size: 12px; }
-.blank-notice {
-  margin-top: 16px;
-  border: 1px dashed var(--line);
-  border-radius: 10px;
-  padding: 18px;
-  text-align: center;
-  color: var(--dim);
-  font-size: 14px;
-}
+.settings-msg { font-size: 11px; color: var(--dim); }
+.settings-msg.ok { color: var(--accent); }
+.settings-msg.err { color: #d64545; }
 
 @media (max-width: 860px) {
-  .floorpane.active { grid-template-columns: 1fr; }
-  .callouts ul { max-height: none; }
+  main { padding: 12px; }
 }

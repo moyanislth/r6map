@@ -1,242 +1,349 @@
 {
- "outdoor": [
-  {
-   "en": "Pumps",
-   "zh": "泵房"
-  },
-  {
-   "en": "Motel Parking",
-   "zh": "汽车旅馆停车场"
-  },
-  {
-   "en": "Restaurant Parking",
-   "zh": "餐厅停车场"
-  },
-  {
-   "en": "Picnic",
-   "zh": "野餐区"
-  },
-  {
-   "en": "Golf",
-   "zh": "高尔夫"
-  }
- ],
  "1F": [
   {
    "en": "Walkway",
-   "zh": "步道"
+   "zh": "步道",
+   "x": 0.449,
+   "y": 0.5419,
+   "id": "outback.1F.50f9528ff4"
   },
   {
    "en": "Restaurant Entrance",
-   "zh": "餐厅入口"
+   "zh": "餐厅入口",
+   "x": 0.7004,
+   "y": 0.4131,
+   "id": "outback.1F.2e8f3cf497"
   },
   {
    "en": "Loading",
-   "zh": "装卸区"
+   "zh": "装卸区",
+   "x": 0.5672,
+   "y": 0.3365,
+   "id": "outback.1F.a62a10649d"
   },
   {
    "en": "Garage Stairs",
-   "zh": "车库楼梯"
+   "zh": "车库楼梯",
+   "x": 0.5556,
+   "y": 0.6816,
+   "id": "outback.1F.48a290a6d0"
   },
   {
    "en": "Balcony Stairs",
-   "zh": "阳台楼梯"
+   "zh": "阳台楼梯",
+   "x": 0.3453,
+   "y": 0.359,
+   "id": "outback.1F.409a29059d"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.366,
+   "y": 0.3096,
+   "id": "outback.1F.384e0f3041"
   },
   {
    "en": "Piano Stairs",
-   "zh": "钢琴楼梯"
+   "zh": "钢琴楼梯",
+   "x": 0.5139,
+   "y": 0.2967,
+   "id": "outback.1F.82cd0135c0"
   },
   {
    "en": "Shark Stairs",
-   "zh": "鲨鱼楼梯"
+   "zh": "鲨鱼楼梯",
+   "x": 0.6293,
+   "y": 0.3122,
+   "id": "outback.1F.0e937ff666"
   },
   {
    "en": "Terrace Stairs",
-   "zh": "露台楼梯"
+   "zh": "露台楼梯",
+   "x": 0.5838,
+   "y": 0.2776,
+   "id": "outback.1F.483359c7be"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.5893,
+   "y": 0.7015,
+   "id": "outback.1F.0e6d116cdf"
   },
   {
    "en": "Waiting",
-   "zh": "等候区"
+   "zh": "等候区",
+   "x": 0.6421,
+   "y": 0.7856,
+   "id": "outback.1F.4c3de46e6f"
   },
   {
    "en": "Shop",
-   "zh": "商店"
+   "zh": "商店",
+   "x": 0.6763,
+   "y": 0.7119,
+   "id": "outback.1F.0db7c21904"
   },
   {
    "en": "Beer",
-   "zh": "啤酒区"
+   "zh": "啤酒区",
+   "x": 0.642,
+   "y": 0.6815,
+   "id": "outback.1F.b21e7e9954"
   },
   {
    "en": "Gear",
-   "zh": "装备区"
+   "zh": "装备区",
+   "x": 0.6775,
+   "y": 0.6151,
+   "id": "outback.1F.e8d79c099b"
   },
   {
    "en": "Compressor",
-   "zh": "压缩机房"
+   "zh": "压缩机房",
+   "x": 0.5958,
+   "y": 0.5879,
+   "id": "outback.1F.11d84b69e5"
   },
   {
    "en": "Reception",
-   "zh": "接待处"
+   "zh": "接待处",
+   "x": 0.5182,
+   "y": 0.5586,
+   "id": "outback.1F.d65136fec4"
   },
   {
    "en": "Reptile",
-   "zh": "爬虫馆"
+   "zh": "爬虫馆",
+   "x": 0.5211,
+   "y": 0.4071,
+   "id": "outback.1F.18340b8656"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.5661,
+   "y": 0.4786,
+   "id": "outback.1F.b607db169e"
   },
   {
    "en": "Restaurant",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.6241,
+   "y": 0.3817,
+   "id": "outback.1F.26ff231385"
   },
   {
    "en": "Back Entrance",
-   "zh": "后门"
+   "zh": "后门",
+   "x": 0.3797,
+   "y": 0.3558,
+   "id": "outback.1F.22fe9426bf"
   },
   {
    "en": "Ranger",
-   "zh": "护林员站"
+   "zh": "护林员站",
+   "x": 0.4176,
+   "y": 0.4147,
+   "id": "outback.1F.1cf1ff65c2"
   },
   {
    "en": "Nature",
-   "zh": "自然区"
+   "zh": "自然区",
+   "x": 0.4797,
+   "y": 0.4146,
+   "id": "outback.1F.436e77bc5a"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.6661,
+   "y": 0.4489,
+   "id": "outback.1F.8f1ddc06e6"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.5679,
+   "y": 0.3976,
+   "id": "outback.1F.d60e6c1d5d"
   },
   {
    "en": "Connector",
-   "zh": "连接走廊"
+   "zh": "连接走廊",
+   "x": 0.4222,
+   "y": 0.301,
+   "id": "outback.1F.720c8ed336"
   },
   {
    "en": "Closet",
-   "zh": "储物间"
+   "zh": "储物间",
+   "x": 0.4365,
+   "y": 0.3357,
+   "id": "outback.1F.60b249266a"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.4477,
+   "y": 0.281,
+   "id": "outback.1F.a9e9cfaa86"
   }
  ],
  "2F": [
   {
    "en": "Garage Stairs",
-   "zh": "车库楼梯"
+   "zh": "车库楼梯",
+   "x": 0.5465,
+   "y": 0.6718,
+   "id": "outback.2F.fa65e93292"
   },
   {
    "en": "Balcony Stairs",
-   "zh": "阳台楼梯"
+   "zh": "阳台楼梯",
+   "x": 0.3376,
+   "y": 0.3444,
+   "id": "outback.2F.639214a250"
   },
   {
    "en": "Back Stairs",
-   "zh": "后楼梯"
+   "zh": "后楼梯",
+   "x": 0.3601,
+   "y": 0.2821,
+   "id": "outback.2F.0f8ba76984"
   },
   {
    "en": "Piano Stairs",
-   "zh": "钢琴楼梯"
+   "zh": "钢琴楼梯",
+   "x": 0.5083,
+   "y": 0.2798,
+   "id": "outback.2F.972b29fc79"
   },
   {
    "en": "Shark Stairs",
-   "zh": "鲨鱼楼梯"
+   "zh": "鲨鱼楼梯",
+   "x": 0.6246,
+   "y": 0.2975,
+   "id": "outback.2F.7922f848d9"
   },
   {
    "en": "Terrace Stairs",
-   "zh": "露台楼梯"
+   "zh": "露台楼梯",
+   "x": 0.5765,
+   "y": 0.2628,
+   "id": "outback.2F.5164c2e3e8"
   },
   {
    "en": "Lounge",
-   "zh": "休息室"
+   "zh": "休息室",
+   "x": 0.5892,
+   "y": 0.6654,
+   "id": "outback.2F.5a5458ad45"
   },
   {
    "en": "Shop Roof",
-   "zh": "商店屋顶"
+   "zh": "商店屋顶",
+   "x": 0.6598,
+   "y": 0.6948,
+   "id": "outback.2F.8edaf777f1"
   },
   {
    "en": "Balcony",
-   "zh": "阳台"
+   "zh": "阳台",
+   "x": 0.4599,
+   "y": 0.5191,
+   "id": "outback.2F.0a32484b68"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.6117,
+   "y": 0.5979,
+   "id": "outback.2F.6ed20378cd"
   },
   {
    "en": "Supplies",
-   "zh": "补给品"
+   "zh": "补给品",
+   "x": 0.655,
+   "y": 0.5831,
+   "id": "outback.2F.2bd06aa23c"
   },
   {
    "en": "Bull",
-   "zh": "公牛"
+   "zh": "公牛",
+   "x": 0.5654,
+   "y": 0.4873,
+   "id": "outback.2F.eeb102959a"
   },
   {
    "en": "Party",
-   "zh": "派对区"
+   "zh": "派对区",
+   "x": 0.6116,
+   "y": 0.5051,
+   "id": "outback.2F.99ef62caee"
   },
   {
    "en": "Electrical",
-   "zh": "电气室"
+   "zh": "电气室",
+   "x": 0.6549,
+   "y": 0.4935,
+   "id": "outback.2F.d2e7d229e4"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.5138,
+   "y": 0.4368,
+   "id": "outback.2F.b5a09ad718"
   },
   {
    "en": "Dorms",
-   "zh": "宿舍"
+   "zh": "宿舍",
+   "x": 0.3625,
+   "y": 0.3475,
+   "id": "outback.2F.cd15713b0e"
   },
   {
    "en": "Showers",
-   "zh": "淋浴间"
+   "zh": "淋浴间",
+   "x": 0.4509,
+   "y": 0.4253,
+   "id": "outback.2F.6680e30783"
   },
   {
    "en": "Shark",
-   "zh": "鲨鱼"
+   "zh": "鲨鱼",
+   "x": 0.5914,
+   "y": 0.3639,
+   "id": "outback.2F.4f8ea753b3"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.4242,
+   "y": 0.3221,
+   "id": "outback.2F.f879f33066"
   },
   {
    "en": "Showers Hallway",
-   "zh": "淋浴间走廊"
+   "zh": "淋浴间走廊",
+   "x": 0.4367,
+   "y": 0.3832,
+   "id": "outback.2F.be532ff295"
   },
   {
    "en": "Piano",
-   "zh": "钢琴"
+   "zh": "钢琴",
+   "x": 0.487,
+   "y": 0.3272,
+   "id": "outback.2F.a7e6a70de3"
   },
   {
    "en": "Terrace",
-   "zh": "露台"
-  }
- ],
- "R": [
-  {
-   "en": "Shop Roof",
-   "zh": "商店屋顶"
-  },
-  {
-   "en": "Restaurant Roof",
-   "zh": "餐厅屋顶"
-  },
-  {
-   "en": "Garage Roof",
-   "zh": "车库屋顶"
-  },
-  {
-   "en": "Motel Roof",
-   "zh": "汽车旅馆屋顶"
+   "zh": "露台",
+   "x": 0.5523,
+   "y": 0.3482,
+   "id": "outback.2F.f3b02b52c5"
   }
  ]
 }

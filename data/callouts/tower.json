@@ -1,268 +1,407 @@
 {
- "outdoor": [
-  {
-   "en": "North Rappel",
-   "zh": "北侧速降点"
-  },
-  {
-   "en": "South Rappel",
-   "zh": "南侧速降点"
-  }
- ],
  "1F": [
   {
    "en": "West Atrium",
-   "zh": "西中庭"
+   "zh": "西中庭",
+   "x": 0.4205,
+   "y": 0.2385,
+   "id": "tower.1F.d511c35dcb"
   },
   {
    "en": "East Atrium",
-   "zh": "东中庭"
+   "zh": "东中庭",
+   "x": 0.6696,
+   "y": 0.239,
+   "id": "tower.1F.f51b5c8e7c"
   },
   {
    "en": "Center Atrium",
-   "zh": "中央中庭"
+   "zh": "中央中庭",
+   "x": 0.5933,
+   "y": 0.2298,
+   "id": "tower.1F.ca6adcf117"
   },
   {
    "en": "Main Reception",
-   "zh": "总接待处"
+   "zh": "总接待处",
+   "x": 0.5447,
+   "y": 0.3106,
+   "id": "tower.1F.0c811cc045"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.4691,
+   "y": 0.3618,
+   "id": "tower.1F.36fe647746"
   },
   {
    "en": "West Balcony",
-   "zh": "西阳台"
+   "zh": "西阳台",
+   "x": 0.4,
+   "y": 0.3915,
+   "id": "tower.1F.3e14199aca"
   },
   {
    "en": "Restaurant",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.4937,
+   "y": 0.4655,
+   "id": "tower.1F.6e3182e7db"
   },
   {
    "en": "Bird",
-   "zh": "鸟"
+   "zh": "鸟",
+   "x": 0.4313,
+   "y": 0.4587,
+   "id": "tower.1F.1156061a09"
   },
   {
    "en": "Restaurant Reception",
-   "zh": "餐厅接待处"
+   "zh": "餐厅接待处",
+   "x": 0.4896,
+   "y": 0.5512,
+   "id": "tower.1F.f58a551bd8"
   },
   {
    "en": "Tea",
-   "zh": "茶室"
+   "zh": "茶室",
+   "x": 0.6006,
+   "y": 0.4204,
+   "id": "tower.1F.d0217651d8"
   },
   {
    "en": "Lounge",
-   "zh": "休息室"
+   "zh": "休息室",
+   "x": 0.6741,
+   "y": 0.4475,
+   "id": "tower.1F.e10a34551a"
   },
   {
    "en": "East Balcony",
-   "zh": "东阳台"
+   "zh": "东阳台",
+   "x": 0.7185,
+   "y": 0.5067,
+   "id": "tower.1F.877b3061f6"
   },
   {
    "en": "Bar",
-   "zh": "酒吧"
+   "zh": "酒吧",
+   "x": 0.6398,
+   "y": 0.54,
+   "id": "tower.1F.7c5f1b9746"
   },
   {
    "en": "Elevator",
-   "zh": "电梯"
+   "zh": "电梯",
+   "x": 0.5478,
+   "y": 0.6104,
+   "id": "tower.1F.f00478018d"
   },
   {
    "en": "Bar Hallway",
-   "zh": "酒吧走廊"
+   "zh": "酒吧走廊",
+   "x": 0.6221,
+   "y": 0.6178,
+   "id": "tower.1F.cf058a5f70"
   },
   {
    "en": "Restaurant Hallway",
-   "zh": "餐厅走廊"
+   "zh": "餐厅走廊",
+   "x": 0.4635,
+   "y": 0.6178,
+   "id": "tower.1F.76039f5d0f"
   },
   {
    "en": "Traditional",
-   "zh": "传统房"
+   "zh": "传统房",
+   "x": 0.5458,
+   "y": 0.685,
+   "id": "tower.1F.ecf811c889"
   },
   {
    "en": "Bonsai",
-   "zh": "盆景"
+   "zh": "盆景",
+   "x": 0.4785,
+   "y": 0.677,
+   "id": "tower.1F.2c21653bf4"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.6162,
+   "y": 0.677,
+   "id": "tower.1F.74b0095f63"
   },
   {
    "en": "Fountain",
-   "zh": "喷泉"
+   "zh": "喷泉",
+   "x": 0.5454,
+   "y": 0.8349,
+   "id": "tower.1F.a931c930d7"
   },
   {
    "en": "West Observatory",
-   "zh": "西观景台"
+   "zh": "西观景台",
+   "x": 0.4469,
+   "y": 0.7942,
+   "id": "tower.1F.2359758494"
   },
   {
    "en": "East Observatory",
-   "zh": "东观景台"
+   "zh": "东观景台",
+   "x": 0.6405,
+   "y": 0.7942,
+   "id": "tower.1F.81153d22a2"
   },
   {
    "en": "North Stairs",
-   "zh": "北楼梯"
+   "zh": "北楼梯",
+   "x": 0.5457,
+   "y": 0.2021,
+   "id": "tower.1F.83b2a8cad1"
   },
   {
    "en": "West Stairs",
-   "zh": "西楼梯"
+   "zh": "西楼梯",
+   "x": 0.3719,
+   "y": 0.5463,
+   "id": "tower.1F.5c50665373"
   },
   {
    "en": "East Stairs",
-   "zh": "东楼梯"
+   "zh": "东楼梯",
+   "x": 0.6956,
+   "y": 0.5949,
+   "id": "tower.1F.fa2c20a68c"
   },
   {
    "en": "Yellow",
-   "zh": "黄区"
+   "zh": "黄区",
+   "x": 0.5496,
+   "y": 0.4599,
+   "id": "tower.1F.7e9b35366b"
   }
  ],
  "2F": [
   {
    "en": "North Stairs",
-   "zh": "北楼梯"
+   "zh": "北楼梯",
+   "x": 0.5458,
+   "y": 0.1962,
+   "id": "tower.2F.ffa71023f0"
   },
   {
    "en": "West Stairs",
-   "zh": "西楼梯"
+   "zh": "西楼梯",
+   "x": 0.3659,
+   "y": 0.5082,
+   "id": "tower.2F.88a2b42473"
   },
   {
    "en": "East Stairs",
-   "zh": "东楼梯"
+   "zh": "东楼梯",
+   "x": 0.6957,
+   "y": 0.595,
+   "id": "tower.2F.d6b6840b39"
   },
   {
    "en": "Elevator",
-   "zh": "电梯"
+   "zh": "电梯",
+   "x": 0.5507,
+   "y": 0.5753,
+   "id": "tower.2F.0416558333"
   },
   {
    "en": "West Atrium",
-   "zh": "西中庭"
+   "zh": "西中庭",
+   "x": 0.4206,
+   "y": 0.2141,
+   "id": "tower.2F.500429987a"
   },
   {
    "en": "East Atrium",
-   "zh": "东中庭"
+   "zh": "东中庭",
+   "x": 0.6696,
+   "y": 0.2146,
+   "id": "tower.2F.0fe64fc71f"
   },
   {
    "en": "Center Atrium",
-   "zh": "中央中庭"
+   "zh": "中央中庭",
+   "x": 0.5933,
+   "y": 0.23,
+   "id": "tower.2F.12dd28514c"
   },
   {
    "en": "Info",
-   "zh": "咨询台"
+   "zh": "咨询台",
+   "x": 0.5458,
+   "y": 0.2325,
+   "id": "tower.2F.ece2ec2043"
   },
   {
    "en": "Blue",
-   "zh": "蓝区"
+   "zh": "蓝区",
+   "x": 0.5479,
+   "y": 0.4471,
+   "id": "tower.2F.8b16c57376"
   },
   {
    "en": "Gallery",
-   "zh": "画廊"
+   "zh": "画廊",
+   "x": 0.5174,
+   "y": 0.4292,
+   "id": "tower.2F.0e0efe2fe0"
   },
   {
    "en": "Lantern",
-   "zh": "灯笼"
+   "zh": "灯笼",
+   "x": 0.4561,
+   "y": 0.5273,
+   "id": "tower.2F.a33c0f8c55"
   },
   {
    "en": "Media",
-   "zh": "媒体室"
+   "zh": "媒体室",
+   "x": 0.6495,
+   "y": 0.365,
+   "id": "tower.2F.ac3f28cf3a"
   },
   {
    "en": "Exhibit Hallway",
-   "zh": "展厅走廊"
+   "zh": "展厅走廊",
+   "x": 0.685,
+   "y": 0.5358,
+   "id": "tower.2F.45a9d55671"
   },
   {
    "en": "Exhibit",
-   "zh": "展厅"
+   "zh": "展厅",
+   "x": 0.6232,
+   "y": 0.5278,
+   "id": "tower.2F.ca691f472a"
   },
   {
    "en": "East Balcony",
-   "zh": "东阳台"
+   "zh": "东阳台",
+   "x": 0.7238,
+   "y": 0.6011,
+   "id": "tower.2F.4debfd9d0a"
   },
   {
    "en": "Gift Shop",
-   "zh": "礼品店"
+   "zh": "礼品店",
+   "x": 0.456,
+   "y": 0.3917,
+   "id": "tower.2F.48e989275f"
   },
   {
    "en": "West Balcony",
-   "zh": "西阳台"
+   "zh": "西阳台",
+   "x": 0.3943,
+   "y": 0.5668,
+   "id": "tower.2F.42ad5a281f"
   },
   {
    "en": "Offices Hallway",
-   "zh": "办公区走廊"
+   "zh": "办公区走廊",
+   "x": 0.481,
+   "y": 0.6222,
+   "id": "tower.2F.6a92c65dc9"
   },
   {
    "en": "Offices",
-   "zh": "办公区"
+   "zh": "办公区",
+   "x": 0.4557,
+   "y": 0.6876,
+   "id": "tower.2F.a099dd48be"
   },
   {
    "en": "Supply",
-   "zh": "补给室"
+   "zh": "补给室",
+   "x": 0.3805,
+   "y": 0.7518,
+   "id": "tower.2F.75e4ef9ae4"
   },
   {
    "en": "Meeting",
-   "zh": "会议室"
+   "zh": "会议室",
+   "x": 0.4343,
+   "y": 0.8146,
+   "id": "tower.2F.8c29af4f87"
   },
   {
    "en": "CEO",
-   "zh": "总裁办公室"
+   "zh": "总裁办公室",
+   "x": 0.5466,
+   "y": 0.8448,
+   "id": "tower.2F.7d1756863b"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.6489,
+   "y": 0.8225,
+   "id": "tower.2F.b16db8c567"
   },
   {
    "en": "Server",
-   "zh": "服务器室"
+   "zh": "服务器室",
+   "x": 0.711,
+   "y": 0.714,
+   "id": "tower.2F.041e3d175c"
   },
   {
    "en": "CEO Reception",
-   "zh": "总裁接待处"
+   "zh": "总裁接待处",
+   "x": 0.5629,
+   "y": 0.6801,
+   "id": "tower.2F.0d64e16e32"
   }
  ],
  "3F": [
   {
    "en": "North Vent",
-   "zh": "北通风口"
+   "zh": "北通风口",
+   "x": 0.4808,
+   "y": 0.3963,
+   "id": "tower.3F.309a2a7503"
   },
   {
    "en": "East Vent",
-   "zh": "东通风口"
+   "zh": "东通风口",
+   "x": 0.6664,
+   "y": 0.4674,
+   "id": "tower.3F.87ff492bfc"
   },
   {
    "en": "West Vent",
-   "zh": "西通风口"
+   "zh": "西通风口",
+   "x": 0.4371,
+   "y": 0.5825,
+   "id": "tower.3F.773bfdcdb4"
   },
   {
    "en": "Ventilation",
-   "zh": "通风机房"
+   "zh": "通风机房",
+   "x": 0.5491,
+   "y": 0.3904,
+   "id": "tower.3F.6d30e4d9b9"
   },
   {
    "en": "Catwalk",
-   "zh": "猫道"
+   "zh": "猫道",
+   "x": 0.656,
+   "y": 0.2993,
+   "id": "tower.3F.60d97e8937"
   },
   {
    "en": "Elevator",
-   "zh": "电梯"
-  }
- ],
- "R": [
-  {
-   "en": "Roof Access",
-   "zh": "屋顶入口"
-  },
-  {
-   "en": "Elevator",
-   "zh": "电梯"
-  },
-  {
-   "en": "North Vent",
-   "zh": "北通风口"
-  },
-  {
-   "en": "East Vent",
-   "zh": "东通风口"
-  },
-  {
-   "en": "West Vent",
-   "zh": "西通风口"
+   "zh": "电梯",
+   "x": 0.5581,
+   "y": 0.6269,
+   "id": "tower.3F.413b232521"
   }
  ]
 }

@@ -1,202 +1,260 @@
 {
- "outdoor": [
-  {
-   "en": "Schoolyard",
-   "zh": "操场"
-  },
-  {
-   "en": "School Roof",
-   "zh": "学校屋顶"
-  },
-  {
-   "en": "Back Alley",
-   "zh": "后巷"
-  },
-  {
-   "en": "Courtyard",
-   "zh": "庭院"
-  },
-  {
-   "en": "Rooftops",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Street",
-   "zh": "街道"
-  },
-  {
-   "en": "Market Alley",
-   "zh": "市场小巷"
-  },
-  {
-   "en": "Football",
-   "zh": "桌上足球"
-  }
- ],
  "B": [
   {
    "en": "Market",
-   "zh": "集市"
+   "zh": "集市",
+   "x": 0.1943,
+   "y": 0.2514,
+   "id": "favela.B.9740b9049d"
   },
   {
    "en": "Tunnel",
-   "zh": "隧道"
+   "zh": "隧道",
+   "x": 0.1625,
+   "y": 0.3042,
+   "id": "favela.B.04d8ac6ee4"
   }
  ],
  "1F": [
   {
    "en": "Trash Stairs",
-   "zh": "垃圾房楼梯"
+   "zh": "垃圾房楼梯",
+   "x": 0.3357,
+   "y": 0.044,
+   "id": "favela.1F.bca5a028b3"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.3414,
+   "y": 0.1829,
+   "id": "favela.1F.c4a638b3e7"
   },
   {
    "en": "Solarium",
-   "zh": "日光浴房"
+   "zh": "日光浴房",
+   "x": 0.3638,
+   "y": 0.2556,
+   "id": "favela.1F.ec6d518e9d"
   },
   {
    "en": "Pink",
-   "zh": "粉区"
+   "zh": "粉区",
+   "x": 0.2997,
+   "y": 0.2898,
+   "id": "favela.1F.91de2ac98d"
   },
   {
    "en": "Pink Kitchen",
-   "zh": "粉厨房"
+   "zh": "粉厨房",
+   "x": 0.3234,
+   "y": 0.2532,
+   "id": "favela.1F.b8d3153fe3"
   },
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "x": 0.2495,
+   "y": 0.3176,
+   "id": "favela.1F.eafbc51f40"
   },
   {
    "en": "Yellow",
-   "zh": "黄区"
+   "zh": "黄区",
+   "x": 0.2422,
+   "y": 0.1815,
+   "id": "favela.1F.e37f47c0f9"
   },
   {
    "en": "Green",
-   "zh": "绿区"
+   "zh": "绿区",
+   "x": 0.2656,
+   "y": 0.112,
+   "id": "favela.1F.f7409f8f38"
   },
   {
    "en": "Green Bathroom",
-   "zh": "绿浴室"
+   "zh": "绿浴室",
+   "x": 0.2409,
+   "y": 0.0866,
+   "id": "favela.1F.7afb9ce7a6"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.3148,
+   "y": 0.1,
+   "id": "favela.1F.63240aeff7"
   },
   {
    "en": "Blue",
-   "zh": "蓝区"
+   "zh": "蓝区",
+   "x": 0.3,
+   "y": 0.1949,
+   "id": "favela.1F.0b47ce2d87"
   },
   {
    "en": "Blue Kitchen",
-   "zh": "蓝厨房"
+   "zh": "蓝厨房",
+   "x": 0.3141,
+   "y": 0.2139,
+   "id": "favela.1F.1ec9a481d3"
   },
   {
    "en": "Blue Bedroom",
-   "zh": "蓝卧室"
+   "zh": "蓝卧室",
+   "x": 0.2625,
+   "y": 0.1634,
+   "id": "favela.1F.7ca2473d22"
   }
  ],
  "2F": [
   {
    "en": "Mezzanine",
-   "zh": "夹层"
+   "zh": "夹层",
+   "x": 0.2513,
+   "y": 0.2592,
+   "id": "favela.2F.aa25a639d4"
   },
   {
    "en": "Yellow Stairs",
-   "zh": "黄楼梯"
+   "zh": "黄楼梯",
+   "x": 0.2419,
+   "y": 0.2963,
+   "id": "favela.2F.34f37dfe61"
   },
   {
    "en": "Red",
-   "zh": "红区"
+   "zh": "红区",
+   "x": 0.256,
+   "y": 0.1667,
+   "id": "favela.2F.03a5b43527"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.243,
+   "y": 0.1606,
+   "id": "favela.2F.5824e6c84b"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.3016,
+   "y": 0.1065,
+   "id": "favela.2F.be1d7c7721"
   },
   {
    "en": "Storage Balcony",
-   "zh": "储藏室阳台"
+   "zh": "储藏室阳台",
+   "x": 0.3036,
+   "y": 0.0463,
+   "id": "favela.2F.4d489f086d"
   },
   {
    "en": "Armory",
-   "zh": "军械库"
+   "zh": "军械库",
+   "x": 0.2729,
+   "y": 0.0833,
+   "id": "favela.2F.527a839445"
   },
   {
    "en": "Armory Balcony",
-   "zh": "军械库阳台"
+   "zh": "军械库阳台",
+   "x": 0.2461,
+   "y": 0.0866,
+   "id": "favela.2F.244b2fd372"
   },
   {
    "en": "Trash Stairs",
-   "zh": "垃圾房楼梯"
+   "zh": "垃圾房楼梯",
+   "x": 0.3529,
+   "y": 0.0421,
+   "id": "favela.2F.ca5081c1bc"
   },
   {
    "en": "Servers",
-   "zh": "服务器室"
+   "zh": "服务器室",
+   "x": 0.3208,
+   "y": 0.1856,
+   "id": "favela.2F.c3a9a1832c"
   },
   {
    "en": "Hacker",
-   "zh": "黑客室"
+   "zh": "黑客室",
+   "id": "favela.2F.b4e35bd6e9"
   },
   {
    "en": "Bunks",
-   "zh": "铺位区"
+   "zh": "铺位区",
+   "x": 0.301,
+   "y": 0.2653,
+   "id": "favela.2F.51cc9113d8"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.338,
+   "y": 0.293,
+   "id": "favela.2F.03f94df798"
   },
   {
    "en": "Roof Stairs",
-   "zh": "屋顶楼梯"
+   "zh": "屋顶楼梯",
+   "x": 0.3443,
+   "y": 0.2245,
+   "id": "favela.2F.a6680b6780"
   },
   {
    "en": "Solarium Roof",
-   "zh": "日光房屋顶"
+   "zh": "日光房屋顶",
+   "x": 0.3615,
+   "y": 0.2667,
+   "id": "favela.2F.a56a03fcbd"
   }
  ],
  "3F": [
   {
    "en": "Roof",
-   "zh": "屋顶"
+   "zh": "屋顶",
+   "x": 0.3055,
+   "y": 0.2079,
+   "id": "favela.3F.4af24771c5"
   },
   {
    "en": "Market Roof",
-   "zh": "市场屋顶"
+   "zh": "市场屋顶",
+   "x": 0.1984,
+   "y": 0.3305,
+   "id": "favela.3F.7146af00c4"
   },
   {
    "en": "Solarium Roof",
-   "zh": "日光房屋顶"
+   "zh": "日光房屋顶",
+   "x": 0.3615,
+   "y": 0.2667,
+   "id": "favela.3F.eb1739c091"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.243,
+   "y": 0.1606,
+   "id": "favela.3F.a54091162a"
   },
   {
    "en": "Trash Stairs",
-   "zh": "垃圾房楼梯"
+   "zh": "垃圾房楼梯",
+   "x": 0.3464,
+   "y": 0.0954,
+   "id": "favela.3F.c3e671c151"
   },
   {
    "en": "Electrical",
-   "zh": "电气室"
-  }
- ],
- "R": [
-  {
-   "en": "Roof",
-   "zh": "屋顶"
-  },
-  {
-   "en": "Market Roof",
-   "zh": "市场屋顶"
-  },
-  {
-   "en": "Solarium Roof",
-   "zh": "日光房屋顶"
+   "zh": "电气室",
+   "x": 0.3346,
+   "y": 0.0481,
+   "id": "favela.3F.17f6a80eb3"
   }
  ]
 }

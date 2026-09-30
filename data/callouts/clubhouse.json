@@ -1,276 +1,357 @@
 {
- "outdoor": [
-  {
-   "en": "Main Gate",
-   "zh": "大门"
-  },
-  {
-   "en": "Junkyard",
-   "zh": "废品场"
-  },
-  {
-   "en": "VIP Parking",
-   "zh": "贵宾停车场"
-  },
-  {
-   "en": "Parking",
-   "zh": "停车场"
-  },
-  {
-   "en": "Kennels",
-   "zh": "犬舍"
-  },
-  {
-   "en": "Recreation",
-   "zh": "文娱室"
-  },
-  {
-   "en": "Graffiti",
-   "zh": "涂鸦区"
-  },
-  {
-   "en": "Construction Site",
-   "zh": "施工场地"
-  }
- ],
  "1F": [
   {
    "en": "Trash",
-   "zh": "垃圾房"
+   "zh": "垃圾房",
+   "x": 0.6425,
+   "y": 0.2173,
+   "id": "clubhouse.1F.28efc45a2e"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.6449,
+   "y": 0.7165,
+   "id": "clubhouse.1F.92b3d34f97"
   },
   {
    "en": "Side Entrance",
-   "zh": "侧门"
+   "zh": "侧门",
+   "x": 0.2479,
+   "y": 0.7077,
+   "id": "clubhouse.1F.5380d55616"
   },
   {
    "en": "Changing",
-   "zh": "更衣室"
+   "zh": "更衣室",
+   "x": 0.3276,
+   "y": 0.6864,
+   "id": "clubhouse.1F.96d6a3cf71"
   },
   {
    "en": "Strip Club",
-   "zh": "脱衣舞俱乐部"
+   "zh": "脱衣舞俱乐部",
+   "x": 0.3,
+   "y": 0.5792,
+   "id": "clubhouse.1F.44a06614f1"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.5688,
+   "y": 0.5484,
+   "id": "clubhouse.1F.acce2e7ef5"
   },
   {
    "en": "Porch",
-   "zh": "门廊"
+   "zh": "门廊",
+   "x": 0.4832,
+   "y": 0.5525,
+   "id": "clubhouse.1F.ac465283b0"
   },
   {
    "en": "Lounge",
-   "zh": "休息室"
+   "zh": "休息室",
+   "x": 0.6955,
+   "y": 0.5112,
+   "id": "clubhouse.1F.75c7e2273b"
   },
   {
    "en": "Junkyard Entrance",
-   "zh": "废品场入口"
+   "zh": "废品场入口",
+   "id": "clubhouse.1F.dab8a0c2c2"
   },
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.7565,
+   "y": 0.4847,
+   "id": "clubhouse.1F.9b1b2216e9"
   },
   {
    "en": "Pool",
-   "zh": "泳池"
+   "zh": "泳池",
+   "x": 0.3834,
+   "y": 0.4692,
+   "id": "clubhouse.1F.046ed5119a"
   },
   {
    "en": "Bar",
-   "zh": "酒吧"
+   "zh": "酒吧",
+   "x": 0.4593,
+   "y": 0.4135,
+   "id": "clubhouse.1F.fe3f58fb61"
   },
   {
    "en": "Stage",
-   "zh": "舞台"
+   "zh": "舞台",
+   "x": 0.5412,
+   "y": 0.4134,
+   "id": "clubhouse.1F.26a8454e98"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.7386,
+   "y": 0.4582,
+   "id": "clubhouse.1F.2c2554db79"
   },
   {
    "en": "Stock",
-   "zh": "库房"
+   "zh": "库房",
+   "x": 0.6448,
+   "y": 0.3762,
+   "id": "clubhouse.1F.91704054e6"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.7178,
+   "y": 0.4185,
+   "id": "clubhouse.1F.523b5fbf7a"
   },
   {
    "en": "Strip Hallway",
-   "zh": "脱衣舞俱乐部走廊"
+   "zh": "脱衣舞俱乐部走廊",
+   "x": 0.3438,
+   "y": 0.3368,
+   "id": "clubhouse.1F.35310eaf90"
   },
   {
    "en": "Toilets",
-   "zh": "卫生间"
+   "zh": "卫生间",
+   "x": 0.3803,
+   "y": 0.2838,
+   "id": "clubhouse.1F.ef0e58e75b"
   },
   {
    "en": "Kitchen Hallway",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.495,
+   "y": 0.2903,
+   "id": "clubhouse.1F.f3002b3f70"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.5211,
+   "y": 0.1976,
+   "id": "clubhouse.1F.397c983dbf"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.4481,
+   "y": 0.1672,
+   "id": "clubhouse.1F.87118832cc"
   },
   {
    "en": "Kitchen Entrance",
-   "zh": "厨房入口"
+   "zh": "厨房入口",
+   "id": "clubhouse.1F.3833bc7ed2"
   }
  ],
  "2F": [
   {
    "en": "Trash",
-   "zh": "垃圾房"
+   "zh": "垃圾房",
+   "x": 0.6424,
+   "y": 0.2172,
+   "id": "clubhouse.2F.39e9730b6d"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.6448,
+   "y": 0.7163,
+   "id": "clubhouse.2F.05928172e7"
   },
   {
    "en": "Strip Roof",
-   "zh": "脱衣舞俱乐部屋顶"
+   "zh": "脱衣舞俱乐部屋顶",
+   "x": 0.2844,
+   "y": 0.5818,
+   "id": "clubhouse.2F.0e7b930d5e"
   },
   {
    "en": "Porch",
-   "zh": "门廊"
+   "zh": "门廊",
+   "x": 0.504,
+   "y": 0.5801,
+   "id": "clubhouse.2F.51869a8cdd"
   },
   {
    "en": "CCTV",
-   "zh": "监控室"
+   "zh": "监控室",
+   "x": 0.6552,
+   "y": 0.5243,
+   "id": "clubhouse.2F.dddf62ad52"
   },
   {
    "en": "Balcony",
-   "zh": "阳台"
+   "zh": "阳台",
+   "id": "clubhouse.2F.2adcee522a"
   },
   {
    "en": "Gym",
-   "zh": "健身房"
+   "zh": "健身房",
+   "x": 0.4235,
+   "y": 0.4532,
+   "id": "clubhouse.2F.b3d2cccc0c"
   },
   {
    "en": "Bedroom",
-   "zh": "卧室"
+   "zh": "卧室",
+   "x": 0.4891,
+   "y": 0.4703,
+   "id": "clubhouse.2F.95a1b0f434"
   },
   {
    "en": "Construction",
-   "zh": "施工区"
+   "zh": "施工区",
+   "x": 0.565,
+   "y": 0.4199,
+   "id": "clubhouse.2F.ff0f52e64b"
   },
   {
    "en": "Cash",
-   "zh": "现金房"
+   "zh": "现金房",
+   "x": 0.638,
+   "y": 0.3456,
+   "id": "clubhouse.2F.7bfd4cd640"
   },
   {
    "en": "Red Stairs",
-   "zh": "红楼梯"
+   "zh": "红楼梯",
+   "x": 0.7303,
+   "y": 0.3759,
+   "id": "clubhouse.2F.37990493db"
   },
   {
    "en": "Jacuzzi",
-   "zh": "按摩浴池"
+   "zh": "按摩浴池",
+   "x": 0.3505,
+   "y": 0.3143,
+   "id": "clubhouse.2F.8462b2dad7"
   },
   {
    "en": "Bathroom",
-   "zh": "浴室"
+   "zh": "浴室",
+   "x": 0.451,
+   "y": 0.3274,
+   "id": "clubhouse.2F.5464690d8c"
   },
   {
    "en": "Bedroom Hallway",
-   "zh": "卧室走廊"
+   "zh": "卧室走廊",
+   "x": 0.4495,
+   "y": 0.2638,
+   "id": "clubhouse.2F.861dc4c2f9"
   },
   {
    "en": "Secret",
-   "zh": "密室"
+   "zh": "密室",
+   "x": 0.5247,
+   "y": 0.2663,
+   "id": "clubhouse.2F.bd0ebf05a9"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.4554,
+   "y": 0.1592,
+   "id": "clubhouse.2F.fd85544f7b"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.5411,
+   "y": 0.1803,
+   "id": "clubhouse.2F.f8063bcdae"
   },
   {
    "en": "Catwalk",
-   "zh": "猫道"
-  }
- ],
- "R": [
-  {
-   "en": "Trash",
-   "zh": "垃圾房"
-  },
-  {
-   "en": "Eastern Roof",
-   "zh": "东侧屋顶"
-  },
-  {
-   "en": "Strip Roof",
-   "zh": "脱衣舞俱乐部屋顶"
-  },
-  {
-   "en": "Porch",
-   "zh": "门廊"
-  },
-  {
-   "en": "Balcony",
-   "zh": "阳台"
-  },
-  {
-   "en": "Central Roof",
-   "zh": "中央屋顶"
-  },
-  {
-   "en": "Jacuzzi",
-   "zh": "按摩浴池"
+   "zh": "猫道",
+   "x": 0.656,
+   "y": 0.6249,
+   "id": "clubhouse.2F.f14b666d85"
   }
  ],
  "B": [
   {
    "en": "Ladder",
-   "zh": "梯子"
+   "zh": "梯子",
+   "x": 0.6081,
+   "y": 0.7093,
+   "id": "clubhouse.B.93eca4ce59"
   },
   {
    "en": "Blue",
-   "zh": "蓝区"
+   "zh": "蓝区",
+   "x": 0.5973,
+   "y": 0.4285,
+   "id": "clubhouse.B.ebc2552195"
   },
   {
    "en": "Bike",
-   "zh": "自行车"
+   "zh": "自行车",
+   "x": 0.4401,
+   "y": 0.4715,
+   "id": "clubhouse.B.8c25bf4e66"
   },
   {
    "en": "Church",
-   "zh": "教堂"
+   "zh": "教堂",
+   "x": 0.5279,
+   "y": 0.3916,
+   "id": "clubhouse.B.bde4a5a20d"
   },
   {
    "en": "Blue Stairs",
-   "zh": "蓝楼梯"
+   "zh": "蓝楼梯",
+   "x": 0.6771,
+   "y": 0.4255,
+   "id": "clubhouse.B.18802a62f1"
   },
   {
    "en": "Church Hallway",
-   "zh": "教堂走廊"
+   "zh": "教堂走廊",
+   "x": 0.492,
+   "y": 0.2752,
+   "id": "clubhouse.B.e9d13b0b51"
   },
   {
    "en": "Armory",
-   "zh": "军械库"
+   "zh": "军械库",
+   "x": 0.4815,
+   "y": 0.1838,
+   "id": "clubhouse.B.737853ae48"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.421,
+   "y": 0.1575,
+   "id": "clubhouse.B.4fe28943c5"
   },
   {
    "en": "Tunnel",
-   "zh": "隧道"
+   "zh": "隧道",
+   "x": 0.5893,
+   "y": 0.0,
+   "id": "clubhouse.B.6c8c01eaae"
   },
   {
    "en": "Container",
-   "zh": "集装箱"
+   "zh": "集装箱",
+   "id": "clubhouse.B.d6964a4ca7"
   },
   {
    "en": "Bike Hallway",
-   "zh": "自行车走廊"
+   "zh": "自行车走廊",
+   "x": 0.4451,
+   "y": 0.339,
+   "id": "clubhouse.B.1cc9b860df"
   }
  ]
 }

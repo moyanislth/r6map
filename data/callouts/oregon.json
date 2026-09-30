@@ -1,314 +1,431 @@
 {
- "outdoor": [
-  {
-   "en": "Street",
-   "zh": "街道"
-  },
-  {
-   "en": "Junkyard",
-   "zh": "废品场"
-  },
-  {
-   "en": "Bus",
-   "zh": "巴士"
-  },
-  {
-   "en": "Main Entrance",
-   "zh": "正门"
-  },
-  {
-   "en": "Parking",
-   "zh": "停车场"
-  },
-  {
-   "en": "Construction",
-   "zh": "施工区"
-  },
-  {
-   "en": "Garden",
-   "zh": "花园"
-  },
-  {
-   "en": "Shooting Range",
-   "zh": "射击场"
-  }
- ],
  "B": [
   {
    "en": "Storage",
-   "zh": "储藏室"
+   "zh": "储藏室",
+   "x": 0.2546,
+   "y": 0.3295,
+   "id": "oregon.B.78fa0ced3c"
   },
   {
    "en": "Laundry Stairs",
-   "zh": "洗衣房楼梯"
+   "zh": "洗衣房楼梯",
+   "x": 0.2697,
+   "y": 0.3221,
+   "id": "oregon.B.941bc63b12"
   },
   {
    "en": "Freezer Stairs",
-   "zh": "冷冻库楼梯"
+   "zh": "冷冻库楼梯",
+   "x": 0.197,
+   "y": 0.3318,
+   "id": "oregon.B.984b699c8a"
   },
   {
    "en": "Freezer",
-   "zh": "冷冻库"
+   "zh": "冷冻库",
+   "x": 0.2085,
+   "y": 0.2883,
+   "id": "oregon.B.8d17b0c9d9"
   },
   {
    "en": "Laundry",
-   "zh": "洗衣房"
+   "zh": "洗衣房",
+   "x": 0.2463,
+   "y": 0.2883,
+   "id": "oregon.B.ee51ab78c9"
   },
   {
    "en": "Basement Corridor",
-   "zh": "地下走廊"
+   "zh": "地下走廊",
+   "x": 0.2395,
+   "y": 0.2387,
+   "id": "oregon.B.4da4d6acb2"
   },
   {
    "en": "Closet",
-   "zh": "储物间"
+   "zh": "储物间",
+   "x": 0.2509,
+   "y": 0.2619,
+   "id": "oregon.B.1d0a319a18"
   },
   {
    "en": "Supply",
-   "zh": "补给室"
+   "zh": "补给室",
+   "x": 0.2629,
+   "y": 0.2295,
+   "id": "oregon.B.44209ac56f"
   },
   {
    "en": "Blue",
-   "zh": "蓝区"
+   "zh": "蓝区",
+   "x": 0.2814,
+   "y": 0.2026,
+   "id": "oregon.B.5476ac56f5"
   },
   {
    "en": "Bunker",
-   "zh": "地堡"
+   "zh": "地堡",
+   "x": 0.3054,
+   "y": 0.1957,
+   "id": "oregon.B.6da7fadbf6"
   },
   {
    "en": "Pillar",
-   "zh": "柱"
+   "zh": "柱",
+   "x": 0.2444,
+   "y": 0.1739,
+   "id": "oregon.B.a0ca01ac1e"
   },
   {
    "en": "Electric",
-   "zh": "电气室"
+   "zh": "电气室",
+   "x": 0.2634,
+   "y": 0.191,
+   "id": "oregon.B.355eb4270f"
   },
   {
    "en": "Tower Stairs",
-   "zh": "塔楼楼梯"
+   "zh": "塔楼楼梯",
+   "id": "oregon.B.bd1276e755"
   }
  ],
  "1F": [
   {
    "en": "Classroom",
-   "zh": "教室"
+   "zh": "教室",
+   "x": 0.3593,
+   "y": 0.4452,
+   "id": "oregon.1F.9b0fa146f5"
   },
   {
    "en": "Lobby",
-   "zh": "大堂"
+   "zh": "大堂",
+   "x": 0.3762,
+   "y": 0.4244,
+   "id": "oregon.1F.1607eaf0ed"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.3934,
+   "y": 0.4415,
+   "id": "oregon.1F.36744450dd"
   },
   {
    "en": "Shower Corridor",
-   "zh": "淋浴间走廊"
+   "zh": "淋浴间走廊",
+   "x": 0.2754,
+   "y": 0.4536,
+   "id": "oregon.1F.9a43d2a9e1"
   },
   {
    "en": "Security Corridor",
-   "zh": "安保走廊"
+   "zh": "安保走廊",
+   "x": 0.3272,
+   "y": 0.4318,
+   "id": "oregon.1F.1e551c91f5"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.3246,
+   "y": 0.4489,
+   "id": "oregon.1F.d47e3fa577"
   },
   {
    "en": "Garage",
-   "zh": "车库"
+   "zh": "车库",
+   "x": 0.4077,
+   "y": 0.4258,
+   "id": "oregon.1F.c944db49ac"
   },
   {
    "en": "Small Tower",
-   "zh": "小塔楼"
+   "zh": "小塔楼",
+   "x": 0.2452,
+   "y": 0.4008,
+   "id": "oregon.1F.e703181294"
   },
   {
    "en": "Showers",
-   "zh": "淋浴间"
+   "zh": "淋浴间",
+   "x": 0.2775,
+   "y": 0.4212,
+   "id": "oregon.1F.ef7f0f6d74"
   },
   {
    "en": "Security",
-   "zh": "安保室"
+   "zh": "安保室",
+   "x": 0.3223,
+   "y": 0.4086,
+   "id": "oregon.1F.7d55373e8e"
   },
   {
    "en": "Dining",
-   "zh": "餐厅"
+   "zh": "餐厅",
+   "x": 0.2817,
+   "y": 0.3642,
+   "id": "oregon.1F.d54524bfb5"
   },
   {
    "en": "Kitchen",
-   "zh": "厨房"
+   "zh": "厨房",
+   "x": 0.3179,
+   "y": 0.3698,
+   "id": "oregon.1F.b488b716c6"
   },
   {
    "en": "Meeting",
-   "zh": "会议室"
+   "zh": "会议室",
+   "x": 0.3702,
+   "y": 0.3392,
+   "id": "oregon.1F.ae6f2f1aae"
   },
   {
    "en": "Split",
-   "zh": "分叉口"
+   "zh": "分叉口",
+   "x": 0.3715,
+   "y": 0.3846,
+   "id": "oregon.1F.7341ac8296"
   },
   {
    "en": "Kitchen Corridor",
-   "zh": "厨房走廊"
+   "zh": "厨房走廊",
+   "x": 0.3489,
+   "y": 0.3077,
+   "id": "oregon.1F.5f41846432"
   },
   {
    "en": "Tower",
-   "zh": "塔楼"
+   "zh": "塔楼",
+   "x": 0.371,
+   "y": 0.2711,
+   "id": "oregon.1F.0b9491fdb7"
   },
   {
    "en": "Tower Stairs",
-   "zh": "塔楼楼梯"
+   "zh": "塔楼楼梯",
+   "id": "oregon.1F.e09e521f4e"
   },
   {
    "en": "Stage",
-   "zh": "舞台"
+   "zh": "舞台",
+   "x": 0.3793,
+   "y": 0.2943,
+   "id": "oregon.1F.8995929c64"
   },
   {
    "en": "Small Stairs",
-   "zh": "小楼梯"
+   "zh": "小楼梯",
+   "x": 0.2358,
+   "y": 0.373,
+   "id": "oregon.1F.83470a0c56"
   }
  ],
  "2F": [
   {
    "en": "Balcony",
-   "zh": "阳台"
+   "zh": "阳台",
+   "x": 0.3713,
+   "y": 0.4735,
+   "id": "oregon.2F.f08d89d0a0"
   },
   {
    "en": "Main Stairs",
-   "zh": "主楼梯"
+   "zh": "主楼梯",
+   "x": 0.3973,
+   "y": 0.4489,
+   "id": "oregon.2F.9ab43dffe2"
   },
   {
    "en": "Dining Roof",
-   "zh": "餐厅屋顶"
+   "zh": "餐厅屋顶",
+   "x": 0.2939,
+   "y": 0.3961,
+   "id": "oregon.2F.38c3a54c9b"
   },
   {
    "en": "White Stairs",
-   "zh": "白楼梯"
+   "zh": "白楼梯",
+   "x": 0.3267,
+   "y": 0.4535,
+   "id": "oregon.2F.2fe4ae5ac7"
   },
   {
    "en": "Walk In",
-   "zh": "步入式冷库"
+   "zh": "步入式冷库",
+   "x": 0.3616,
+   "y": 0.4563,
+   "id": "oregon.2F.529d324b3f"
   },
   {
    "en": "Master",
-   "zh": "主卧"
+   "zh": "主卧",
+   "x": 0.3793,
+   "y": 0.4346,
+   "id": "oregon.2F.71756b4329"
   },
   {
    "en": "Small Tower Roof",
-   "zh": "小塔屋顶"
+   "zh": "小塔屋顶",
+   "x": 0.2658,
+   "y": 0.3485,
+   "id": "oregon.2F.0da2d450e1"
   },
   {
    "en": "Dorm",
-   "zh": "宿舍"
+   "zh": "宿舍",
+   "x": 0.3241,
+   "y": 0.4184,
+   "id": "oregon.2F.06df22f14d"
   },
   {
    "en": "Gaming",
-   "zh": "游戏区"
+   "zh": "游戏区",
+   "x": 0.3562,
+   "y": 0.4281,
+   "id": "oregon.2F.f864e3d67a"
   },
   {
    "en": "Armory",
-   "zh": "军械库"
+   "zh": "军械库",
+   "x": 0.4103,
+   "y": 0.4221,
+   "id": "oregon.2F.7f46b0a9a4"
   },
   {
    "en": "Armory Corridor",
-   "zh": "军械库走廊"
+   "zh": "军械库走廊",
+   "x": 0.3973,
+   "y": 0.4073,
+   "id": "oregon.2F.bdf4af5fe6"
   },
   {
    "en": "Small Tower",
-   "zh": "小塔楼"
+   "zh": "小塔楼",
+   "x": 0.2437,
+   "y": 0.3901,
+   "id": "oregon.2F.445c949ae7"
   },
   {
    "en": "Office",
-   "zh": "办公室"
+   "zh": "办公室",
+   "x": 0.2718,
+   "y": 0.3901,
+   "id": "oregon.2F.87342d8a19"
   },
   {
    "en": "Trophy",
-   "zh": "奖杯室"
+   "zh": "奖杯室",
+   "x": 0.3796,
+   "y": 0.392,
+   "id": "oregon.2F.8e57bbeae5"
   },
   {
    "en": "Kids",
-   "zh": "儿童房"
+   "zh": "儿童房",
+   "x": 0.3249,
+   "y": 0.3739,
+   "id": "oregon.2F.db694fc4ff"
   },
   {
    "en": "Attic",
-   "zh": "阁楼"
+   "zh": "阁楼",
+   "x": 0.377,
+   "y": 0.3193,
+   "id": "oregon.2F.8d2d8482b9"
   },
   {
    "en": "Meeting Roof",
-   "zh": "会议室屋顶"
+   "zh": "会议室屋顶",
+   "x": 0.3924,
+   "y": 0.3295,
+   "id": "oregon.2F.871a19a9da"
   },
   {
    "en": "Cat Walk",
-   "zh": "猫道"
+   "zh": "猫道",
+   "x": 0.3772,
+   "y": 0.2697,
+   "id": "oregon.2F.081d167f8f"
   },
   {
    "en": "Tower Stairs",
-   "zh": "塔楼楼梯"
+   "zh": "塔楼楼梯",
+   "id": "oregon.2F.a022153713"
   },
   {
    "en": "Middle",
-   "zh": "中部"
+   "zh": "中部",
+   "x": 0.3588,
+   "y": 0.3943,
+   "id": "oregon.2F.a4b3c05678"
   },
   {
    "en": "Small Stairs",
-   "zh": "小楼梯"
+   "zh": "小楼梯",
+   "x": 0.2358,
+   "y": 0.373,
+   "id": "oregon.2F.35413d566d"
   }
  ],
  "3F": [
   {
    "en": "Dorms Roof",
-   "zh": "宿舍屋顶"
+   "zh": "宿舍屋顶",
+   "x": 0.3778,
+   "y": 0.4503,
+   "id": "oregon.3F.7b28243911"
   },
   {
    "en": "Dining Roof",
-   "zh": "餐厅屋顶"
+   "zh": "餐厅屋顶",
+   "x": 0.2939,
+   "y": 0.3961,
+   "id": "oregon.3F.aa14690ba5"
   },
   {
    "en": "Small Tower Roof",
-   "zh": "小塔屋顶"
+   "zh": "小塔屋顶",
+   "x": 0.2647,
+   "y": 0.3911,
+   "id": "oregon.3F.c7ca1761b2"
   },
   {
    "en": "Garage Roof",
-   "zh": "车库屋顶"
+   "zh": "车库屋顶",
+   "x": 0.4153,
+   "y": 0.423,
+   "id": "oregon.3F.bc65dd2a16"
   },
   {
    "en": "Meeting Roof",
-   "zh": "会议室屋顶"
+   "zh": "会议室屋顶",
+   "x": 0.3952,
+   "y": 0.3295,
+   "id": "oregon.3F.b8ae99b695"
   },
   {
    "en": "Attic Roof",
-   "zh": "阁楼屋顶"
+   "zh": "阁楼屋顶",
+   "x": 0.378,
+   "y": 0.3295,
+   "id": "oregon.3F.5a41938ad7"
   },
   {
    "en": "Tower Roof",
-   "zh": "塔楼屋顶"
+   "zh": "塔楼屋顶",
+   "x": 0.3598,
+   "y": 0.2656,
+   "id": "oregon.3F.973208f06f"
   },
   {
    "en": "Cat Walk",
-   "zh": "猫道"
-  }
- ],
- "R": [
-  {
-   "en": "Dorms Roof",
-   "zh": "宿舍屋顶"
-  },
-  {
-   "en": "Dining Roof",
-   "zh": "餐厅屋顶"
-  },
-  {
-   "en": "Small Tower Roof",
-   "zh": "小塔屋顶"
-  },
-  {
-   "en": "Garage Roof",
-   "zh": "车库屋顶"
-  },
-  {
-   "en": "Meeting Roof",
-   "zh": "会议室屋顶"
-  },
-  {
-   "en": "Tower Roof",
-   "zh": "塔楼屋顶"
+   "zh": "猫道",
+   "x": 0.3903,
+   "y": 0.2735,
+   "id": "oregon.3F.6bdc82e631"
   }
  ]
 }

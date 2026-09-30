@@ -59,3 +59,28 @@
 | 3840×2160 | 4 | 官方 JPEG 字节级直出 |
 
 全源均为 16:9。第一轮曾统一压到 1920×1080,因地图需 12x 放大浏览,压缩后缩放发糊——已改为**原图直出**(仅 PNG 源转码 JPEG q90),高清下站点约 59MB,静态托管可接受;缩略图仍为 560px 独立文件,列表页流量不受影响。
+
+
+## 四、2026-09-30 第三轮:前端完全重构(坐标上图)
+
+### 架构变化
+- **报点上图**:r6calls 报点坐标经 SIFT 特征匹配 + RANSAC 相似变换对齐到官方蓝图(`tools/align_coords.py`),870/938 条(92%)获得归一化坐标,以「点位+名称小字」直接渲染在图上;右侧列表、室外分组、屋顶楼层整体移除(244 条 R/outdoor 数据删除)
+- **页面结构**:地图页 = 楼层 Tab + 全幅 16:9 画框地图 + 右下角齿轮设置;无其他元素
+- **存储模型**:文件报点(蓝色,`data/callouts/`)+ 用户覆盖层(localStorage `r6pins:<map>` 的 overrides:改名/移位/删除)+ 自建标注(custom 数组,橙色);三者渲染时合并,导出/导入走设置面板
+
+### 技术要点与踩坑
+| 问题 | 修法 |
+|---|---|
+| r6calls 图尺寸无规律(裁剪+缩放任意),多尺度模板匹配大面积失败(score<0.25) | 改用 SIFT + `estimateAffinePartial2D`(RANSAC),对裁剪/缩放天然稳健 |
+| 高特征数地图内点比例被稀释(186 内点但 score 0.55) | 判定规则:score≥0.55 或 (内点≥50 且 score≥0.30) |
+| 领事馆 3 层对齐失败 | r6calls 源图是 2023 重做前旧版,无法对齐——坐标置空,报点保留 |
+| kanal 地下二层 r6calls 图片 index 为 -1(`kanal--1.jpg`) | 特例下载 |
+| `setLang` 顶层调用触发 `renderPins` 时 `var BASE` 尚未赋值(hoisting 陷阱) | 初始语言应用移到 IIFE 末尾 |
+| 纯 Python 互相关 ~40 亿运算量级,不可行 | cv2 matchTemplate/SIFT |
+| 原生图片拖放抢占指针流(pointercancel)导致地图拖拽失效 | dragstart 阻断 + pointerdown(仅鼠标)preventDefault + user-select:none |
+| 触屏 preventDefault 抑制 click 合成,破坏单击/双击 | 仅鼠标 pointerType preventDefault;触屏靠 touch-action:none |
+
+### 数据规模
+- 报点 938 条(删 244 条 R/outdoor),870 条有坐标;对齐失败层:consulate B/1F/2F
+- 出界丢弃约 68 条(重复命名如 Tower Stairs 对齐出界),图上暂缺、数据保留
+- 蓝图三种源尺寸(1600/2560/3840 宽)高清直出,站点 59MB
