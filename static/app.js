@@ -1,8 +1,5 @@
-// R6 地图报点前端逻辑(纯原生,零依赖)
+// R6地图前端逻辑(纯原生,零依赖)
 // 结构:语言切换 / UI文案 / 楼层tab / 存储(覆盖层) / 缩放平移 / 单击双击标注 / 设置面板
-window.addEventListener("error", function (e) {
-  (window.__r6errs = window.__r6errs || []).push(e.message + " @" + e.lineno);
-});
 (function () {
   "use strict";
 
@@ -249,13 +246,19 @@ window.addEventListener("error", function (e) {
         el.style.left = (pin.x * 100) + "%";
         el.style.top = (pin.y * 100) + "%";
       }
-      function up() {
+      function unbind() {
         window.removeEventListener("pointermove", move);
         window.removeEventListener("pointerup", up);
+        window.removeEventListener("pointercancel", cancel);
+      }
+      function up() {
+        unbind();
         persistPin(floor, pin, kind);
       }
+      function cancel() { unbind(); } // 拖拽被系统中断:仅解绑,不落盘中间位置
       window.addEventListener("pointermove", move);
       window.addEventListener("pointerup", up);
+      window.addEventListener("pointercancel", cancel);
     });
     return el;
   }
@@ -392,11 +395,21 @@ window.addEventListener("error", function (e) {
       refreshSettings();
       jsonTa.removeAttribute("readonly");
       jsonTa.select();
-      var ok = false;
-      try { ok = document.execCommand("copy"); } catch (e) {}
-      try { navigator.clipboard.writeText(jsonTa.value); ok = true; } catch (e) {}
-      jsonTa.setAttribute("readonly", "");
-      showMsg(ok ? fmt("settings_copied") : "", ok ? "ok" : "");
+      function done(ok) {
+        jsonTa.setAttribute("readonly", "");
+        if (ok) showMsg(fmt("settings_copied"), "ok");
+        else showMsg("✗", "err");
+      }
+      function fallback() {
+        var ok = false;
+        try { ok = document.execCommand("copy"); } catch (e) {}
+        done(ok);
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(jsonTa.value).then(function () { done(true); }, fallback);
+      } else {
+        fallback();
+      }
     });
     document.getElementById("settingsApply").addEventListener("click", function () {
       try {
@@ -408,7 +421,7 @@ window.addEventListener("error", function (e) {
         store = { overrides: data.overrides || {}, custom: data.custom || [] };
         saveStore();
         renderPins();
-        showMsg(fmt("settings_import_ok").replace("{n}",
+        showMsg(fmt("settings_import_ok",
           Object.keys(store.overrides).length + store.custom.length), "ok");
       } catch (e) {
         showMsg(uiText("settings_import_bad"), "err");

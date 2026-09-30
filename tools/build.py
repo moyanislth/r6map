@@ -4,7 +4,8 @@
 - 校验数据一致性(楼层 key、图片存在、报点格式、地图重名)
 - 楼层图:官方 JPEG 原样直出(高清),缩略图 560px
 - 预渲染全部页面;报点数据(含坐标)以 JSON 注入,前端渲染点位
-用法: python tools/build.py
+用法: python tools/build.py [--fix]
+  --fix  自动补齐缺失的报点 id 并回写 data/callouts/*.json 后再构建
 """
 import hashlib
 import json
@@ -35,10 +36,32 @@ def pin_id(mid: str, floor: str, en: str) -> str:
     return f"{mid}.{floor}.{h}"
 
 
+def fix_ids(cfg: dict, callouts: dict):
+    """自动补齐缺失的报点 id 并回写源数据(--fix 模式)。"""
+    changed = False
+    for mid in cfg["maps"]:
+        for floor, items in callouts.get(mid, {}).items():
+            for x in items:
+                if x.get("en") and not x.get("id"):
+                    x["id"] = pin_id(mid, floor, x["en"])
+                    print(f"   自动补 id: {mid}/{floor} '{x['en']}' -> {x['id']}")
+                    changed = True
+    if not changed:
+        print("所有报点均已有 id,无需修复")
+        return
+    for mid, co in callouts.items():
+        (DATA / "callouts" / f"{mid}.json").write_text(
+            json.dumps(co, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("已回写 data/callouts/*.json")
+
+
 def validate(cfg: dict, callouts: dict):
+    """只读校验,不修改任何源数据。"""
     errors = []
     seen_names = {}
     for mid, m in cfg["maps"].items():
+        if not m["floors"]:
+            errors.append(f"{mid}: floors 为空")
         valid = set(m["floors"])
         for c in callouts.get(mid, {}):
             if c not in valid:
@@ -58,9 +81,9 @@ def validate(cfg: dict, callouts: dict):
                     errors.append(f"{mid}/{floor}: 英文报点重复 '{x['en']}'(同层内须唯一)")
                 seen_en.add(x["en"])
                 if not x.get("id"):
-                    # 手工新增允许省略 id:构建期自动补齐并回写
-                    x["id"] = pin_id(mid, floor, x["en"])
-                    print(f"   自动补 id: {mid}/{floor} '{x['en']}' -> {x['id']}")
+                    errors.append(
+                        f"{mid}/{floor}: 报点缺 id '{x['en']}'"
+                        "(运行 python tools/build.py --fix 自动补齐)")
                 if "x" not in x or "y" not in x:
                     print(f"   提示: {mid}/{floor} 无坐标(不上图): {x.get('en')}")
         if m["name_zh"] in seen_names:
@@ -68,10 +91,6 @@ def validate(cfg: dict, callouts: dict):
         seen_names[m["name_zh"]] = mid
     if errors:
         fail("\n".join(errors))
-    # 回写自动补齐的 id
-    for mid, co in callouts.items():
-        (DATA / "callouts" / f"{mid}.json").write_text(
-            json.dumps(co, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def build_images(cfg: dict):
@@ -81,22 +100,18 @@ def build_images(cfg: dict):
         out_dir.mkdir(parents=True, exist_ok=True)
         keys = set(m["floors"])
         for f in src_dir.glob("*.jpg"):
-            key = f.stem
-            if key not in keys and not (key.endswith("-t") and key[:-2] in keys):
+            if f.stem not in keys:
                 continue
-            dest = out_dir / f"{key}.jpg"
+            dest = out_dir / f"{f.stem}.jpg"
             # 高清策略:官方 JPEG 原样直出(零重压缩);PNG/其他格式转码 JPEG q90
-            if not dest.exists() or f.stat().st_mtime > dest.stat().st_mtime:
-                im = Image.open(f)
-                if im.format == "JPEG":
-                    shutil.copyfile(f, dest)
-                else:
-                    im.convert("RGB").save(dest, quality=90, optimize=True, progressive=True)
-            tdest = out_dir / f"{key}-t.jpg"
-            if not tdest.exists() or f.stat().st_mtime > tdest.stat().st_mtime:
-                im = Image.open(f).convert("RGB")
-                im.thumbnail((THUMB_W, THUMB_W))
-                im.save(tdest, quality=QUALITY, optimize=True, progressive=True)
+            im = Image.open(f)
+            if im.format == "JPEG":
+                shutil.copyfile(f, dest)
+            else:
+                im.convert("RGB").save(dest, quality=90, optimize=True, progressive=True)
+            im = Image.open(f).convert("RGB")
+            im.thumbnail((THUMB_W, THUMB_W))
+            im.save(out_dir / f"{f.stem}-t.jpg", quality=QUALITY, optimize=True, progressive=True)
 
 
 def main():
@@ -105,6 +120,8 @@ def main():
     callouts = {}
     for f in (DATA / "callouts").glob("*.json"):
         callouts[f.stem] = json.loads(f.read_text(encoding="utf-8"))
+    if "--fix" in sys.argv[1:]:
+        fix_ids(cfg, callouts)
     validate(cfg, callouts)
 
     if SITE.exists():

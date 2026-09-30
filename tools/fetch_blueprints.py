@@ -59,7 +59,7 @@ def get_zip(mid: str, url: str) -> Path | None:
         return None
 
 
-def extract(zp: Path, mid: str, floors: list[str], img_map: dict | None, excluded: list[int]) -> list[Path]:
+def extract(zp: Path, mid: str, floors: list[str], img_map: dict | None) -> list[Path]:
     """解压楼层图 → data/images/maps/<mid>/<floorKey>.jpg,返回图片路径列表。"""
     out = []
     with zipfile.ZipFile(zp) as z:
@@ -108,7 +108,7 @@ def main():
         if not zp:
             continue
         floors = m["floors"]
-        files = extract(zp, mid, floors, m.get("img_map"), m.get("excluded_imgs", []))
+        files = extract(zp, mid, floors, m.get("img_map"))
         n_imgs = len([n for n in zipfile.ZipFile(zp).namelist()
                       if Path(n).suffix.lower() in (".jpg", ".jpeg", ".png") and not n.startswith("__MACOSX")])
         src["maps"][mid] = {
