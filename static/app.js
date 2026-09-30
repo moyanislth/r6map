@@ -35,6 +35,10 @@
   var BASE = {};
   try { BASE = JSON.parse(document.getElementById("calloutData").textContent); } catch (e) {}
 
+  // ---- 触屏设备只读模式:允许查看/缩放/平移,禁用标注编辑与设置面板 ----
+  var COARSE = false;
+  try { COARSE = window.matchMedia("(pointer: coarse)").matches; } catch (e) {}
+
   // ---- 楼层 tab ----
   var tabs = document.getElementById("floortabs");
   if (tabs) {
@@ -128,16 +132,45 @@
     wrap.addEventListener("dragstart", function (e) { e.preventDefault(); });
 
     var panning = false, sx = 0, sy = 0, moved = false;
+    var pts = new Map(); // 活动触点,支持双指捏合
+    var pinch = null;
+    function pdist(a, b) { return Math.hypot(a.x - b.x, a.y - b.y) || 1; }
+
     wrap.addEventListener("pointerdown", function (e) {
-      if (e.target.closest(".pin") || e.target.closest(".pin-dialog")) return;
+      if (!COARSE && e.target.closest(".pin")) return; // 桌面:标注上的按下交给标注自身(拖拽/删除)
+      if (e.target.closest(".pin-dialog")) return;
       if (e.pointerType === "mouse") e.preventDefault();
-      if (wrap._s <= 1.001) return; // 仅放大后拖拽平移
-      panning = true; moved = false;
-      sx = e.clientX - wrap._tx; sy = e.clientY - wrap._ty;
-      interacting();
+      pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pts.size === 2) { // 进入捏合:记录初始距离/中点/偏移
+        var arr = Array.from(pts.values());
+        pinch = { d0: pdist(arr[0], arr[1]), s0: wrap._s,
+                  mx0: (arr[0].x + arr[1].x) / 2, my0: (arr[0].y + arr[1].y) / 2,
+                  tx0: wrap._tx, ty0: wrap._ty };
+        panning = false;
+        interacting();
+      } else if (wrap._s > 1.001) { // 单指/鼠标:放大后拖拽平移
+        panning = true; moved = false;
+        sx = e.clientX - wrap._tx; sy = e.clientY - wrap._ty;
+        interacting();
+      }
       try { wrap.setPointerCapture(e.pointerId); } catch (err) {}
     });
     wrap.addEventListener("pointermove", function (e) {
+      var p = pts.get(e.pointerId);
+      if (p) { p.x = e.clientX; p.y = e.clientY; }
+      if (pinch && pts.size >= 2) { // 以捏合中点为锚缩放,中点下的地图内容保持不动
+        var arr = Array.from(pts.values());
+        var ns = Math.min(MAX_SCALE, Math.max(1, pinch.s0 * pdist(arr[0], arr[1]) / pinch.d0));
+        var mx = (arr[0].x + arr[1].x) / 2, my = (arr[0].y + arr[1].y) / 2;
+        wrap._tx = mx - (pinch.mx0 - pinch.tx0) * (ns / pinch.s0);
+        wrap._ty = my - (pinch.my0 - pinch.ty0) * (ns / pinch.s0);
+        wrap._s = ns;
+        if (wrap._s === 1) { wrap._tx = 0; wrap._ty = 0; }
+        moved = true;
+        interacting();
+        applyStage(wrap);
+        return;
+      }
       if (!panning) return;
       var nx = e.clientX - sx, ny = e.clientY - sy;
       if (Math.abs(nx - wrap._tx) + Math.abs(ny - wrap._ty) > 3) moved = true;
@@ -145,8 +178,19 @@
       interacting();
       applyStage(wrap);
     });
-    wrap.addEventListener("pointerup", function () { panning = false; });
-    wrap.addEventListener("pointercancel", function () { panning = false; });
+    function endPointer(e) {
+      pts.delete(e.pointerId);
+      if (pts.size < 2) pinch = null;
+      if (pts.size === 0) {
+        panning = false;
+      } else if (pts.size === 1 && wrap._s > 1.001) { // 捏合结束剩单指:无缝转为平移
+        var rest = Array.from(pts.values())[0];
+        panning = true; moved = false;
+        sx = rest.x - wrap._tx; sy = rest.y - wrap._ty;
+      }
+    }
+    wrap.addEventListener("pointerup", endPointer);
+    wrap.addEventListener("pointercancel", endPointer);
     wrap._movedRecently = function () { return moved; };
   });
 
@@ -190,6 +234,7 @@
       }, 260);
     });
     wrap.addEventListener("dblclick", function (e) {
+      if (COARSE) return; // 触屏只读:不添加标注
       if (clickTimer) { clearTimeout(clickTimer); clickTimer = null; }
       if (e.target.closest(".pin") || e.target.closest(".pin-dialog")) return;
       if (wrap._movedRecently()) return;
@@ -243,9 +288,11 @@
 
     el.addEventListener("dblclick", function (e) {
       e.stopPropagation();
+      if (COARSE) return; // 触屏只读:不编辑标注
       openPinDialog(el, pin, floor, kind);
     });
     el.addEventListener("pointerdown", function (e) {
+      if (COARSE) return; // 触屏只读:不拦截,让地图平移/捏合接管
       if (e.target === del) return;
       e.stopPropagation();
       e.preventDefault();
@@ -396,7 +443,8 @@
     if (!panel || panel.hidden) return;
     jsonTa.value = JSON.stringify(loadStore(), null, 1);
   }
-  if (gearBtn) {
+  if (gearBtn && COARSE) gearBtn.style.display = "none"; // 触屏只读:隐藏设置入口
+  if (gearBtn && !COARSE) { // 触屏只读:不提供设置面板
     gearBtn.addEventListener("click", function () {
       panel.hidden = !panel.hidden;
       refreshSettings();
