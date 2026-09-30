@@ -6,6 +6,7 @@
 - 预渲染全部页面;报点数据(含坐标)以 JSON 注入,前端渲染点位
 用法: python tools/build.py
 """
+import hashlib
 import json
 import shutil
 import sys
@@ -29,6 +30,11 @@ def fail(msg: str):
     sys.exit(1)
 
 
+def pin_id(mid: str, floor: str, en: str) -> str:
+    h = hashlib.sha1(f"{mid}|{floor}|{en}".encode("utf-8")).hexdigest()[:10]
+    return f"{mid}.{floor}.{h}"
+
+
 def validate(cfg: dict, callouts: dict):
     errors = []
     seen_names = {}
@@ -43,18 +49,29 @@ def validate(cfg: dict, callouts: dict):
             if not (DATA / "images" / "maps" / mid / f"{key}.jpg").exists():
                 errors.append(f"{mid}: 缺楼层图片 {key}.jpg")
         for floor, items in callouts.get(mid, {}).items():
+            seen_en = set()
             for x in items:
                 if "en" not in x:
                     errors.append(f"{mid}/{floor}: 报点缺 en 键: {x}")
-                if "id" not in x:
-                    errors.append(f"{mid}/{floor}: 报点缺 id(跑 tools/slim_data.py): {x.get('en')}")
+                    continue
+                if x["en"] in seen_en:
+                    errors.append(f"{mid}/{floor}: 英文报点重复 '{x['en']}'(同层内须唯一)")
+                seen_en.add(x["en"])
+                if not x.get("id"):
+                    # 手工新增允许省略 id:构建期自动补齐并回写
+                    x["id"] = pin_id(mid, floor, x["en"])
+                    print(f"   自动补 id: {mid}/{floor} '{x['en']}' -> {x['id']}")
                 if "x" not in x or "y" not in x:
-                    print(f"   提示: {mid}/{floor} 无坐标(不上图,列表无): {x.get('en')}")
+                    print(f"   提示: {mid}/{floor} 无坐标(不上图): {x.get('en')}")
         if m["name_zh"] in seen_names:
             errors.append(f"{mid}: 地图中文名 '{m['name_zh']}' 与 {seen_names[m['name_zh']]} 重复")
         seen_names[m["name_zh"]] = mid
     if errors:
         fail("\n".join(errors))
+    # 回写自动补齐的 id
+    for mid, co in callouts.items():
+        (DATA / "callouts" / f"{mid}.json").write_text(
+            json.dumps(co, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def build_images(cfg: dict):
