@@ -28,6 +28,7 @@ r6map/
 │   └── sources.json            #   采集记录(工具维护,勿手改)
 ├── tools/                      # 构建与数据维护脚本(Python)
 │   ├── build.py                #   校验 + 预渲染 → site/
+│   ├── apply_contribution.py   #   合并导出JSON
 │   ├── fetch_blueprints.py     #   下载官方蓝图 zip 入库
 │   ├── import_r6calls.py       #   从 r6calls 导入英文报点名
 │   ├── align_coords.py         #   SIFT 图像对齐 → 写入报点坐标
@@ -78,7 +79,15 @@ push 到 `main` 后 GitHub Actions 自动构建并发布到 GitHub Pages。
 }
 ```
 
-3. 通过 Issue 或 PR 提交该 JSON,注明地图与楼层;维护者合并进 `data/callouts/<map>.json` 后重新构建。
+3. 通过 Issue 或 PR 提交该 JSON,注明地图与楼层;维护者使用下述命令一键合并。
+
+**维护者合并**:
+
+```bash
+python tools/apply_contribution.py <地图> <json> [--dry-run]
+```
+
+脚本按 `overrides` 修正或删除已有报点、按 `custom` 追加新报点,自动校验楼层合法性与同层英文重名,无效条目跳过并逐条报告;新条目不带 `id`,合并后执行 `python tools/build.py --fix && python tools/build.py` 完成补齐与构建。建议先用 `--dry-run` 预览变更。
 
 ## 数据维护
 
@@ -86,10 +95,22 @@ push 到 `main` 后 GitHub Actions 自动构建并发布到 GitHub Pages。
 |---|---|
 | `python tools/build.py` | 校验数据并预渲染 → `site/` |
 | `python tools/build.py --fix` | 补齐缺失报点 id 并回写后再构建 |
+| `python tools/apply_contribution.py <地图> <json>` | 合并导出 JSON |
 | `python tools/fetch_blueprints.py` | 下载官方蓝图 zip 入库 |
 | `python tools/fetch_blueprints.py --check` | 对比官方 zip 哈希,检测地图重做 |
 | `python tools/import_r6calls.py` | 从 [r6calls](https://github.com/DudeKiller82/r6calls)(MIT)导入英文报点名 |
 | `python tools/align_coords.py` | SIFT 对齐自动写入报点坐标 |
+
+### 新地图收录
+
+收录流程含有必须人工确认的环节(目视核对 zip 内图片与楼层的对应、检查对齐质量、起译名),因此不做成一键脚本,按下面四步走:
+
+1. 从[育碧地图页](https://www.ubisoft.com/en-us/game/rainbow-six/siege/game-info/maps)源码获取 `r6-maps-*.zip` 链接,在 `data/floors.json` 注册(`floors` 顺序 = zip 内图片序号,需目视确认;仅收录室内楼层)
+2. `python tools/fetch_blueprints.py` 下载入库
+3. `python tools/import_r6calls.py <地图>` 导入英文报点名(单图过滤,防覆盖其他图),`python tools/align_coords.py <地图>` SIFT 对齐写入坐标(数据源为 r6calls,前置文件见脚本 docstring)
+4. 核对 `.cache/align/` 验证叠加图,补充 `zh` 译名,`python tools/build.py --fix && python tools/build.py` 预览后提交
+
+已收录地图随赛季重做时:跑 `python tools/fetch_blueprints.py --check`,哈希变化即官方蓝图更新,重跑完整模式换图后人工核对该图 `callouts` 的报点增删。
 
 ## 版权
 

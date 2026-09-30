@@ -101,7 +101,8 @@
         "1F",
         "2F",
         "B"
-      ]
+      ],
+      "r6calls_id": "bank"
     },
     "border": {
       "name_en": "Border",
@@ -110,7 +111,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "border"
     },
     "calypso-casino": {
       "name_en": "Calypso Casino",
@@ -130,7 +132,8 @@
         "B",
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "chalet"
     },
     "close-quarter": {
       "name_en": "Close Quarter",
@@ -149,7 +152,8 @@
         "B",
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "club"
     },
     "coastline": {
       "name_en": "Coastline",
@@ -158,7 +162,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "coastline"
     },
     "consulate": {
       "name_en": "Consulate",
@@ -168,7 +173,8 @@
         "B",
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "consulate"
     },
     "emeraldplains": {
       "name_en": "Emerald Plains",
@@ -188,7 +194,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "favela"
     },
     "fortress": {
       "name_en": "Fortress",
@@ -197,7 +204,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "fortress"
     },
     "hereford": {
       "name_en": "Hereford Base",
@@ -208,7 +216,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "hereford"
     },
     "house": {
       "name_en": "House",
@@ -218,7 +227,8 @@
         "B",
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "house"
     },
     "kafe": {
       "name_en": "Kafe Dostoyevsky",
@@ -228,7 +238,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "kafe"
     },
     "kanal": {
       "name_en": "Kanal",
@@ -239,7 +250,8 @@
         "B",
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "kanal"
     },
     "lair": {
       "name_en": "Lair",
@@ -270,7 +282,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "oregon"
     },
     "outback": {
       "name_en": "Outback",
@@ -279,7 +292,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "outback"
     },
     "plane": {
       "name_en": "Presidential Plane",
@@ -289,7 +303,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "plane"
     },
     "skyscraper": {
       "name_en": "Skyscraper",
@@ -298,7 +313,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "skyscraper"
     },
     "stadiumalpha": {
       "name_en": "Stadium Alpha",
@@ -328,7 +344,8 @@
       "floors": [
         "1F",
         "2F"
-      ]
+      ],
+      "r6calls_id": "themepark"
     },
     "tower": {
       "name_en": "Tower",
@@ -338,7 +355,8 @@
         "1F",
         "2F",
         "3F"
-      ]
+      ],
+      "r6calls_id": "tower"
     },
     "villa": {
       "name_en": "Villa",
@@ -357,7 +375,8 @@
       "excluded_imgs": [
         1
       ],
-      "_note": "zip 内共5图,#1(全黑俯视图)楼层无法确认,暂排除;如确认可加入"
+      "_note": "zip 内共5图,#1(全黑俯视图)楼层无法确认,暂排除;如确认可加入",
+      "r6calls_id": "villa"
     },
     "yacht": {
       "name_en": "Yacht",
@@ -368,7 +387,8 @@
         "2F",
         "3F",
         "4F"
-      ]
+      ],
+      "r6calls_id": "yacht"
     }
   }
 }

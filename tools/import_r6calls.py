@@ -4,12 +4,16 @@
 前置: .cache/map-data.json 已由 node extract.js 生成
     (解析 r6calls 仓库 dev/js/main/main.map-data.js)
 注意:
+- **破坏性**:会整体覆盖对应地图的 callouts(丢掉已有 zh/x/y),仅在新图收录流水线的
+  初始阶段运行;已收录地图勿单独重跑
 - 只导入保留楼层(Roof 排除,与 floors.json 一致);outdoor 不导出
+- r6calls id → 本站地图 id 的映射读自 floors.json 的 r6calls_id 字段(ID_MAP 为兜底)
 - 生成稳定 id;坐标由 tools/align_coords.py 对齐后写入
-用法: python tools/import_r6calls.py
+用法: python tools/import_r6calls.py [map ...]     # 缺省处理全部地图
 """
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -39,11 +43,16 @@ def pin_id(mid: str, floor: str, en: str) -> str:
 def main():
     data = json.loads(SRC.read_text(encoding="utf-8"))
     cfg = json.loads(FLOORS.read_text(encoding="utf-8"))
+    only = set(sys.argv[1:])
+    # rid → mid:floors.json 的 r6calls_id 字段优先,ID_MAP 兜底兼容历史
+    rid2mid = {m.get("r6calls_id"): mid for mid, m in cfg["maps"].items() if m.get("r6calls_id")}
     OUT.mkdir(parents=True, exist_ok=True)
     total = 0
     for rid, m in data.items():
-        mid = ID_MAP.get(rid)
+        mid = rid2mid.get(rid) or ID_MAP.get(rid)
         if not mid or mid not in cfg["maps"]:
+            continue
+        if only and mid not in only:
             continue
         idx2key = {f["index"]: FLOOR_NAME_MAP.get(f["name"]["full"])
                    for f in m["floors"]}

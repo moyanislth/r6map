@@ -12,9 +12,10 @@
 - .cache/align/<map>-<floor>.jpg 验证叠加图(红点=报点)
 - .cache/align/report.json 每层置信度
 
-用法: python tools/align_coords.py
+用法: python tools/align_coords.py [map ...]     # 缺省处理全部地图
 """
 import json
+import sys
 from pathlib import Path
 
 import cv2
@@ -23,6 +24,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 MAPDATA = ROOT / ".cache" / "map-data.json"
+FLOORS = ROOT / "data" / "floors.json"
 R6IMG = ROOT / ".cache" / "r6calls_img"
 OFFICIAL = ROOT / "data" / "images" / "maps"
 CALLOUTS = ROOT / "data" / "callouts"
@@ -85,11 +87,17 @@ def main():
     ALIGNDIR.mkdir(parents=True, exist_ok=True)
     fixups = json.loads(FIXUPS.read_text(encoding="utf-8")) if FIXUPS.exists() else {}
     data = json.loads(MAPDATA.read_text(encoding="utf-8"))
+    cfg = json.loads(FLOORS.read_text(encoding="utf-8"))
+    # rid → mid:floors.json 的 r6calls_id 字段(旧 club→clubhouse 已随字段迁移)
+    rid2mid = {m.get("r6calls_id"): mid for mid, m in cfg["maps"].items() if m.get("r6calls_id")}
+    only = set(sys.argv[1:])
     report = {}
     for rid, m in data.items():
-        if rid == "bartlett":
+        mid = rid2mid.get(rid)
+        if not mid:
+            continue  # 未收录的 r6calls 地图(含 bartlett 等已排除图)
+        if only and mid not in only:
             continue
-        mid = "clubhouse" if rid == "club" else rid
         prefix = m["imgUrlPrefix"]
         co_path = CALLOUTS / f"{mid}.json"
         if not co_path.exists():
@@ -103,7 +111,10 @@ def main():
             if floor["name"]["full"] == "Roof":
                 continue
             fi = floor["index"]
-            key = NAME_KEY[floor["name"]["full"]]
+            key = NAME_KEY.get(floor["name"]["full"])
+            if key is None:
+                print(f"  [跳过] {rid}: 未知楼层名 '{floor['name']['full']}'(需在 NAME_KEY 登记)")
+                continue
             if key not in co:
                 continue
             src = R6IMG / f"{prefix}-{fi}.jpg"
