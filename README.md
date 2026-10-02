@@ -101,6 +101,8 @@ python tools/apply_contribution.py <地图> <json> [--dry-run]
 | `python tools/import_r6calls.py` | 从 [r6calls](https://github.com/DudeKiller82/r6calls)(MIT)导入英文报点名 |
 | `python tools/align_coords.py` | SIFT 对齐自动写入报点坐标 |
 
+> 报点缺 `x`/`y` 时不会标到蓝图上(`build.py` 会逐条提示"无坐标(不上图)"),首页卡片对这些图显示"N 条未定位"。设置面板里文本框就是本图的个人标注:**留空点「应用」= 恢复官方默认,有内容点「应用」= 立即按内容覆盖**;缺坐标或楼层不属于本图的条目会被跳过并提示。
+
 ### 新地图收录
 
 收录流程含有必须人工确认的环节(目视核对 zip 内图片与楼层的对应、检查对齐质量、起译名),因此不做成一键脚本,按下面四步走:

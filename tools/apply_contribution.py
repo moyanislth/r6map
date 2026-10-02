@@ -87,6 +87,9 @@ def main():
     n_add = 0
     skipped = []
     for c in custom:
+        if not isinstance(c, dict):  # 形状不对的条目:跳过并报告,不中断合并
+            skipped.append(f"非对象条目 {str(c)[:40]}")
+            continue
         floor = c.get("floor")
         en = str(c.get("en") or "").strip()
         zh = str(c.get("zh") or "").strip()

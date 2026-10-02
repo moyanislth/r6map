@@ -3,3 +3,4 @@ site/
 __pycache__/
 *.pyc
 .zcode/
+dynamic-audit-report/

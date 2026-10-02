@@ -11,8 +11,9 @@
     <div class="card-body">
       <strong class="t-zh">{{ m.name_zh }}</strong>
       <strong class="t-en">{{ m.name_en }}</strong>
-      {% if m.has_callouts %}<span class="badge badge-ok"><span class="t-zh">{{ m.n_callouts }} 个报点</span><span class="t-en">{{ m.n_callouts }} callouts</span></span>
-      {% else %}<span class="badge"><span class="t-zh">仅蓝图</span><span class="t-en">blueprint only</span></span>{% endif %}
+      {% if m.n_callouts %}<span class="badge badge-ok"><span class="t-zh">{{ m.n_callouts }} 个报点</span><span class="t-en">{{ m.n_callouts }} callouts</span></span>{% endif %}
+      {% if m.n_unlocated %}<span class="badge"><span class="t-zh">{{ m.n_unlocated }} 条未定位</span><span class="t-en">{{ m.n_unlocated }} unlocated</span></span>{% endif %}
+      {% if not m.has_callouts %}<span class="badge"><span class="t-zh">仅蓝图</span><span class="t-en">blueprint only</span></span>{% endif %}
     </div>
   </a>
   {% endfor %}

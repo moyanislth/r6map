@@ -31,6 +31,11 @@ def fail(msg: str):
     sys.exit(1)
 
 
+def has_xy(p: dict) -> bool:
+    """报点是否带可用坐标:缺坐标的点不上图(否则前端会把它画到图层原点)。"""
+    return isinstance(p.get("x"), (int, float)) and isinstance(p.get("y"), (int, float))
+
+
 def fix_ids(cfg: dict, callouts: dict):
     """自动补齐缺失的报点 id 并回写源数据(--fix 模式)。"""
     changed = False
@@ -98,7 +103,8 @@ def build_images(cfg: dict):
             if f.stem not in keys:
                 continue
             dest = out_dir / f"{f.stem}.jpg"
-            # 高清策略:官方 JPEG 原样直出(零重压缩);PNG/其他格式转码 JPEG q90
+            # 高清策略:官方 JPEG 原样直出(零重压缩);官方 zip 里少数楼层是 PNG
+            # (文件名仍是 .jpg,如 calypso-casino),这类统一转码为 JPEG q90
             im = Image.open(f)
             if im.format == "JPEG":
                 shutil.copyfile(f, dest)
@@ -137,14 +143,17 @@ def main():
     for mid, m in cfg["maps"].items():
         co = callouts.get(mid, {})
         floors = [{"key": k, **floor_names[k]} for k in m["floors"]]
-        # 每层报点(仅保留楼层),剔除非保留楼层的孤儿数据
-        pins = {k: co.get(k, []) for k in m["floors"] if co.get(k)}
+        # 每层报点:仅保留本图楼层,且只上带坐标的点(缺坐标的由 validate 逐条提示"不上图")
+        pins = {k: [p for p in co.get(k, []) if has_xy(p)] for k in m["floors"]}
+        pins = {k: v for k, v in pins.items() if v}
         n = sum(len(v) for v in pins.values())
+        n_unlocated = sum(1 for k in m["floors"] for p in co.get(k, []) if not has_xy(p))
         first_indoor = next((k for k in m["floors"] if k not in ("subB", "B")), m["floors"][0])
         maps_meta.append({
             "id": mid, "name_en": m["name_en"], "name_zh": m["name_zh"],
             "floors": floors, "pins": pins,
-            "has_callouts": n > 0, "n_callouts": n,
+            # has_callouts = 数据层是否有报点(决定卡片分组);n_callouts = 蓝图上真能看到的条数
+            "has_callouts": n + n_unlocated > 0, "n_callouts": n, "n_unlocated": n_unlocated,
             "thumb_floor": first_indoor,
         })
     maps_meta.sort(key=lambda x: (not x["has_callouts"], x["name_zh"]))
@@ -161,7 +170,10 @@ def main():
     env.globals["base"] = ""
 
     n_imgs = len(list((SITE / "img").glob("*/*.jpg")))
+    n_unlocated = sum(m["n_unlocated"] for m in maps_meta)
     print(f"构建完成: {1 + len(maps_meta)} 页, {n_imgs} 张图 → site/")
+    if n_unlocated:
+        print(f"提示: {n_unlocated} 条报点缺坐标,未标到蓝图上(逐条清单见上方)")
 
 
 if __name__ == "__main__":
