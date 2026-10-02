@@ -140,9 +140,13 @@ def main():
                 continue
 
             fo_left, fo_top = floor["left"], floor["top"]
+            # r6calls 的 label 坐标是"楼层画布"单位(画布宽 = floor.width),不是图片像素。
+            # 图片像素 = 画布单位 × (图片宽 / 画布宽);漏掉这一乘会让坐标整体缩向原点(全图错位)。
+            # 少数楼层(tower)无 width 字段 —— 这些楼层的图是全局画布的 1:1 裁切,系数为 1。
+            k = r6_img.width / floor["width"] if floor.get("width") else 1.0
             dots = []
             for lab in labels_by_floor.get(fi, []):
-                rx, ry = lab["left"] - fo_left, lab["top"] - fo_top
+                rx, ry = (lab["left"] - fo_left) * k, (lab["top"] - fo_top) * k
                 ox = M[0, 0] * rx + M[0, 1] * ry + M[0, 2]
                 oy = M[1, 0] * rx + M[1, 1] * ry + M[1, 2]
                 x = clamp(ox / off_img.width)

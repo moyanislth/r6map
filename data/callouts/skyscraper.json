@@ -3,162 +3,162 @@
   {
    "en": "Kitchen",
    "zh": "厨房",
-   "x": 0.2546,
-   "y": 0.3211,
+   "x": 0.4209,
+   "y": 0.7555,
    "id": "skyscraper.1F.ae2d16a1c0"
   },
   {
    "en": "Pantry",
    "zh": "食品储藏间",
-   "x": 0.2989,
-   "y": 0.3045,
+   "x": 0.5272,
+   "y": 0.7155,
    "id": "skyscraper.1F.70ad76417c"
   },
   {
    "en": "Delivery",
    "zh": "卸货区",
-   "x": 0.3361,
-   "y": 0.3119,
+   "x": 0.6166,
+   "y": 0.7333,
    "id": "skyscraper.1F.012e6dfec4"
   },
   {
    "en": "Lobby",
    "zh": "大堂",
-   "x": 0.3637,
-   "y": 0.248,
+   "x": 0.6828,
+   "y": 0.5799,
    "id": "skyscraper.1F.cc0b16167e"
   },
   {
    "en": "Coat",
    "zh": "衣帽间",
-   "x": 0.3127,
-   "y": 0.2239,
+   "x": 0.5603,
+   "y": 0.5221,
    "id": "skyscraper.1F.69aeafa3a7"
   },
   {
    "en": "Reception",
    "zh": "接待处",
-   "x": 0.3353,
-   "y": 0.2216,
+   "x": 0.6147,
+   "y": 0.5166,
    "id": "skyscraper.1F.69fc89acc4"
   },
   {
    "en": "Bedroom",
    "zh": "卧室",
-   "x": 0.3848,
-   "y": 0.2864,
+   "x": 0.7334,
+   "y": 0.6722,
    "id": "skyscraper.1F.2e37b1b0a8"
   },
   {
    "en": "Closet",
    "zh": "储物间",
-   "x": 0.3952,
-   "y": 0.2679,
+   "x": 0.7585,
+   "y": 0.6277,
    "id": "skyscraper.1F.39ecc247d3"
   },
   {
    "en": "Lobby Entrance",
    "zh": "大堂入口",
-   "x": 0.3986,
-   "y": 0.2336,
+   "x": 0.7666,
+   "y": 0.5455,
    "id": "skyscraper.1F.706b033c76"
   },
   {
    "en": "Dressing",
    "zh": "化妆间",
-   "x": 0.3843,
-   "y": 0.348,
+   "x": 0.7322,
+   "y": 0.82,
    "id": "skyscraper.1F.2682dd8d70"
   },
   {
    "en": "Bathroom",
    "zh": "浴室",
-   "x": 0.3608,
-   "y": 0.291,
+   "x": 0.6759,
+   "y": 0.6833,
    "id": "skyscraper.1F.e821dfe04a"
   },
   {
    "en": "Lobby Stairs",
    "zh": "大堂楼梯",
-   "x": 0.3796,
-   "y": 0.2392,
+   "x": 0.7209,
+   "y": 0.5588,
    "id": "skyscraper.1F.2b3bab3634"
   },
   {
    "en": "Restaurant",
    "zh": "餐厅",
-   "x": 0.2871,
-   "y": 0.1822,
+   "x": 0.499,
+   "y": 0.4221,
    "id": "skyscraper.1F.e5abc69845"
   },
   {
    "en": "Toilet",
    "zh": "卫生间",
-   "x": 0.2611,
-   "y": 0.1799,
+   "x": 0.4365,
+   "y": 0.4166,
    "id": "skyscraper.1F.df22eaf499"
   },
   {
    "en": "BBQ",
    "zh": "烧烤区",
-   "x": 0.2572,
-   "y": 0.2285,
+   "x": 0.4271,
+   "y": 0.5333,
    "id": "skyscraper.1F.37a618b4c2"
   },
   {
    "en": "Bar",
    "zh": "酒吧",
-   "x": 0.3093,
-   "y": 0.2609,
+   "x": 0.5522,
+   "y": 0.6111,
    "id": "skyscraper.1F.24cdd1644c"
   },
   {
    "en": "Sushi",
    "zh": "寿司区",
-   "x": 0.2858,
-   "y": 0.2517,
+   "x": 0.4959,
+   "y": 0.5888,
    "id": "skyscraper.1F.040ef90652"
   },
   {
    "en": "Back Hallway",
    "zh": "后走廊",
-   "x": 0.2507,
-   "y": 0.21,
+   "x": 0.4115,
+   "y": 0.4888,
    "id": "skyscraper.1F.13b2faaacc"
   },
   {
    "en": "Geisha Stairs",
    "zh": "艺伎楼梯",
-   "x": 0.2955,
-   "y": 0.273,
+   "x": 0.519,
+   "y": 0.6399,
    "id": "skyscraper.1F.5d03a43da6"
   },
   {
    "en": "Karaoke Stairs",
    "zh": "卡拉OK楼梯",
-   "x": 0.2468,
-   "y": 0.1642,
+   "x": 0.4021,
+   "y": 0.3788,
    "id": "skyscraper.1F.d855425341"
   },
   {
    "en": "Main Entrance",
    "zh": "正门",
-   "x": 0.334,
-   "y": 0.1869,
+   "x": 0.6115,
+   "y": 0.4332,
    "id": "skyscraper.1F.7a71dc6f44"
   },
   {
    "en": "House Balcony",
    "zh": "主楼阳台",
-   "x": 0.3913,
-   "y": 0.2086,
+   "x": 0.7491,
+   "y": 0.4855,
    "id": "skyscraper.1F.8c7113f4bf"
   },
   {
    "en": "Kitchen Balcony",
    "zh": "厨房阳台",
-   "x": 0.2624,
-   "y": 0.3406,
+   "x": 0.4396,
+   "y": 0.8022,
    "id": "skyscraper.1F.edf78e913d"
   }
  ],
@@ -166,162 +166,162 @@
   {
    "en": "Geisha Stairs",
    "zh": "艺伎楼梯",
-   "x": 0.4072,
-   "y": 0.3253,
+   "x": 0.5009,
+   "y": 0.6871,
    "id": "skyscraper.2F.95d51b9529"
   },
   {
    "en": "Geisha",
    "zh": "艺伎房",
-   "x": 0.3686,
-   "y": 0.3392,
+   "x": 0.4084,
+   "y": 0.7205,
    "id": "skyscraper.2F.94d510cd3d"
   },
   {
    "en": "Makeup",
    "zh": "化妆间",
-   "x": 0.3968,
-   "y": 0.3568,
+   "x": 0.4759,
+   "y": 0.7627,
    "id": "skyscraper.2F.149fe54750"
   },
   {
    "en": "Geisha Hallway",
    "zh": "艺伎走廊",
-   "x": 0.4001,
-   "y": 0.3054,
+   "x": 0.484,
+   "y": 0.6394,
    "id": "skyscraper.2F.43564edb94"
   },
   {
    "en": "Karaoke Hallway",
    "zh": "卡拉OK走廊",
-   "x": 0.3934,
-   "y": 0.2512,
+   "x": 0.4678,
+   "y": 0.5093,
    "id": "skyscraper.2F.89bbe2140e"
   },
   {
    "en": "Tea",
    "zh": "茶室",
-   "x": 0.4064,
-   "y": 0.2475,
+   "x": 0.499,
+   "y": 0.5004,
    "id": "skyscraper.2F.fe5cd037ad"
   },
   {
    "en": "Karaoke",
    "zh": "卡拉OK",
-   "x": 0.3699,
-   "y": 0.2382,
+   "x": 0.4115,
+   "y": 0.4782,
    "id": "skyscraper.2F.7ef182d2e5"
   },
   {
    "en": "Karaoke Stairs",
    "zh": "卡拉OK楼梯",
-   "x": 0.366,
-   "y": 0.1989,
+   "x": 0.4021,
+   "y": 0.3837,
    "id": "skyscraper.2F.585cc83079"
   },
   {
    "en": "Drums",
    "zh": "鼓",
-   "x": 0.4298,
-   "y": 0.3364,
+   "x": 0.5553,
+   "y": 0.7138,
    "id": "skyscraper.2F.d48e41b1c6"
   },
   {
    "en": "Mezzanine",
    "zh": "夹层",
-   "x": 0.4324,
-   "y": 0.2549,
+   "x": 0.5616,
+   "y": 0.5182,
    "id": "skyscraper.2F.ea2f346a49"
   },
   {
    "en": "Shrine",
    "zh": "神龛",
-   "x": 0.4428,
-   "y": 0.2267,
+   "x": 0.5866,
+   "y": 0.4504,
    "id": "skyscraper.2F.c5d702d418"
   },
   {
    "en": "Dragon",
    "zh": "龙",
-   "x": 0.4559,
-   "y": 0.266,
+   "x": 0.6178,
+   "y": 0.5449,
    "id": "skyscraper.2F.aab1a74981"
   },
   {
    "en": "Terrace",
    "zh": "露台",
-   "x": 0.4559,
-   "y": 0.3193,
+   "x": 0.6178,
+   "y": 0.6727,
    "id": "skyscraper.2F.089b8e60ba"
   },
   {
    "en": "VIP",
    "zh": "贵宾区",
-   "x": 0.4817,
-   "y": 0.2702,
+   "x": 0.6797,
+   "y": 0.5549,
    "id": "skyscraper.2F.0198bd5b19"
   },
   {
    "en": "Lobby Stairs",
    "zh": "大堂楼梯",
-   "x": 0.4947,
-   "y": 0.2591,
+   "x": 0.711,
+   "y": 0.5282,
    "id": "skyscraper.2F.a7a29cfe1c"
   },
   {
    "en": "Lounge",
    "zh": "休息室",
-   "x": 0.4793,
-   "y": 0.354,
+   "x": 0.6741,
+   "y": 0.756,
    "id": "skyscraper.2F.9debe7a52e"
   },
   {
    "en": "Museum",
    "zh": "博物馆",
-   "x": 0.4962,
-   "y": 0.2892,
+   "x": 0.7147,
+   "y": 0.6004,
    "id": "skyscraper.2F.71032f41ca"
   },
   {
    "en": "Display",
    "zh": "展示区",
-   "x": 0.5158,
-   "y": 0.3054,
+   "x": 0.7616,
+   "y": 0.6393,
    "id": "skyscraper.2F.3a7eea4287"
   },
   {
    "en": "Office",
    "zh": "办公室",
-   "x": 0.5041,
-   "y": 0.3355,
+   "x": 0.7335,
+   "y": 0.7116,
    "id": "skyscraper.2F.0569d6fdad"
   },
   {
    "en": "Shrine Balcony",
    "zh": "神龛阳台",
-   "x": 0.4192,
-   "y": 0.1952,
+   "x": 0.5297,
+   "y": 0.3748,
    "id": "skyscraper.2F.f9ca8fb74f"
   },
   {
    "en": "Office Balcony",
    "zh": "办公室阳台",
-   "x": 0.5137,
-   "y": 0.2419,
+   "x": 0.7566,
+   "y": 0.4871,
    "id": "skyscraper.2F.8574f1408c"
   },
   {
    "en": "Terrace Balcony",
    "zh": "露台阳台",
-   "x": 0.4429,
-   "y": 0.3758,
+   "x": 0.5866,
+   "y": 0.8083,
    "id": "skyscraper.2F.d7894672e3"
   },
   {
    "en": "Geisha Balcony",
    "zh": "艺伎阳台",
-   "x": 0.3817,
-   "y": 0.3758,
+   "x": 0.4397,
+   "y": 0.8083,
    "id": "skyscraper.2F.704c1b22fd"
   }
  ]
