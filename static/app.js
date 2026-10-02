@@ -517,10 +517,9 @@
     document.getElementById("settingsExport").addEventListener("click", function () {
       refreshSettings(true); // 导出的是"已保存的标注"
       if (!jsonTa.value.trim()) { showMsg(uiText("settings_export_empty")); return; }
-      jsonTa.removeAttribute("readonly");
       jsonTa.select();
+      // 注意:不能复制完把 textarea 设回 readonly(旧遗留)——文本框还承担粘贴导入,设只读后用户就粘不进去了
       function done(ok) {
-        jsonTa.setAttribute("readonly", "");
         if (ok) showMsg(fmt("settings_copied"), "ok");
         else showMsg("✗", "err");
       }
