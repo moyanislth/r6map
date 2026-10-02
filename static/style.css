@@ -229,6 +229,7 @@ footer a { color: var(--dim); text-decoration: underline; }
   margin-bottom: 3px;
 }
 .pin[data-kind="custom"] .pin-label { background: var(--accent); }
+.pin:hover { z-index: 6; } /* 悬停/操作的标注浮到同层其它标注之上,重叠堆里能看清操作的是哪一个 */
 .pin:hover .pin-label { filter: brightness(1.15); }
 .pin-del {
   display: none;

@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 {% block bodymap %}{{ m.id }}{% endblock %}
 {% block title %}{{ m.name_zh }} · R6地图{% endblock %}
+{% block titleattrs %} data-zh="{{ m.name_zh }} · R6地图" data-en="{{ m.name_en }} · R6 Map Callouts"{% endblock %}
 {% block topbar %}
 <a class="back" href="{{ base }}index.html">←</a>
 <h1 class="map-title"><span class="t-zh">{{ m.name_zh }}</span><span class="t-en">{{ m.name_en }}</span></h1>
@@ -19,7 +20,7 @@
   <div class="imgwrap">
     <div class="imgframe">
       <div class="imgstage">
-        <img src="{{ base }}img/{{ m.id }}/{{ f.key }}.jpg" alt="{{ m.name_en }} {{ f.en }}" draggable="false">
+        <img data-src="{{ base }}img/{{ m.id }}/{{ f.key }}.jpg" alt="{{ m.name_en }} {{ f.en }}" draggable="false">
         <div class="pinlayer" data-floor="{{ f.key }}"></div>
       </div>
     </div>

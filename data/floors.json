@@ -42,16 +42,16 @@
       "zh": "应用"
     },
     "settings_clear": {
-      "en": "Clear pins of this map",
-      "zh": "清空本图标注"
+      "en": "Reset to default",
+      "zh": "恢复默认"
     },
     "settings_copied": {
       "en": "Copied ✓",
       "zh": "已复制 ✓"
     },
     "settings_import_ok": {
-      "en": "Imported {n} entries",
-      "zh": "已导入 {n} 条"
+      "en": "Applied {n} pins",
+      "zh": "已应用 {n} 条标注"
     },
     "settings_import_bad": {
       "en": "Invalid JSON",
@@ -60,6 +60,22 @@
     "callout": {
       "en": "callout",
       "zh": "报点"
+    },
+    "settings_import_skip": {
+      "en": "Applied {n}, skipped {k} (invalid coords/floor)",
+      "zh": "已应用 {n} 条,跳过 {k} 条(坐标/楼层无效)"
+    },
+    "settings_cleared": {
+      "en": "Reset to default (your pins were cleared)",
+      "zh": "已恢复默认(个人标注已清除)"
+    },
+    "settings_ph": {
+      "en": "Paste JSON then Apply to overwrite;\nleave empty and Apply to reset to default.",
+      "zh": "粘贴 JSON 后点「应用」即覆盖;\n留空点「应用」= 恢复默认。"
+    },
+    "settings_export_empty": {
+      "en": "No personal pins on this map to export",
+      "zh": "本图暂无个人标注,无需导出"
     }
   },
   "floor_names": {
